@@ -1,0 +1,6107 @@
+[
+  {
+    "month": "2017-1",
+    "data": [
+      {
+        "startTs": 1483212978000,
+        "startTime": "2017-01-01 03:36:18",
+        "endTime": "2017-01-01 09:23:18",
+        "endTs": 1483233798000,
+        "duration": 20820,
+        "awakeTime": 300,
+        "lightSleepTime": 15960,
+        "soundSleepTime": 4560
+      },
+      {
+        "startTs": 1483293305000,
+        "startTime": "2017-01-02 01:55:05",
+        "endTime": "2017-01-02 05:29:05",
+        "endTs": 1483306145000,
+        "duration": 12840,
+        "awakeTime": 0,
+        "lightSleepTime": 9840,
+        "soundSleepTime": 3000
+      },
+      {
+        "startTs": 1483377305000,
+        "startTime": "2017-01-03 01:15:05",
+        "endTime": "2017-01-03 09:08:05",
+        "endTs": 1483405685000,
+        "duration": 28380,
+        "awakeTime": 960,
+        "lightSleepTime": 16440,
+        "soundSleepTime": 10980
+      },
+      {
+        "startTs": 1483461965000,
+        "startTime": "2017-01-04 00:46:05",
+        "endTime": "2017-01-04 06:01:05",
+        "endTs": 1483480865000,
+        "duration": 18900,
+        "awakeTime": 0,
+        "lightSleepTime": 10320,
+        "soundSleepTime": 8580
+      },
+      {
+        "startTs": 1483546198000,
+        "startTime": "2017-01-05 00:09:58",
+        "endTime": "2017-01-05 06:59:58",
+        "endTs": 1483570798000,
+        "duration": 24600,
+        "awakeTime": 0,
+        "lightSleepTime": 16800,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1483637638000,
+        "startTime": "2017-01-06 01:33:58",
+        "endTime": "2017-01-06 09:19:58",
+        "endTs": 1483665598000,
+        "duration": 27960,
+        "awakeTime": 720,
+        "lightSleepTime": 10740,
+        "soundSleepTime": 16500
+      },
+      {
+        "startTs": 1483730225000,
+        "startTime": "2017-01-07 03:17:05",
+        "endTime": "2017-01-07 09:45:05",
+        "endTs": 1483753505000,
+        "duration": 23280,
+        "awakeTime": 0,
+        "lightSleepTime": 14760,
+        "soundSleepTime": 8520
+      },
+      {
+        "startTs": 1483812245000,
+        "startTime": "2017-01-08 02:04:05",
+        "endTime": "2017-01-08 09:37:05",
+        "endTs": 1483839425000,
+        "duration": 27180,
+        "awakeTime": 0,
+        "lightSleepTime": 15840,
+        "soundSleepTime": 11340
+      },
+      {
+        "startTs": 1483900685000,
+        "startTime": "2017-01-09 02:38:05",
+        "endTime": "2017-01-09 08:33:05",
+        "endTs": 1483921985000,
+        "duration": 21300,
+        "awakeTime": 1500,
+        "lightSleepTime": 13260,
+        "soundSleepTime": 6540
+      },
+      {
+        "startTs": 1483981145000,
+        "startTime": "2017-01-10 00:59:05",
+        "endTime": "2017-01-10 08:11:05",
+        "endTs": 1484007065000,
+        "duration": 25920,
+        "awakeTime": 1020,
+        "lightSleepTime": 17100,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1484068685000,
+        "startTime": "2017-01-11 01:18:05",
+        "endTime": "2017-01-11 07:35:05",
+        "endTs": 1484091305000,
+        "duration": 22620,
+        "awakeTime": 300,
+        "lightSleepTime": 15060,
+        "soundSleepTime": 7260
+      },
+      {
+        "startTs": 1484161085000,
+        "startTime": "2017-01-12 02:58:05",
+        "endTime": "2017-01-12 09:26:05",
+        "endTs": 1484184365000,
+        "duration": 23280,
+        "awakeTime": 960,
+        "lightSleepTime": 15000,
+        "soundSleepTime": 7320
+      },
+      {
+        "startTs": 1484243562000,
+        "startTime": "2017-01-13 01:52:42",
+        "endTime": "2017-01-13 09:18:42",
+        "endTs": 1484270322000,
+        "duration": 26760,
+        "awakeTime": 900,
+        "lightSleepTime": 15720,
+        "soundSleepTime": 10140
+      },
+      {
+        "startTs": 1484331785000,
+        "startTime": "2017-01-14 02:23:05",
+        "endTime": "2017-01-14 08:58:05",
+        "endTs": 1484355485000,
+        "duration": 23700,
+        "awakeTime": 0,
+        "lightSleepTime": 12780,
+        "soundSleepTime": 10920
+      },
+      {
+        "startTs": 1484415268000,
+        "startTime": "2017-01-15 01:34:28",
+        "endTime": "2017-01-15 10:04:28",
+        "endTs": 1484445868000,
+        "duration": 30600,
+        "awakeTime": 0,
+        "lightSleepTime": 13080,
+        "soundSleepTime": 17520
+      },
+      {
+        "startTs": 1484504308000,
+        "startTime": "2017-01-16 02:18:28",
+        "endTime": "2017-01-16 08:27:28",
+        "endTs": 1484526448000,
+        "duration": 22140,
+        "awakeTime": 360,
+        "lightSleepTime": 11400,
+        "soundSleepTime": 10380
+      },
+      {
+        "startTs": 1484584348000,
+        "startTime": "2017-01-17 00:32:28",
+        "endTime": "2017-01-17 08:50:28",
+        "endTs": 1484614228000,
+        "duration": 29880,
+        "awakeTime": 0,
+        "lightSleepTime": 21600,
+        "soundSleepTime": 8280
+      },
+      {
+        "startTs": 1484672849000,
+        "startTime": "2017-01-18 01:07:29",
+        "endTime": "2017-01-18 08:24:29",
+        "endTs": 1484699069000,
+        "duration": 26220,
+        "awakeTime": 660,
+        "lightSleepTime": 18480,
+        "soundSleepTime": 7080
+      },
+      {
+        "startTs": 1484758229000,
+        "startTime": "2017-01-19 00:50:29",
+        "endTime": "2017-01-19 09:39:29",
+        "endTs": 1484789969000,
+        "duration": 31740,
+        "awakeTime": 0,
+        "lightSleepTime": 8940,
+        "soundSleepTime": 22800
+      },
+      {
+        "startTs": 1484847384000,
+        "startTime": "2017-01-20 01:36:24",
+        "endTime": "2017-01-20 09:49:24",
+        "endTs": 1484876964000,
+        "duration": 29580,
+        "awakeTime": 1020,
+        "lightSleepTime": 24360,
+        "soundSleepTime": 4200
+      },
+      {
+        "startTs": 1484935044000,
+        "startTime": "2017-01-21 01:57:24",
+        "endTime": "2017-01-21 06:56:24",
+        "endTs": 1484952984000,
+        "duration": 17940,
+        "awakeTime": 960,
+        "lightSleepTime": 11400,
+        "soundSleepTime": 5580
+      },
+      {
+        "startTs": 1485013344000,
+        "startTime": "2017-01-21 23:42:24",
+        "endTime": "2017-01-22 09:03:24",
+        "endTs": 1485047004000,
+        "duration": 33660,
+        "awakeTime": 960,
+        "lightSleepTime": 22920,
+        "soundSleepTime": 9780
+      }
+    ]
+  },
+  {
+    "month": "2017-2",
+    "data": [
+      {
+        "startTs": 1485979179000,
+        "startTime": "2017-02-02 03:59:39",
+        "endTime": "2017-02-02 11:39:39",
+        "endTs": 1486006779000,
+        "duration": 27600,
+        "awakeTime": 1980,
+        "lightSleepTime": 10860,
+        "soundSleepTime": 14760
+      },
+      {
+        "startTs": 1486061319000,
+        "startTime": "2017-02-03 02:48:39",
+        "endTime": "2017-02-03 09:59:39",
+        "endTs": 1486087179000,
+        "duration": 25860,
+        "awakeTime": 420,
+        "lightSleepTime": 16740,
+        "soundSleepTime": 8700
+      },
+      {
+        "startTs": 1486141915000,
+        "startTime": "2017-02-04 01:11:55",
+        "endTime": "2017-02-04 09:47:55",
+        "endTs": 1486172875000,
+        "duration": 30960,
+        "awakeTime": 780,
+        "lightSleepTime": 16980,
+        "soundSleepTime": 13200
+      },
+      {
+        "startTs": 1486233544000,
+        "startTime": "2017-02-05 02:39:04",
+        "endTime": "2017-02-05 09:58:04",
+        "endTs": 1486259884000,
+        "duration": 26340,
+        "awakeTime": 1740,
+        "lightSleepTime": 17820,
+        "soundSleepTime": 6780
+      },
+      {
+        "startTs": 1486319285000,
+        "startTime": "2017-02-06 02:28:05",
+        "endTime": "2017-02-06 09:37:05",
+        "endTs": 1486345025000,
+        "duration": 25740,
+        "awakeTime": 480,
+        "lightSleepTime": 19740,
+        "soundSleepTime": 5520
+      },
+      {
+        "startTs": 1486401065000,
+        "startTime": "2017-02-07 01:11:05",
+        "endTime": "2017-02-07 07:31:05",
+        "endTs": 1486423865000,
+        "duration": 22800,
+        "awakeTime": 1080,
+        "lightSleepTime": 13740,
+        "soundSleepTime": 7980
+      },
+      {
+        "startTs": 1486487466000,
+        "startTime": "2017-02-08 01:11:06",
+        "endTime": "2017-02-08 07:44:06",
+        "endTs": 1486511046000,
+        "duration": 23580,
+        "awakeTime": 1020,
+        "lightSleepTime": 16020,
+        "soundSleepTime": 6540
+      },
+      {
+        "startTs": 1486580345000,
+        "startTime": "2017-02-09 02:59:05",
+        "endTime": "2017-02-09 09:45:05",
+        "endTs": 1486604705000,
+        "duration": 24360,
+        "awakeTime": 300,
+        "lightSleepTime": 14400,
+        "soundSleepTime": 9660
+      },
+      {
+        "startTs": 1486662845000,
+        "startTime": "2017-02-10 01:54:05",
+        "endTime": "2017-02-10 08:27:05",
+        "endTs": 1486686425000,
+        "duration": 23580,
+        "awakeTime": 420,
+        "lightSleepTime": 9780,
+        "soundSleepTime": 13380
+      },
+      {
+        "startTs": 1486746665000,
+        "startTime": "2017-02-11 01:11:05",
+        "endTime": "2017-02-11 10:03:05",
+        "endTs": 1486778585000,
+        "duration": 31920,
+        "awakeTime": 0,
+        "lightSleepTime": 24180,
+        "soundSleepTime": 7740
+      },
+      {
+        "startTs": 1486836185000,
+        "startTime": "2017-02-12 02:03:05",
+        "endTime": "2017-02-12 07:44:05",
+        "endTs": 1486856645000,
+        "duration": 20460,
+        "awakeTime": 0,
+        "lightSleepTime": 11700,
+        "soundSleepTime": 8760
+      },
+      {
+        "startTs": 1486921205000,
+        "startTime": "2017-02-13 01:40:05",
+        "endTime": "2017-02-13 09:13:05",
+        "endTs": 1486948385000,
+        "duration": 27180,
+        "awakeTime": 300,
+        "lightSleepTime": 16980,
+        "soundSleepTime": 9900
+      },
+      {
+        "startTs": 1487006226000,
+        "startTime": "2017-02-14 01:17:06",
+        "endTime": "2017-02-14 08:41:06",
+        "endTs": 1487032866000,
+        "duration": 26640,
+        "awakeTime": 0,
+        "lightSleepTime": 20400,
+        "soundSleepTime": 6240
+      },
+      {
+        "startTs": 1487096302000,
+        "startTime": "2017-02-15 02:18:22",
+        "endTime": "2017-02-15 10:02:22",
+        "endTs": 1487124142000,
+        "duration": 27840,
+        "awakeTime": 1140,
+        "lightSleepTime": 19440,
+        "soundSleepTime": 7260
+      },
+      {
+        "startTs": 1487182563000,
+        "startTime": "2017-02-16 02:16:03",
+        "endTime": "2017-02-16 08:24:03",
+        "endTs": 1487204643000,
+        "duration": 22080,
+        "awakeTime": 600,
+        "lightSleepTime": 15000,
+        "soundSleepTime": 6480
+      },
+      {
+        "startTs": 1487263923000,
+        "startTime": "2017-02-17 00:52:03",
+        "endTime": "2017-02-17 07:44:03",
+        "endTs": 1487288643000,
+        "duration": 24720,
+        "awakeTime": 1140,
+        "lightSleepTime": 15960,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1487360705000,
+        "startTime": "2017-02-18 03:45:05",
+        "endTime": "2017-02-18 10:36:05",
+        "endTs": 1487385365000,
+        "duration": 24660,
+        "awakeTime": 420,
+        "lightSleepTime": 19140,
+        "soundSleepTime": 5100
+      },
+      {
+        "startTs": 1487440025000,
+        "startTime": "2017-02-19 01:47:05",
+        "endTime": "2017-02-19 10:16:05",
+        "endTs": 1487470565000,
+        "duration": 30540,
+        "awakeTime": 780,
+        "lightSleepTime": 23820,
+        "soundSleepTime": 5940
+      },
+      {
+        "startTs": 1487527926000,
+        "startTime": "2017-02-20 02:12:06",
+        "endTime": "2017-02-20 07:46:06",
+        "endTs": 1487547966000,
+        "duration": 20040,
+        "awakeTime": 0,
+        "lightSleepTime": 14820,
+        "soundSleepTime": 5220
+      },
+      {
+        "startTs": 1487614145000,
+        "startTime": "2017-02-21 02:09:05",
+        "endTime": "2017-02-21 08:23:05",
+        "endTs": 1487636585000,
+        "duration": 22440,
+        "awakeTime": 360,
+        "lightSleepTime": 15720,
+        "soundSleepTime": 6360
+      },
+      {
+        "startTs": 1487697245000,
+        "startTime": "2017-02-22 01:14:05",
+        "endTime": "2017-02-22 05:34:05",
+        "endTs": 1487712845000,
+        "duration": 15600,
+        "awakeTime": 0,
+        "lightSleepTime": 8280,
+        "soundSleepTime": 7320
+      },
+      {
+        "startTs": 1487782505000,
+        "startTime": "2017-02-23 00:55:05",
+        "endTime": "2017-02-23 07:54:05",
+        "endTs": 1487807645000,
+        "duration": 25140,
+        "awakeTime": 480,
+        "lightSleepTime": 16080,
+        "soundSleepTime": 8580
+      },
+      {
+        "startTs": 1487872626000,
+        "startTime": "2017-02-24 01:57:06",
+        "endTime": "2017-02-24 08:58:06",
+        "endTs": 1487897886000,
+        "duration": 25260,
+        "awakeTime": 0,
+        "lightSleepTime": 18000,
+        "soundSleepTime": 7260
+      },
+      {
+        "startTs": 1487962325000,
+        "startTime": "2017-02-25 02:52:05",
+        "endTime": "2017-02-25 08:58:05",
+        "endTs": 1487984285000,
+        "duration": 21960,
+        "awakeTime": 0,
+        "lightSleepTime": 13320,
+        "soundSleepTime": 8640
+      },
+      {
+        "startTs": 1488045605000,
+        "startTime": "2017-02-26 02:00:05",
+        "endTime": "2017-02-26 10:14:05",
+        "endTs": 1488075245000,
+        "duration": 29640,
+        "awakeTime": 420,
+        "lightSleepTime": 16440,
+        "soundSleepTime": 12780
+      },
+      {
+        "startTs": 1488129426000,
+        "startTime": "2017-02-27 01:17:06",
+        "endTime": "2017-02-27 06:36:06",
+        "endTs": 1488148566000,
+        "duration": 19140,
+        "awakeTime": 0,
+        "lightSleepTime": 13980,
+        "soundSleepTime": 5160
+      },
+      {
+        "startTs": 1488209825000,
+        "startTime": "2017-02-27 23:37:05",
+        "endTime": "2017-02-28 08:16:05",
+        "endTs": 1488240965000,
+        "duration": 31140,
+        "awakeTime": 0,
+        "lightSleepTime": 24720,
+        "soundSleepTime": 6420
+      }
+    ]
+  },
+  {
+    "month": "2017-3",
+    "data": [
+      {
+        "startTs": 1488301402000,
+        "startTime": "2017-03-01 01:03:22",
+        "endTime": "2017-03-01 08:27:22",
+        "endTs": 1488328042000,
+        "duration": 26640,
+        "awakeTime": 0,
+        "lightSleepTime": 17220,
+        "soundSleepTime": 9420
+      },
+      {
+        "startTs": 1488387362000,
+        "startTime": "2017-03-02 00:56:02",
+        "endTime": "2017-03-02 08:32:02",
+        "endTs": 1488414722000,
+        "duration": 27360,
+        "awakeTime": 0,
+        "lightSleepTime": 16800,
+        "soundSleepTime": 10560
+      },
+      {
+        "startTs": 1488473045000,
+        "startTime": "2017-03-03 00:44:05",
+        "endTime": "2017-03-03 08:29:05",
+        "endTs": 1488500945000,
+        "duration": 27900,
+        "awakeTime": 0,
+        "lightSleepTime": 21000,
+        "soundSleepTime": 6900
+      },
+      {
+        "startTs": 1488567845000,
+        "startTime": "2017-03-04 03:04:05",
+        "endTime": "2017-03-04 09:34:05",
+        "endTs": 1488591245000,
+        "duration": 23400,
+        "awakeTime": 0,
+        "lightSleepTime": 14340,
+        "soundSleepTime": 9060
+      },
+      {
+        "startTs": 1488650225000,
+        "startTime": "2017-03-05 01:57:05",
+        "endTime": "2017-03-05 08:10:05",
+        "endTs": 1488672605000,
+        "duration": 22380,
+        "awakeTime": 0,
+        "lightSleepTime": 16080,
+        "soundSleepTime": 6300
+      },
+      {
+        "startTs": 1488734225000,
+        "startTime": "2017-03-06 01:17:05",
+        "endTime": "2017-03-06 08:08:05",
+        "endTs": 1488758885000,
+        "duration": 24660,
+        "awakeTime": 1020,
+        "lightSleepTime": 16260,
+        "soundSleepTime": 7380
+      },
+      {
+        "startTs": 1488818703000,
+        "startTime": "2017-03-07 00:45:03",
+        "endTime": "2017-03-07 07:57:03",
+        "endTs": 1488844623000,
+        "duration": 25920,
+        "awakeTime": 1560,
+        "lightSleepTime": 18540,
+        "soundSleepTime": 5820
+      },
+      {
+        "startTs": 1488902224000,
+        "startTime": "2017-03-07 23:57:04",
+        "endTime": "2017-03-08 08:29:04",
+        "endTs": 1488932944000,
+        "duration": 30720,
+        "awakeTime": 1020,
+        "lightSleepTime": 20640,
+        "soundSleepTime": 9060
+      },
+      {
+        "startTs": 1488993184000,
+        "startTime": "2017-03-09 01:13:04",
+        "endTime": "2017-03-09 08:32:04",
+        "endTs": 1489019524000,
+        "duration": 26340,
+        "awakeTime": 1140,
+        "lightSleepTime": 19380,
+        "soundSleepTime": 5820
+      },
+      {
+        "startTs": 1489082143000,
+        "startTime": "2017-03-10 01:55:43",
+        "endTime": "2017-03-10 08:52:43",
+        "endTs": 1489107163000,
+        "duration": 25020,
+        "awakeTime": 600,
+        "lightSleepTime": 18720,
+        "soundSleepTime": 5700
+      },
+      {
+        "startTs": 1489164841000,
+        "startTime": "2017-03-11 00:54:01",
+        "endTime": "2017-03-11 09:44:01",
+        "endTs": 1489196641000,
+        "duration": 31800,
+        "awakeTime": 1920,
+        "lightSleepTime": 21720,
+        "soundSleepTime": 8160
+      },
+      {
+        "startTs": 1489259521000,
+        "startTime": "2017-03-12 03:12:01",
+        "endTime": "2017-03-12 09:52:01",
+        "endTs": 1489283521000,
+        "duration": 24000,
+        "awakeTime": 1320,
+        "lightSleepTime": 17100,
+        "soundSleepTime": 5580
+      },
+      {
+        "startTs": 1489348085000,
+        "startTime": "2017-03-13 03:48:05",
+        "endTime": "2017-03-13 08:06:05",
+        "endTs": 1489363565000,
+        "duration": 15480,
+        "awakeTime": 1200,
+        "lightSleepTime": 10200,
+        "soundSleepTime": 4080
+      },
+      {
+        "startTs": 1489424345000,
+        "startTime": "2017-03-14 00:59:05",
+        "endTime": "2017-03-14 08:54:05",
+        "endTs": 1489452845000,
+        "duration": 28500,
+        "awakeTime": 0,
+        "lightSleepTime": 12120,
+        "soundSleepTime": 16380
+      },
+      {
+        "startTs": 1489513565000,
+        "startTime": "2017-03-15 01:46:05",
+        "endTime": "2017-03-15 08:30:05",
+        "endTs": 1489537805000,
+        "duration": 24240,
+        "awakeTime": 360,
+        "lightSleepTime": 14700,
+        "soundSleepTime": 9180
+      },
+      {
+        "startTs": 1489596845000,
+        "startTime": "2017-03-16 00:54:05",
+        "endTime": "2017-03-16 07:44:05",
+        "endTs": 1489621445000,
+        "duration": 24600,
+        "awakeTime": 0,
+        "lightSleepTime": 17580,
+        "soundSleepTime": 7020
+      },
+      {
+        "startTs": 1489684205000,
+        "startTime": "2017-03-17 01:10:05",
+        "endTime": "2017-03-17 07:45:05",
+        "endTs": 1489707905000,
+        "duration": 23700,
+        "awakeTime": 360,
+        "lightSleepTime": 17460,
+        "soundSleepTime": 5880
+      },
+      {
+        "startTs": 1489772405000,
+        "startTime": "2017-03-18 01:40:05",
+        "endTime": "2017-03-18 09:59:05",
+        "endTs": 1489802345000,
+        "duration": 29940,
+        "awakeTime": 1500,
+        "lightSleepTime": 21480,
+        "soundSleepTime": 6960
+      },
+      {
+        "startTs": 1489857245000,
+        "startTime": "2017-03-19 01:14:05",
+        "endTime": "2017-03-19 08:33:05",
+        "endTs": 1489883585000,
+        "duration": 26340,
+        "awakeTime": 300,
+        "lightSleepTime": 15240,
+        "soundSleepTime": 10800
+      },
+      {
+        "startTs": 1489940705000,
+        "startTime": "2017-03-20 00:25:05",
+        "endTime": "2017-03-20 07:21:05",
+        "endTs": 1489965665000,
+        "duration": 24960,
+        "awakeTime": 480,
+        "lightSleepTime": 20340,
+        "soundSleepTime": 4140
+      },
+      {
+        "startTs": 1490033106000,
+        "startTime": "2017-03-21 02:05:06",
+        "endTime": "2017-03-21 08:16:06",
+        "endTs": 1490055366000,
+        "duration": 22260,
+        "awakeTime": 960,
+        "lightSleepTime": 10620,
+        "soundSleepTime": 10680
+      },
+      {
+        "startTs": 1490120521000,
+        "startTime": "2017-03-22 02:22:01",
+        "endTime": "2017-03-22 08:43:01",
+        "endTs": 1490143381000,
+        "duration": 22860,
+        "awakeTime": 300,
+        "lightSleepTime": 18120,
+        "soundSleepTime": 4440
+      },
+      {
+        "startTs": 1490203801000,
+        "startTime": "2017-03-23 01:30:01",
+        "endTime": "2017-03-23 08:51:01",
+        "endTs": 1490230261000,
+        "duration": 26460,
+        "awakeTime": 720,
+        "lightSleepTime": 10500,
+        "soundSleepTime": 15240
+      },
+      {
+        "startTs": 1490291461000,
+        "startTime": "2017-03-24 01:51:01",
+        "endTime": "2017-03-24 08:51:01",
+        "endTs": 1490316661000,
+        "duration": 25200,
+        "awakeTime": 480,
+        "lightSleepTime": 13500,
+        "soundSleepTime": 11220
+      },
+      {
+        "startTs": 1490376844000,
+        "startTime": "2017-03-25 01:34:04",
+        "endTime": "2017-03-25 09:14:04",
+        "endTs": 1490404444000,
+        "duration": 27600,
+        "awakeTime": 0,
+        "lightSleepTime": 17760,
+        "soundSleepTime": 9840
+      },
+      {
+        "startTs": 1490465404000,
+        "startTime": "2017-03-26 02:10:04",
+        "endTime": "2017-03-26 07:36:04",
+        "endTs": 1490484964000,
+        "duration": 19560,
+        "awakeTime": 0,
+        "lightSleepTime": 10920,
+        "soundSleepTime": 8640
+      },
+      {
+        "startTs": 1490549044000,
+        "startTime": "2017-03-27 01:24:04",
+        "endTime": "2017-03-27 08:19:04",
+        "endTs": 1490573944000,
+        "duration": 24900,
+        "awakeTime": 1200,
+        "lightSleepTime": 21420,
+        "soundSleepTime": 2280
+      },
+      {
+        "startTs": 1490642465000,
+        "startTime": "2017-03-28 03:21:05",
+        "endTime": "2017-03-28 09:05:05",
+        "endTs": 1490663105000,
+        "duration": 20640,
+        "awakeTime": 0,
+        "lightSleepTime": 12660,
+        "soundSleepTime": 7980
+      },
+      {
+        "startTs": 1490718845000,
+        "startTime": "2017-03-29 00:34:05",
+        "endTime": "2017-03-29 05:28:05",
+        "endTs": 1490736485000,
+        "duration": 17640,
+        "awakeTime": 0,
+        "lightSleepTime": 12660,
+        "soundSleepTime": 4980
+      },
+      {
+        "startTs": 1490807243000,
+        "startTime": "2017-03-30 01:07:23",
+        "endTime": "2017-03-30 08:21:23",
+        "endTs": 1490833283000,
+        "duration": 26040,
+        "awakeTime": 420,
+        "lightSleepTime": 17460,
+        "soundSleepTime": 8160
+      },
+      {
+        "startTs": 1490894423000,
+        "startTime": "2017-03-31 01:20:23",
+        "endTime": "2017-03-31 08:33:23",
+        "endTs": 1490920403000,
+        "duration": 25980,
+        "awakeTime": 0,
+        "lightSleepTime": 21060,
+        "soundSleepTime": 4920
+      }
+    ]
+  },
+  {
+    "month": "2017-4",
+    "data": [
+      {
+        "startTs": 1490981843000,
+        "startTime": "2017-04-01 01:37:23",
+        "endTime": "2017-04-01 08:32:23",
+        "endTs": 1491006743000,
+        "duration": 24900,
+        "awakeTime": 1260,
+        "lightSleepTime": 12360,
+        "soundSleepTime": 11280
+      },
+      {
+        "startTs": 1491069923000,
+        "startTime": "2017-04-02 02:05:23",
+        "endTime": "2017-04-02 11:07:23",
+        "endTs": 1491102443000,
+        "duration": 32520,
+        "awakeTime": 1680,
+        "lightSleepTime": 21780,
+        "soundSleepTime": 9060
+      },
+      {
+        "startTs": 1491151737000,
+        "startTime": "2017-04-03 00:48:57",
+        "endTime": "2017-04-03 08:55:57",
+        "endTs": 1491180957000,
+        "duration": 29220,
+        "awakeTime": 2100,
+        "lightSleepTime": 17220,
+        "soundSleepTime": 9900
+      },
+      {
+        "startTs": 1491245577000,
+        "startTime": "2017-04-04 02:52:57",
+        "endTime": "2017-04-04 08:52:57",
+        "endTs": 1491267177000,
+        "duration": 21600,
+        "awakeTime": 480,
+        "lightSleepTime": 13140,
+        "soundSleepTime": 7980
+      },
+      {
+        "startTs": 1491321657000,
+        "startTime": "2017-04-05 00:00:57",
+        "endTime": "2017-04-05 08:15:57",
+        "endTs": 1491351357000,
+        "duration": 29700,
+        "awakeTime": 1380,
+        "lightSleepTime": 24480,
+        "soundSleepTime": 3840
+      },
+      {
+        "startTs": 1491411842000,
+        "startTime": "2017-04-06 01:04:02",
+        "endTime": "2017-04-06 08:00:02",
+        "endTs": 1491436802000,
+        "duration": 24960,
+        "awakeTime": 3000,
+        "lightSleepTime": 15120,
+        "soundSleepTime": 6840
+      },
+      {
+        "startTs": 1491499985000,
+        "startTime": "2017-04-07 01:33:05",
+        "endTime": "2017-04-07 08:42:05",
+        "endTs": 1491525725000,
+        "duration": 25740,
+        "awakeTime": 600,
+        "lightSleepTime": 16500,
+        "soundSleepTime": 8640
+      },
+      {
+        "startTs": 1491587285000,
+        "startTime": "2017-04-08 01:48:05",
+        "endTime": "2017-04-08 08:41:05",
+        "endTs": 1491612065000,
+        "duration": 24780,
+        "awakeTime": 0,
+        "lightSleepTime": 19500,
+        "soundSleepTime": 5280
+      },
+      {
+        "startTs": 1491673205000,
+        "startTime": "2017-04-09 01:40:05",
+        "endTime": "2017-04-09 09:15:05",
+        "endTs": 1491700505000,
+        "duration": 27300,
+        "awakeTime": 480,
+        "lightSleepTime": 10080,
+        "soundSleepTime": 16740
+      },
+      {
+        "startTs": 1491756772000,
+        "startTime": "2017-04-10 00:52:52",
+        "endTime": "2017-04-10 08:34:52",
+        "endTs": 1491784492000,
+        "duration": 27720,
+        "awakeTime": 0,
+        "lightSleepTime": 20040,
+        "soundSleepTime": 7680
+      },
+      {
+        "startTs": 1491843965000,
+        "startTime": "2017-04-11 01:06:05",
+        "endTime": "2017-04-11 08:27:05",
+        "endTs": 1491870425000,
+        "duration": 26460,
+        "awakeTime": 1260,
+        "lightSleepTime": 20760,
+        "soundSleepTime": 4440
+      },
+      {
+        "startTs": 1491932802000,
+        "startTime": "2017-04-12 01:46:42",
+        "endTime": "2017-04-12 07:52:42",
+        "endTs": 1491954762000,
+        "duration": 21960,
+        "awakeTime": 420,
+        "lightSleepTime": 10860,
+        "soundSleepTime": 10680
+      },
+      {
+        "startTs": 1492021204000,
+        "startTime": "2017-04-13 02:20:04",
+        "endTime": "2017-04-13 09:01:04",
+        "endTs": 1492045264000,
+        "duration": 24060,
+        "awakeTime": 0,
+        "lightSleepTime": 11580,
+        "soundSleepTime": 12480
+      },
+      {
+        "startTs": 1492106342000,
+        "startTime": "2017-04-14 01:59:02",
+        "endTime": "2017-04-14 08:36:02",
+        "endTs": 1492130162000,
+        "duration": 23820,
+        "awakeTime": 0,
+        "lightSleepTime": 13920,
+        "soundSleepTime": 9900
+      },
+      {
+        "startTs": 1492189985000,
+        "startTime": "2017-04-15 01:13:05",
+        "endTime": "2017-04-15 08:34:05",
+        "endTs": 1492216445000,
+        "duration": 26460,
+        "awakeTime": 480,
+        "lightSleepTime": 13620,
+        "soundSleepTime": 12360
+      },
+      {
+        "startTs": 1492286525000,
+        "startTime": "2017-04-16 04:02:05",
+        "endTime": "2017-04-16 09:39:05",
+        "endTs": 1492306745000,
+        "duration": 20220,
+        "awakeTime": 0,
+        "lightSleepTime": 14340,
+        "soundSleepTime": 5880
+      },
+      {
+        "startTs": 1492364340000,
+        "startTime": "2017-04-17 01:39:00",
+        "endTime": "2017-04-17 07:44:00",
+        "endTs": 1492386240000,
+        "duration": 21900,
+        "awakeTime": 420,
+        "lightSleepTime": 14280,
+        "soundSleepTime": 7200
+      },
+      {
+        "startTs": 1492448825000,
+        "startTime": "2017-04-18 01:07:05",
+        "endTime": "2017-04-18 08:14:05",
+        "endTs": 1492474445000,
+        "duration": 25620,
+        "awakeTime": 1380,
+        "lightSleepTime": 16320,
+        "soundSleepTime": 7920
+      },
+      {
+        "startTs": 1492536185000,
+        "startTime": "2017-04-19 01:23:05",
+        "endTime": "2017-04-19 04:40:05",
+        "endTs": 1492548005000,
+        "duration": 11820,
+        "awakeTime": 420,
+        "lightSleepTime": 3300,
+        "soundSleepTime": 8100
+      },
+      {
+        "startTs": 1492618802000,
+        "startTime": "2017-04-20 00:20:02",
+        "endTime": "2017-04-20 08:29:02",
+        "endTs": 1492648142000,
+        "duration": 29340,
+        "awakeTime": 840,
+        "lightSleepTime": 21420,
+        "soundSleepTime": 7080
+      },
+      {
+        "startTs": 1492707542000,
+        "startTime": "2017-04-21 00:59:02",
+        "endTime": "2017-04-21 08:34:02",
+        "endTs": 1492734842000,
+        "duration": 27300,
+        "awakeTime": 300,
+        "lightSleepTime": 19800,
+        "soundSleepTime": 7200
+      },
+      {
+        "startTs": 1492793822000,
+        "startTime": "2017-04-22 00:57:02",
+        "endTime": "2017-04-22 08:29:02",
+        "endTs": 1492820942000,
+        "duration": 27120,
+        "awakeTime": 480,
+        "lightSleepTime": 15000,
+        "soundSleepTime": 11640
+      },
+      {
+        "startTs": 1492880642000,
+        "startTime": "2017-04-23 01:04:02",
+        "endTime": "2017-04-23 08:37:02",
+        "endTs": 1492907822000,
+        "duration": 27180,
+        "awakeTime": 420,
+        "lightSleepTime": 23760,
+        "soundSleepTime": 3000
+      },
+      {
+        "startTs": 1492965422000,
+        "startTime": "2017-04-24 00:37:02",
+        "endTime": "2017-04-24 06:02:02",
+        "endTs": 1492984922000,
+        "duration": 19500,
+        "awakeTime": 0,
+        "lightSleepTime": 9840,
+        "soundSleepTime": 9660
+      },
+      {
+        "startTs": 1493054102000,
+        "startTime": "2017-04-25 01:15:02",
+        "endTime": "2017-04-25 06:55:02",
+        "endTs": 1493074502000,
+        "duration": 20400,
+        "awakeTime": 360,
+        "lightSleepTime": 14820,
+        "soundSleepTime": 5220
+      },
+      {
+        "startTs": 1493139965000,
+        "startTime": "2017-04-26 01:06:05",
+        "endTime": "2017-04-26 08:03:05",
+        "endTs": 1493164985000,
+        "duration": 25020,
+        "awakeTime": 840,
+        "lightSleepTime": 17760,
+        "soundSleepTime": 6420
+      },
+      {
+        "startTs": 1493234045000,
+        "startTime": "2017-04-27 03:14:05",
+        "endTime": "2017-04-27 07:43:05",
+        "endTs": 1493250185000,
+        "duration": 16140,
+        "awakeTime": 0,
+        "lightSleepTime": 7800,
+        "soundSleepTime": 8340
+      },
+      {
+        "startTs": 1493310124000,
+        "startTime": "2017-04-28 00:22:04",
+        "endTime": "2017-04-28 06:44:04",
+        "endTs": 1493333044000,
+        "duration": 22920,
+        "awakeTime": 4740,
+        "lightSleepTime": 14460,
+        "soundSleepTime": 3720
+      },
+      {
+        "startTs": 1493398264000,
+        "startTime": "2017-04-29 00:51:04",
+        "endTime": "2017-04-29 08:04:04",
+        "endTs": 1493424244000,
+        "duration": 25980,
+        "awakeTime": 0,
+        "lightSleepTime": 13740,
+        "soundSleepTime": 12240
+      },
+      {
+        "startTs": 1493483764000,
+        "startTime": "2017-04-30 00:36:04",
+        "endTime": "2017-04-30 06:13:04",
+        "endTs": 1493503984000,
+        "duration": 20220,
+        "awakeTime": 2340,
+        "lightSleepTime": 11880,
+        "soundSleepTime": 6000
+      }
+    ]
+  },
+  {
+    "month": "2017-5",
+    "data": [
+      {
+        "startTs": 1493569746000,
+        "startTime": "2017-05-01 00:29:06",
+        "endTime": "2017-05-01 07:55:06",
+        "endTs": 1493596506000,
+        "duration": 26760,
+        "awakeTime": 480,
+        "lightSleepTime": 17220,
+        "soundSleepTime": 9060
+      },
+      {
+        "startTs": 1493669886000,
+        "startTime": "2017-05-02 04:18:06",
+        "endTime": "2017-05-02 09:01:06",
+        "endTs": 1493686866000,
+        "duration": 16980,
+        "awakeTime": 0,
+        "lightSleepTime": 9840,
+        "soundSleepTime": 7140
+      },
+      {
+        "startTs": 1493740205000,
+        "startTime": "2017-05-02 23:50:05",
+        "endTime": "2017-05-03 08:24:05",
+        "endTs": 1493771045000,
+        "duration": 30840,
+        "awakeTime": 1140,
+        "lightSleepTime": 23340,
+        "soundSleepTime": 6360
+      },
+      {
+        "startTs": 1493827802000,
+        "startTime": "2017-05-04 00:10:02",
+        "endTime": "2017-05-04 08:26:02",
+        "endTs": 1493857562000,
+        "duration": 29760,
+        "awakeTime": 1080,
+        "lightSleepTime": 16620,
+        "soundSleepTime": 12060
+      },
+      {
+        "startTs": 1493918405000,
+        "startTime": "2017-05-05 01:20:05",
+        "endTime": "2017-05-05 08:40:05",
+        "endTs": 1493944805000,
+        "duration": 26400,
+        "awakeTime": 300,
+        "lightSleepTime": 16200,
+        "soundSleepTime": 9900
+      },
+      {
+        "startTs": 1494005523000,
+        "startTime": "2017-05-06 01:32:03",
+        "endTime": "2017-05-06 10:14:03",
+        "endTs": 1494036843000,
+        "duration": 31320,
+        "awakeTime": 2100,
+        "lightSleepTime": 24840,
+        "soundSleepTime": 4380
+      },
+      {
+        "startTs": 1494087545000,
+        "startTime": "2017-05-07 00:19:05",
+        "endTime": "2017-05-07 08:27:05",
+        "endTs": 1494116825000,
+        "duration": 29280,
+        "awakeTime": 420,
+        "lightSleepTime": 19080,
+        "soundSleepTime": 9780
+      },
+      {
+        "startTs": 1494172263000,
+        "startTime": "2017-05-07 23:51:03",
+        "endTime": "2017-05-08 07:21:03",
+        "endTs": 1494199263000,
+        "duration": 27000,
+        "awakeTime": 0,
+        "lightSleepTime": 19800,
+        "soundSleepTime": 7200
+      },
+      {
+        "startTs": 1494260045000,
+        "startTime": "2017-05-09 00:14:05",
+        "endTime": "2017-05-09 06:56:05",
+        "endTs": 1494284165000,
+        "duration": 24120,
+        "awakeTime": 2340,
+        "lightSleepTime": 16260,
+        "soundSleepTime": 5520
+      },
+      {
+        "startTs": 1494345783000,
+        "startTime": "2017-05-10 00:03:03",
+        "endTime": "2017-05-10 08:19:03",
+        "endTs": 1494375543000,
+        "duration": 29760,
+        "awakeTime": 1680,
+        "lightSleepTime": 21420,
+        "soundSleepTime": 6660
+      },
+      {
+        "startTs": 1494440765000,
+        "startTime": "2017-05-11 02:26:05",
+        "endTime": "2017-05-11 08:46:05",
+        "endTs": 1494463565000,
+        "duration": 22800,
+        "awakeTime": 0,
+        "lightSleepTime": 16560,
+        "soundSleepTime": 6240
+      },
+      {
+        "startTs": 1494523985000,
+        "startTime": "2017-05-12 01:33:05",
+        "endTime": "2017-05-12 08:42:05",
+        "endTs": 1494549725000,
+        "duration": 25740,
+        "awakeTime": 1140,
+        "lightSleepTime": 19620,
+        "soundSleepTime": 4980
+      },
+      {
+        "startTs": 1494611463000,
+        "startTime": "2017-05-13 01:51:03",
+        "endTime": "2017-05-13 08:05:03",
+        "endTs": 1494633903000,
+        "duration": 22440,
+        "awakeTime": 0,
+        "lightSleepTime": 15360,
+        "soundSleepTime": 7080
+      },
+      {
+        "startTs": 1494696665000,
+        "startTime": "2017-05-14 01:31:05",
+        "endTime": "2017-05-14 07:52:05",
+        "endTs": 1494719525000,
+        "duration": 22860,
+        "awakeTime": 600,
+        "lightSleepTime": 14820,
+        "soundSleepTime": 7440
+      },
+      {
+        "startTs": 1494774485000,
+        "startTime": "2017-05-14 23:08:05",
+        "endTime": "2017-05-15 08:24:05",
+        "endTs": 1494807845000,
+        "duration": 33360,
+        "awakeTime": 1080,
+        "lightSleepTime": 19140,
+        "soundSleepTime": 13140
+      },
+      {
+        "startTs": 1494867845000,
+        "startTime": "2017-05-16 01:04:05",
+        "endTime": "2017-05-16 08:52:05",
+        "endTs": 1494895925000,
+        "duration": 28080,
+        "awakeTime": 0,
+        "lightSleepTime": 16440,
+        "soundSleepTime": 11640
+      },
+      {
+        "startTs": 1494960003000,
+        "startTime": "2017-05-17 02:40:03",
+        "endTime": "2017-05-17 07:48:03",
+        "endTs": 1494978483000,
+        "duration": 18480,
+        "awakeTime": 600,
+        "lightSleepTime": 6420,
+        "soundSleepTime": 11460
+      },
+      {
+        "startTs": 1495042385000,
+        "startTime": "2017-05-18 01:33:05",
+        "endTime": "2017-05-18 08:33:05",
+        "endTs": 1495067585000,
+        "duration": 25200,
+        "awakeTime": 360,
+        "lightSleepTime": 19740,
+        "soundSleepTime": 5100
+      },
+      {
+        "startTs": 1495127825000,
+        "startTime": "2017-05-19 01:17:05",
+        "endTime": "2017-05-19 09:17:05",
+        "endTs": 1495156625000,
+        "duration": 28800,
+        "awakeTime": 0,
+        "lightSleepTime": 14700,
+        "soundSleepTime": 14100
+      },
+      {
+        "startTs": 1495216865000,
+        "startTime": "2017-05-20 02:01:05",
+        "endTime": "2017-05-20 08:24:05",
+        "endTs": 1495239845000,
+        "duration": 22980,
+        "awakeTime": 2040,
+        "lightSleepTime": 17040,
+        "soundSleepTime": 3900
+      },
+      {
+        "startTs": 1495304164000,
+        "startTime": "2017-05-21 02:16:04",
+        "endTime": "2017-05-21 11:25:04",
+        "endTs": 1495337104000,
+        "duration": 32940,
+        "awakeTime": 1560,
+        "lightSleepTime": 17340,
+        "soundSleepTime": 14040
+      },
+      {
+        "startTs": 1495386556000,
+        "startTime": "2017-05-22 01:09:16",
+        "endTime": "2017-05-22 07:21:16",
+        "endTs": 1495408876000,
+        "duration": 22320,
+        "awakeTime": 360,
+        "lightSleepTime": 15420,
+        "soundSleepTime": 6540
+      },
+      {
+        "startTs": 1495475416000,
+        "startTime": "2017-05-23 01:50:16",
+        "endTime": "2017-05-23 07:25:16",
+        "endTs": 1495495516000,
+        "duration": 20100,
+        "awakeTime": 360,
+        "lightSleepTime": 13620,
+        "soundSleepTime": 6120
+      },
+      {
+        "startTs": 1495558745000,
+        "startTime": "2017-05-24 00:59:05",
+        "endTime": "2017-05-24 08:37:05",
+        "endTs": 1495586225000,
+        "duration": 27480,
+        "awakeTime": 300,
+        "lightSleepTime": 19500,
+        "soundSleepTime": 7680
+      },
+      {
+        "startTs": 1495650545000,
+        "startTime": "2017-05-25 02:29:05",
+        "endTime": "2017-05-25 08:31:05",
+        "endTs": 1495672265000,
+        "duration": 21720,
+        "awakeTime": 1380,
+        "lightSleepTime": 13080,
+        "soundSleepTime": 7260
+      },
+      {
+        "startTs": 1495734905000,
+        "startTime": "2017-05-26 01:55:05",
+        "endTime": "2017-05-26 08:38:05",
+        "endTs": 1495759085000,
+        "duration": 24180,
+        "awakeTime": 480,
+        "lightSleepTime": 14340,
+        "soundSleepTime": 9360
+      },
+      {
+        "startTs": 1495821485000,
+        "startTime": "2017-05-27 01:58:05",
+        "endTime": "2017-05-27 08:52:05",
+        "endTs": 1495846325000,
+        "duration": 24840,
+        "awakeTime": 420,
+        "lightSleepTime": 14820,
+        "soundSleepTime": 9600
+      },
+      {
+        "startTs": 1495906085000,
+        "startTime": "2017-05-28 01:28:05",
+        "endTime": "2017-05-28 07:59:05",
+        "endTs": 1495929545000,
+        "duration": 23460,
+        "awakeTime": 1380,
+        "lightSleepTime": 15900,
+        "soundSleepTime": 6180
+      }
+    ]
+  },
+  {
+    "month": "2017-6",
+    "data": [
+      {
+        "startTs": 1496251710000,
+        "startTime": "2017-06-01 01:28:30",
+        "endTime": "2017-06-01 08:30:30",
+        "endTs": 1496277030000,
+        "duration": 25320,
+        "awakeTime": 1440,
+        "lightSleepTime": 14040,
+        "soundSleepTime": 9840
+      },
+      {
+        "startTs": 1496342723000,
+        "startTime": "2017-06-02 02:45:23",
+        "endTime": "2017-06-02 08:25:23",
+        "endTs": 1496363123000,
+        "duration": 20400,
+        "awakeTime": 780,
+        "lightSleepTime": 14100,
+        "soundSleepTime": 5520
+      },
+      {
+        "startTs": 1496427304000,
+        "startTime": "2017-06-03 02:15:04",
+        "endTime": "2017-06-03 07:40:04",
+        "endTs": 1496446804000,
+        "duration": 19500,
+        "awakeTime": 840,
+        "lightSleepTime": 14400,
+        "soundSleepTime": 4260
+      },
+      {
+        "startTs": 1496508126000,
+        "startTime": "2017-06-04 00:42:06",
+        "endTime": "2017-06-04 09:41:06",
+        "endTs": 1496540466000,
+        "duration": 32340,
+        "awakeTime": 1620,
+        "lightSleepTime": 22740,
+        "soundSleepTime": 7980
+      },
+      {
+        "startTs": 1496598306000,
+        "startTime": "2017-06-05 01:45:06",
+        "endTime": "2017-06-05 08:29:06",
+        "endTs": 1496622546000,
+        "duration": 24240,
+        "awakeTime": 0,
+        "lightSleepTime": 14160,
+        "soundSleepTime": 10080
+      },
+      {
+        "startTs": 1496688305000,
+        "startTime": "2017-06-06 02:45:05",
+        "endTime": "2017-06-06 08:22:05",
+        "endTs": 1496708525000,
+        "duration": 20220,
+        "awakeTime": 480,
+        "lightSleepTime": 13860,
+        "soundSleepTime": 5880
+      },
+      {
+        "startTs": 1496772965000,
+        "startTime": "2017-06-07 02:16:05",
+        "endTime": "2017-06-07 08:46:05",
+        "endTs": 1496796365000,
+        "duration": 23400,
+        "awakeTime": 360,
+        "lightSleepTime": 12060,
+        "soundSleepTime": 10980
+      },
+      {
+        "startTs": 1496861165000,
+        "startTime": "2017-06-08 02:46:05",
+        "endTime": "2017-06-08 08:48:05",
+        "endTs": 1496882885000,
+        "duration": 21720,
+        "awakeTime": 660,
+        "lightSleepTime": 15240,
+        "soundSleepTime": 5820
+      },
+      {
+        "startTs": 1496945225000,
+        "startTime": "2017-06-09 02:07:05",
+        "endTime": "2017-06-09 09:02:05",
+        "endTs": 1496970125000,
+        "duration": 24900,
+        "awakeTime": 360,
+        "lightSleepTime": 18720,
+        "soundSleepTime": 5820
+      },
+      {
+        "startTs": 1497035945000,
+        "startTime": "2017-06-10 03:19:05",
+        "endTime": "2017-06-10 08:49:05",
+        "endTs": 1497055745000,
+        "duration": 19800,
+        "awakeTime": 660,
+        "lightSleepTime": 13200,
+        "soundSleepTime": 5940
+      },
+      {
+        "startTs": 1497121025000,
+        "startTime": "2017-06-11 02:57:05",
+        "endTime": "2017-06-11 09:29:05",
+        "endTs": 1497144545000,
+        "duration": 23520,
+        "awakeTime": 0,
+        "lightSleepTime": 17100,
+        "soundSleepTime": 6420
+      },
+      {
+        "startTs": 1497203404000,
+        "startTime": "2017-06-12 01:50:04",
+        "endTime": "2017-06-12 08:41:04",
+        "endTs": 1497228064000,
+        "duration": 24660,
+        "awakeTime": 540,
+        "lightSleepTime": 14880,
+        "soundSleepTime": 9240
+      },
+      {
+        "startTs": 1497297724000,
+        "startTime": "2017-06-13 04:02:04",
+        "endTime": "2017-06-13 08:45:04",
+        "endTs": 1497314704000,
+        "duration": 16980,
+        "awakeTime": 300,
+        "lightSleepTime": 9480,
+        "soundSleepTime": 7200
+      },
+      {
+        "startTs": 1497376924000,
+        "startTime": "2017-06-14 02:02:04",
+        "endTime": "2017-06-14 08:58:04",
+        "endTs": 1497401884000,
+        "duration": 24960,
+        "awakeTime": 0,
+        "lightSleepTime": 17700,
+        "soundSleepTime": 7260
+      },
+      {
+        "startTs": 1497462447000,
+        "startTime": "2017-06-15 01:47:27",
+        "endTime": "2017-06-15 08:20:27",
+        "endTs": 1497486027000,
+        "duration": 23580,
+        "awakeTime": 720,
+        "lightSleepTime": 14760,
+        "soundSleepTime": 8100
+      },
+      {
+        "startTs": 1497559047000,
+        "startTime": "2017-06-16 04:37:27",
+        "endTime": "2017-06-16 09:08:27",
+        "endTs": 1497575307000,
+        "duration": 16260,
+        "awakeTime": 1140,
+        "lightSleepTime": 12000,
+        "soundSleepTime": 3120
+      },
+      {
+        "startTs": 1497632247000,
+        "startTime": "2017-06-17 00:57:27",
+        "endTime": "2017-06-17 08:07:27",
+        "endTs": 1497658047000,
+        "duration": 25800,
+        "awakeTime": 1680,
+        "lightSleepTime": 14400,
+        "soundSleepTime": 9720
+      },
+      {
+        "startTs": 1497725285000,
+        "startTime": "2017-06-18 02:48:05",
+        "endTime": "2017-06-18 07:44:05",
+        "endTs": 1497743045000,
+        "duration": 17760,
+        "awakeTime": 0,
+        "lightSleepTime": 13140,
+        "soundSleepTime": 4620
+      },
+      {
+        "startTs": 1497805205000,
+        "startTime": "2017-06-19 01:00:05",
+        "endTime": "2017-06-19 08:41:05",
+        "endTs": 1497832865000,
+        "duration": 27660,
+        "awakeTime": 360,
+        "lightSleepTime": 19740,
+        "soundSleepTime": 7560
+      },
+      {
+        "startTs": 1497899525000,
+        "startTime": "2017-06-20 03:12:05",
+        "endTime": "2017-06-20 08:29:05",
+        "endTs": 1497918545000,
+        "duration": 19020,
+        "awakeTime": 2340,
+        "lightSleepTime": 8580,
+        "soundSleepTime": 8100
+      },
+      {
+        "startTs": 1497979625000,
+        "startTime": "2017-06-21 01:27:05",
+        "endTime": "2017-06-21 08:23:05",
+        "endTs": 1498004585000,
+        "duration": 24960,
+        "awakeTime": 2340,
+        "lightSleepTime": 15120,
+        "soundSleepTime": 7500
+      },
+      {
+        "startTs": 1498065906000,
+        "startTime": "2017-06-22 01:25:06",
+        "endTime": "2017-06-22 04:43:06",
+        "endTs": 1498077786000,
+        "duration": 11880,
+        "awakeTime": 300,
+        "lightSleepTime": 9240,
+        "soundSleepTime": 2340
+      },
+      {
+        "startTs": 1498159146000,
+        "startTime": "2017-06-23 03:19:06",
+        "endTime": "2017-06-23 08:14:06",
+        "endTs": 1498176846000,
+        "duration": 17700,
+        "awakeTime": 960,
+        "lightSleepTime": 12120,
+        "soundSleepTime": 4620
+      },
+      {
+        "startTs": 1498240206000,
+        "startTime": "2017-06-24 01:50:06",
+        "endTime": "2017-06-24 08:54:06",
+        "endTs": 1498265646000,
+        "duration": 25440,
+        "awakeTime": 1200,
+        "lightSleepTime": 16080,
+        "soundSleepTime": 8160
+      },
+      {
+        "startTs": 1498330146000,
+        "startTime": "2017-06-25 02:49:06",
+        "endTime": "2017-06-25 09:24:06",
+        "endTs": 1498353846000,
+        "duration": 23700,
+        "awakeTime": 960,
+        "lightSleepTime": 14880,
+        "soundSleepTime": 7860
+      },
+      {
+        "startTs": 1498410666000,
+        "startTime": "2017-06-26 01:11:06",
+        "endTime": "2017-06-26 09:00:06",
+        "endTs": 1498438806000,
+        "duration": 28140,
+        "awakeTime": 0,
+        "lightSleepTime": 14640,
+        "soundSleepTime": 13500
+      },
+      {
+        "startTs": 1498499876000,
+        "startTime": "2017-06-27 01:57:56",
+        "endTime": "2017-06-27 08:40:56",
+        "endTs": 1498524056000,
+        "duration": 24180,
+        "awakeTime": 1200,
+        "lightSleepTime": 17580,
+        "soundSleepTime": 5400
+      },
+      {
+        "startTs": 1498585025000,
+        "startTime": "2017-06-28 01:37:05",
+        "endTime": "2017-06-28 08:37:05",
+        "endTs": 1498610225000,
+        "duration": 25200,
+        "awakeTime": 1200,
+        "lightSleepTime": 17280,
+        "soundSleepTime": 6720
+      },
+      {
+        "startTs": 1498669145000,
+        "startTime": "2017-06-29 00:59:05",
+        "endTime": "2017-06-29 07:16:05",
+        "endTs": 1498691765000,
+        "duration": 22620,
+        "awakeTime": 1860,
+        "lightSleepTime": 16440,
+        "soundSleepTime": 4320
+      },
+      {
+        "startTs": 1498755545000,
+        "startTime": "2017-06-30 00:59:05",
+        "endTime": "2017-06-30 08:28:05",
+        "endTs": 1498782485000,
+        "duration": 26940,
+        "awakeTime": 1380,
+        "lightSleepTime": 22140,
+        "soundSleepTime": 3420
+      }
+    ]
+  },
+  {
+    "month": "2017-7",
+    "data": [
+      {
+        "startTs": 1498851545000,
+        "startTime": "2017-07-01 03:39:05",
+        "endTime": "2017-07-01 09:54:05",
+        "endTs": 1498874045000,
+        "duration": 22500,
+        "awakeTime": 420,
+        "lightSleepTime": 9660,
+        "soundSleepTime": 12420
+      },
+      {
+        "startTs": 1498929245000,
+        "startTime": "2017-07-02 01:14:05",
+        "endTime": "2017-07-02 07:54:05",
+        "endTs": 1498953245000,
+        "duration": 24000,
+        "awakeTime": 3480,
+        "lightSleepTime": 15420,
+        "soundSleepTime": 5100
+      },
+      {
+        "startTs": 1499015105000,
+        "startTime": "2017-07-03 01:05:05",
+        "endTime": "2017-07-03 08:17:05",
+        "endTs": 1499041025000,
+        "duration": 25920,
+        "awakeTime": 1560,
+        "lightSleepTime": 16920,
+        "soundSleepTime": 7440
+      },
+      {
+        "startTs": 1499100305000,
+        "startTime": "2017-07-04 00:45:05",
+        "endTime": "2017-07-04 08:15:05",
+        "endTs": 1499127305000,
+        "duration": 27000,
+        "awakeTime": 1320,
+        "lightSleepTime": 17100,
+        "soundSleepTime": 8580
+      },
+      {
+        "startTs": 1499186812000,
+        "startTime": "2017-07-05 00:46:52",
+        "endTime": "2017-07-05 08:20:52",
+        "endTs": 1499214052000,
+        "duration": 27240,
+        "awakeTime": 1680,
+        "lightSleepTime": 18240,
+        "soundSleepTime": 7320
+      },
+      {
+        "startTs": 1499274185000,
+        "startTime": "2017-07-06 01:03:05",
+        "endTime": "2017-07-06 08:19:05",
+        "endTs": 1499300345000,
+        "duration": 26160,
+        "awakeTime": 0,
+        "lightSleepTime": 15000,
+        "soundSleepTime": 11160
+      },
+      {
+        "startTs": 1499365505000,
+        "startTime": "2017-07-07 02:25:05",
+        "endTime": "2017-07-07 08:33:05",
+        "endTs": 1499387585000,
+        "duration": 22080,
+        "awakeTime": 0,
+        "lightSleepTime": 12600,
+        "soundSleepTime": 9480
+      },
+      {
+        "startTs": 1499446545000,
+        "startTime": "2017-07-08 00:55:45",
+        "endTime": "2017-07-08 08:14:45",
+        "endTs": 1499472885000,
+        "duration": 26340,
+        "awakeTime": 1080,
+        "lightSleepTime": 21060,
+        "soundSleepTime": 4200
+      },
+      {
+        "startTs": 1499536665000,
+        "startTime": "2017-07-09 01:57:45",
+        "endTime": "2017-07-09 09:55:45",
+        "endTs": 1499565345000,
+        "duration": 28680,
+        "awakeTime": 2100,
+        "lightSleepTime": 14640,
+        "soundSleepTime": 11940
+      },
+      {
+        "startTs": 1499622585000,
+        "startTime": "2017-07-10 01:49:45",
+        "endTime": "2017-07-10 08:42:45",
+        "endTs": 1499647365000,
+        "duration": 24780,
+        "awakeTime": 0,
+        "lightSleepTime": 18960,
+        "soundSleepTime": 5820
+      },
+      {
+        "startTs": 1499705825000,
+        "startTime": "2017-07-11 00:57:05",
+        "endTime": "2017-07-11 08:15:05",
+        "endTs": 1499732105000,
+        "duration": 26280,
+        "awakeTime": 900,
+        "lightSleepTime": 17940,
+        "soundSleepTime": 7440
+      },
+      {
+        "startTs": 1499795765000,
+        "startTime": "2017-07-12 01:56:05",
+        "endTime": "2017-07-12 07:41:05",
+        "endTs": 1499816465000,
+        "duration": 20700,
+        "awakeTime": 1980,
+        "lightSleepTime": 15060,
+        "soundSleepTime": 3660
+      },
+      {
+        "startTs": 1499887325000,
+        "startTime": "2017-07-13 03:22:05",
+        "endTime": "2017-07-13 08:44:05",
+        "endTs": 1499906645000,
+        "duration": 19320,
+        "awakeTime": 660,
+        "lightSleepTime": 11220,
+        "soundSleepTime": 7440
+      },
+      {
+        "startTs": 1499972465000,
+        "startTime": "2017-07-14 03:01:05",
+        "endTime": "2017-07-14 08:39:05",
+        "endTs": 1499992745000,
+        "duration": 20280,
+        "awakeTime": 660,
+        "lightSleepTime": 14400,
+        "soundSleepTime": 5220
+      },
+      {
+        "startTs": 1500057725000,
+        "startTime": "2017-07-15 02:42:05",
+        "endTime": "2017-07-15 08:16:05",
+        "endTs": 1500077765000,
+        "duration": 20040,
+        "awakeTime": 600,
+        "lightSleepTime": 11640,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1500144302000,
+        "startTime": "2017-07-16 02:45:02",
+        "endTime": "2017-07-16 08:27:02",
+        "endTs": 1500164822000,
+        "duration": 20520,
+        "awakeTime": 0,
+        "lightSleepTime": 15600,
+        "soundSleepTime": 4920
+      },
+      {
+        "startTs": 1500227464000,
+        "startTime": "2017-07-17 01:51:04",
+        "endTime": "2017-07-17 08:53:04",
+        "endTs": 1500252784000,
+        "duration": 25320,
+        "awakeTime": 300,
+        "lightSleepTime": 16020,
+        "soundSleepTime": 9000
+      },
+      {
+        "startTs": 1500313264000,
+        "startTime": "2017-07-18 01:41:04",
+        "endTime": "2017-07-18 08:46:04",
+        "endTs": 1500338764000,
+        "duration": 25500,
+        "awakeTime": 840,
+        "lightSleepTime": 18360,
+        "soundSleepTime": 6300
+      },
+      {
+        "startTs": 1500399484000,
+        "startTime": "2017-07-19 01:38:04",
+        "endTime": "2017-07-19 08:59:04",
+        "endTs": 1500425944000,
+        "duration": 26460,
+        "awakeTime": 360,
+        "lightSleepTime": 21240,
+        "soundSleepTime": 4860
+      },
+      {
+        "startTs": 1500484144000,
+        "startTime": "2017-07-20 01:09:04",
+        "endTime": "2017-07-20 08:16:04",
+        "endTs": 1500509764000,
+        "duration": 25620,
+        "awakeTime": 1080,
+        "lightSleepTime": 15780,
+        "soundSleepTime": 8760
+      },
+      {
+        "startTs": 1500575164000,
+        "startTime": "2017-07-21 02:26:04",
+        "endTime": "2017-07-21 08:54:04",
+        "endTs": 1500598444000,
+        "duration": 23280,
+        "awakeTime": 360,
+        "lightSleepTime": 16080,
+        "soundSleepTime": 6840
+      },
+      {
+        "startTs": 1500660904000,
+        "startTime": "2017-07-22 02:15:04",
+        "endTime": "2017-07-22 07:02:04",
+        "endTs": 1500678124000,
+        "duration": 17220,
+        "awakeTime": 0,
+        "lightSleepTime": 5820,
+        "soundSleepTime": 11400
+      },
+      {
+        "startTs": 1500746165000,
+        "startTime": "2017-07-23 01:56:05",
+        "endTime": "2017-07-23 08:43:05",
+        "endTs": 1500770585000,
+        "duration": 24420,
+        "awakeTime": 720,
+        "lightSleepTime": 21060,
+        "soundSleepTime": 2640
+      },
+      {
+        "startTs": 1500923045000,
+        "startTime": "2017-07-25 03:04:05",
+        "endTime": "2017-07-25 07:46:05",
+        "endTs": 1500939965000,
+        "duration": 16920,
+        "awakeTime": 780,
+        "lightSleepTime": 9000,
+        "soundSleepTime": 7140
+      },
+      {
+        "startTs": 1501003925000,
+        "startTime": "2017-07-26 01:32:05",
+        "endTime": "2017-07-26 08:04:05",
+        "endTs": 1501027445000,
+        "duration": 23520,
+        "awakeTime": 0,
+        "lightSleepTime": 16800,
+        "soundSleepTime": 6720
+      },
+      {
+        "startTs": 1501095005000,
+        "startTime": "2017-07-27 02:50:05",
+        "endTime": "2017-07-27 08:22:05",
+        "endTs": 1501114925000,
+        "duration": 19920,
+        "awakeTime": 420,
+        "lightSleepTime": 13080,
+        "soundSleepTime": 6420
+      },
+      {
+        "startTs": 1501177505000,
+        "startTime": "2017-07-28 01:45:05",
+        "endTime": "2017-07-28 08:31:05",
+        "endTs": 1501201865000,
+        "duration": 24360,
+        "awakeTime": 960,
+        "lightSleepTime": 14160,
+        "soundSleepTime": 9240
+      },
+      {
+        "startTs": 1501265585000,
+        "startTime": "2017-07-29 02:13:05",
+        "endTime": "2017-07-29 08:34:05",
+        "endTs": 1501288445000,
+        "duration": 22860,
+        "awakeTime": 1260,
+        "lightSleepTime": 15060,
+        "soundSleepTime": 6540
+      },
+      {
+        "startTs": 1501355645000,
+        "startTime": "2017-07-30 03:14:05",
+        "endTime": "2017-07-30 08:52:05",
+        "endTs": 1501375925000,
+        "duration": 20280,
+        "awakeTime": 0,
+        "lightSleepTime": 14580,
+        "soundSleepTime": 5700
+      },
+      {
+        "startTs": 1501434005000,
+        "startTime": "2017-07-31 01:00:05",
+        "endTime": "2017-07-31 08:37:05",
+        "endTs": 1501461425000,
+        "duration": 27420,
+        "awakeTime": 420,
+        "lightSleepTime": 20040,
+        "soundSleepTime": 6960
+      }
+    ]
+  },
+  {
+    "month": "2017-8",
+    "data": [
+      {
+        "startTs": 1501522985000,
+        "startTime": "2017-08-01 01:43:05",
+        "endTime": "2017-08-01 06:17:05",
+        "endTs": 1501539425000,
+        "duration": 16440,
+        "awakeTime": 840,
+        "lightSleepTime": 10740,
+        "soundSleepTime": 4860
+      },
+      {
+        "startTs": 1501607705000,
+        "startTime": "2017-08-02 01:15:05",
+        "endTime": "2017-08-02 08:49:05",
+        "endTs": 1501634945000,
+        "duration": 27240,
+        "awakeTime": 420,
+        "lightSleepTime": 18540,
+        "soundSleepTime": 8280
+      },
+      {
+        "startTs": 1501698243000,
+        "startTime": "2017-08-03 02:24:03",
+        "endTime": "2017-08-03 08:51:03",
+        "endTs": 1501721463000,
+        "duration": 23220,
+        "awakeTime": 660,
+        "lightSleepTime": 15840,
+        "soundSleepTime": 6720
+      },
+      {
+        "startTs": 1501785243000,
+        "startTime": "2017-08-04 02:34:03",
+        "endTime": "2017-08-04 08:45:03",
+        "endTs": 1501807503000,
+        "duration": 22260,
+        "awakeTime": 660,
+        "lightSleepTime": 12480,
+        "soundSleepTime": 9120
+      },
+      {
+        "startTs": 1501873685000,
+        "startTime": "2017-08-05 03:08:05",
+        "endTime": "2017-08-05 08:54:05",
+        "endTs": 1501894445000,
+        "duration": 20760,
+        "awakeTime": 1860,
+        "lightSleepTime": 13320,
+        "soundSleepTime": 5580
+      },
+      {
+        "startTs": 1501960445000,
+        "startTime": "2017-08-06 03:14:05",
+        "endTime": "2017-08-06 09:44:05",
+        "endTs": 1501983845000,
+        "duration": 23400,
+        "awakeTime": 420,
+        "lightSleepTime": 18660,
+        "soundSleepTime": 4320
+      },
+      {
+        "startTs": 1502043545000,
+        "startTime": "2017-08-07 02:19:05",
+        "endTime": "2017-08-07 07:49:05",
+        "endTs": 1502063345000,
+        "duration": 19800,
+        "awakeTime": 300,
+        "lightSleepTime": 16260,
+        "soundSleepTime": 3240
+      },
+      {
+        "startTs": 1502136245000,
+        "startTime": "2017-08-08 04:04:05",
+        "endTime": "2017-08-08 09:04:05",
+        "endTs": 1502154245000,
+        "duration": 18000,
+        "awakeTime": 0,
+        "lightSleepTime": 13380,
+        "soundSleepTime": 4620
+      },
+      {
+        "startTs": 1502222585000,
+        "startTime": "2017-08-09 04:03:05",
+        "endTime": "2017-08-09 08:54:05",
+        "endTs": 1502240045000,
+        "duration": 17460,
+        "awakeTime": 360,
+        "lightSleepTime": 10140,
+        "soundSleepTime": 6960
+      },
+      {
+        "startTs": 1502301357000,
+        "startTime": "2017-08-10 01:55:57",
+        "endTime": "2017-08-10 09:28:57",
+        "endTs": 1502328537000,
+        "duration": 27180,
+        "awakeTime": 540,
+        "lightSleepTime": 18300,
+        "soundSleepTime": 8340
+      },
+      {
+        "startTs": 1502382724000,
+        "startTime": "2017-08-11 00:32:04",
+        "endTime": "2017-08-11 08:57:04",
+        "endTs": 1502413024000,
+        "duration": 30300,
+        "awakeTime": 780,
+        "lightSleepTime": 15060,
+        "soundSleepTime": 14460
+      },
+      {
+        "startTs": 1502480222000,
+        "startTime": "2017-08-12 03:37:02",
+        "endTime": "2017-08-12 08:17:02",
+        "endTs": 1502497022000,
+        "duration": 16800,
+        "awakeTime": 1500,
+        "lightSleepTime": 10320,
+        "soundSleepTime": 4980
+      },
+      {
+        "startTs": 1502639105000,
+        "startTime": "2017-08-13 23:45:05",
+        "endTime": "2017-08-14 07:50:05",
+        "endTs": 1502668205000,
+        "duration": 29100,
+        "awakeTime": 1980,
+        "lightSleepTime": 20280,
+        "soundSleepTime": 6840
+      },
+      {
+        "startTs": 1502730605000,
+        "startTime": "2017-08-15 01:10:05",
+        "endTime": "2017-08-15 08:08:05",
+        "endTs": 1502755685000,
+        "duration": 25080,
+        "awakeTime": 3240,
+        "lightSleepTime": 16080,
+        "soundSleepTime": 5760
+      },
+      {
+        "startTs": 1502814845000,
+        "startTime": "2017-08-16 00:34:05",
+        "endTime": "2017-08-16 08:55:05",
+        "endTs": 1502844905000,
+        "duration": 30060,
+        "awakeTime": 0,
+        "lightSleepTime": 22980,
+        "soundSleepTime": 7080
+      },
+      {
+        "startTs": 1502911322000,
+        "startTime": "2017-08-17 03:22:02",
+        "endTime": "2017-08-17 10:08:02",
+        "endTs": 1502935682000,
+        "duration": 24360,
+        "awakeTime": 1440,
+        "lightSleepTime": 15660,
+        "soundSleepTime": 7260
+      },
+      {
+        "startTs": 1502991902000,
+        "startTime": "2017-08-18 01:45:02",
+        "endTime": "2017-08-18 08:11:02",
+        "endTs": 1503015062000,
+        "duration": 23160,
+        "awakeTime": 1020,
+        "lightSleepTime": 14100,
+        "soundSleepTime": 8040
+      },
+      {
+        "startTs": 1503082985000,
+        "startTime": "2017-08-19 03:03:05",
+        "endTime": "2017-08-19 08:13:05",
+        "endTs": 1503101585000,
+        "duration": 18600,
+        "awakeTime": 0,
+        "lightSleepTime": 12240,
+        "soundSleepTime": 6360
+      },
+      {
+        "startTs": 1503169445000,
+        "startTime": "2017-08-20 03:04:05",
+        "endTime": "2017-08-20 09:06:05",
+        "endTs": 1503191165000,
+        "duration": 21720,
+        "awakeTime": 720,
+        "lightSleepTime": 13440,
+        "soundSleepTime": 7560
+      },
+      {
+        "startTs": 1503334745000,
+        "startTime": "2017-08-22 00:59:05",
+        "endTime": "2017-08-22 08:07:05",
+        "endTs": 1503360425000,
+        "duration": 25680,
+        "awakeTime": 660,
+        "lightSleepTime": 15180,
+        "soundSleepTime": 9840
+      },
+      {
+        "startTs": 1503420245000,
+        "startTime": "2017-08-23 00:44:05",
+        "endTime": "2017-08-23 08:06:05",
+        "endTs": 1503446765000,
+        "duration": 26520,
+        "awakeTime": 0,
+        "lightSleepTime": 16980,
+        "soundSleepTime": 9540
+      },
+      {
+        "startTs": 1503504305000,
+        "startTime": "2017-08-24 00:05:05",
+        "endTime": "2017-08-24 08:20:05",
+        "endTs": 1503534005000,
+        "duration": 29700,
+        "awakeTime": 300,
+        "lightSleepTime": 16860,
+        "soundSleepTime": 12540
+      },
+      {
+        "startTs": 1503594965000,
+        "startTime": "2017-08-25 01:16:05",
+        "endTime": "2017-08-25 07:51:05",
+        "endTs": 1503618665000,
+        "duration": 23700,
+        "awakeTime": 0,
+        "lightSleepTime": 14340,
+        "soundSleepTime": 9360
+      },
+      {
+        "startTs": 1503671645000,
+        "startTime": "2017-08-25 22:34:05",
+        "endTime": "2017-08-26 03:25:05",
+        "endTs": 1503689105000,
+        "duration": 17460,
+        "awakeTime": 0,
+        "lightSleepTime": 10980,
+        "soundSleepTime": 6480
+      },
+      {
+        "startTs": 1503694085000,
+        "startTime": "2017-08-26 04:48:05",
+        "endTime": "2017-08-26 09:10:05",
+        "endTs": 1503709805000,
+        "duration": 15720,
+        "awakeTime": 300,
+        "lightSleepTime": 11400,
+        "soundSleepTime": 4020
+      },
+      {
+        "startTs": 1503773462000,
+        "startTime": "2017-08-27 02:51:02",
+        "endTime": "2017-08-27 09:47:02",
+        "endTs": 1503798422000,
+        "duration": 24960,
+        "awakeTime": 1560,
+        "lightSleepTime": 16200,
+        "soundSleepTime": 7200
+      },
+      {
+        "startTs": 1503854585000,
+        "startTime": "2017-08-28 01:23:05",
+        "endTime": "2017-08-28 08:28:05",
+        "endTs": 1503880085000,
+        "duration": 25500,
+        "awakeTime": 1380,
+        "lightSleepTime": 20760,
+        "soundSleepTime": 3360
+      },
+      {
+        "startTs": 1503938465000,
+        "startTime": "2017-08-29 00:41:05",
+        "endTime": "2017-08-29 08:16:05",
+        "endTs": 1503965765000,
+        "duration": 27300,
+        "awakeTime": 2160,
+        "lightSleepTime": 19320,
+        "soundSleepTime": 5820
+      },
+      {
+        "startTs": 1504027745000,
+        "startTime": "2017-08-30 01:29:05",
+        "endTime": "2017-08-30 07:35:05",
+        "endTs": 1504049705000,
+        "duration": 21960,
+        "awakeTime": 1680,
+        "lightSleepTime": 16080,
+        "soundSleepTime": 4200
+      },
+      {
+        "startTs": 1504115765000,
+        "startTime": "2017-08-31 01:56:05",
+        "endTime": "2017-08-31 08:01:05",
+        "endTs": 1504137665000,
+        "duration": 21900,
+        "awakeTime": 2520,
+        "lightSleepTime": 13560,
+        "soundSleepTime": 5820
+      }
+    ]
+  },
+  {
+    "month": "2017-9",
+    "data": [
+      {
+        "startTs": 1504199645000,
+        "startTime": "2017-09-01 01:14:05",
+        "endTime": "2017-09-01 08:20:05",
+        "endTs": 1504225205000,
+        "duration": 25560,
+        "awakeTime": 600,
+        "lightSleepTime": 19800,
+        "soundSleepTime": 5160
+      },
+      {
+        "startTs": 1504291685000,
+        "startTime": "2017-09-02 02:48:05",
+        "endTime": "2017-09-02 07:37:05",
+        "endTs": 1504309025000,
+        "duration": 17340,
+        "awakeTime": 1320,
+        "lightSleepTime": 11460,
+        "soundSleepTime": 4560
+      },
+      {
+        "startTs": 1504368485000,
+        "startTime": "2017-09-03 00:08:05",
+        "endTime": "2017-09-03 07:04:05",
+        "endTs": 1504393445000,
+        "duration": 24960,
+        "awakeTime": 4020,
+        "lightSleepTime": 15480,
+        "soundSleepTime": 5460
+      },
+      {
+        "startTs": 1504457165000,
+        "startTime": "2017-09-04 00:46:05",
+        "endTime": "2017-09-04 08:23:05",
+        "endTs": 1504484585000,
+        "duration": 27420,
+        "awakeTime": 2340,
+        "lightSleepTime": 17280,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1504544405000,
+        "startTime": "2017-09-05 01:00:05",
+        "endTime": "2017-09-05 08:37:05",
+        "endTs": 1504571825000,
+        "duration": 27420,
+        "awakeTime": 1140,
+        "lightSleepTime": 18660,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1504630445000,
+        "startTime": "2017-09-06 00:54:05",
+        "endTime": "2017-09-06 08:29:05",
+        "endTs": 1504657745000,
+        "duration": 27300,
+        "awakeTime": 720,
+        "lightSleepTime": 20340,
+        "soundSleepTime": 6240
+      },
+      {
+        "startTs": 1504720802000,
+        "startTime": "2017-09-07 02:00:02",
+        "endTime": "2017-09-07 07:52:02",
+        "endTs": 1504741922000,
+        "duration": 21120,
+        "awakeTime": 420,
+        "lightSleepTime": 11700,
+        "soundSleepTime": 9000
+      },
+      {
+        "startTs": 1504806422000,
+        "startTime": "2017-09-08 01:47:02",
+        "endTime": "2017-09-08 06:55:02",
+        "endTs": 1504824902000,
+        "duration": 18480,
+        "awakeTime": 6960,
+        "lightSleepTime": 5340,
+        "soundSleepTime": 6180
+      },
+      {
+        "startTs": 1504888802000,
+        "startTime": "2017-09-09 00:40:02",
+        "endTime": "2017-09-09 07:26:02",
+        "endTs": 1504913162000,
+        "duration": 24360,
+        "awakeTime": 300,
+        "lightSleepTime": 15780,
+        "soundSleepTime": 8280
+      },
+      {
+        "startTs": 1504978442000,
+        "startTime": "2017-09-10 01:34:02",
+        "endTime": "2017-09-10 10:15:02",
+        "endTs": 1505009702000,
+        "duration": 31260,
+        "awakeTime": 720,
+        "lightSleepTime": 22800,
+        "soundSleepTime": 7740
+      },
+      {
+        "startTs": 1505064182000,
+        "startTime": "2017-09-11 01:23:02",
+        "endTime": "2017-09-11 07:49:02",
+        "endTs": 1505087342000,
+        "duration": 23160,
+        "awakeTime": 2940,
+        "lightSleepTime": 14640,
+        "soundSleepTime": 5580
+      },
+      {
+        "startTs": 1505149685000,
+        "startTime": "2017-09-12 01:08:05",
+        "endTime": "2017-09-12 08:01:05",
+        "endTs": 1505174465000,
+        "duration": 24780,
+        "awakeTime": 1560,
+        "lightSleepTime": 17940,
+        "soundSleepTime": 5280
+      },
+      {
+        "startTs": 1505323325000,
+        "startTime": "2017-09-14 01:22:05",
+        "endTime": "2017-09-14 08:26:05",
+        "endTs": 1505348765000,
+        "duration": 25440,
+        "awakeTime": 1260,
+        "lightSleepTime": 18420,
+        "soundSleepTime": 5760
+      },
+      {
+        "startTs": 1505412782000,
+        "startTime": "2017-09-15 02:13:02",
+        "endTime": "2017-09-15 09:03:02",
+        "endTs": 1505437382000,
+        "duration": 24600,
+        "awakeTime": 0,
+        "lightSleepTime": 15360,
+        "soundSleepTime": 9240
+      },
+      {
+        "startTs": 1505496602000,
+        "startTime": "2017-09-16 01:30:02",
+        "endTime": "2017-09-16 09:02:02",
+        "endTs": 1505523722000,
+        "duration": 27120,
+        "awakeTime": 2220,
+        "lightSleepTime": 14100,
+        "soundSleepTime": 10800
+      },
+      {
+        "startTs": 1505585822000,
+        "startTime": "2017-09-17 02:17:02",
+        "endTime": "2017-09-17 09:41:02",
+        "endTs": 1505612462000,
+        "duration": 26640,
+        "awakeTime": 2040,
+        "lightSleepTime": 17700,
+        "soundSleepTime": 6900
+      },
+      {
+        "startTs": 1505755622000,
+        "startTime": "2017-09-19 01:27:02",
+        "endTime": "2017-09-19 08:48:02",
+        "endTs": 1505782082000,
+        "duration": 26460,
+        "awakeTime": 300,
+        "lightSleepTime": 18540,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1505848625000,
+        "startTime": "2017-09-20 03:17:05",
+        "endTime": "2017-09-20 09:19:05",
+        "endTs": 1505870345000,
+        "duration": 21720,
+        "awakeTime": 2640,
+        "lightSleepTime": 12900,
+        "soundSleepTime": 6180
+      },
+      {
+        "startTs": 1505937665000,
+        "startTime": "2017-09-21 04:01:05",
+        "endTime": "2017-09-21 09:03:05",
+        "endTs": 1505955785000,
+        "duration": 18120,
+        "awakeTime": 0,
+        "lightSleepTime": 11400,
+        "soundSleepTime": 6720
+      },
+      {
+        "startTs": 1506013325000,
+        "startTime": "2017-09-22 01:02:05",
+        "endTime": "2017-09-22 08:03:05",
+        "endTs": 1506038585000,
+        "duration": 25260,
+        "awakeTime": 3900,
+        "lightSleepTime": 17940,
+        "soundSleepTime": 3420
+      },
+      {
+        "startTs": 1506101945000,
+        "startTime": "2017-09-23 01:39:05",
+        "endTime": "2017-09-23 08:07:05",
+        "endTs": 1506125225000,
+        "duration": 23280,
+        "awakeTime": 3480,
+        "lightSleepTime": 16980,
+        "soundSleepTime": 2820
+      },
+      {
+        "startTs": 1506179045000,
+        "startTime": "2017-09-23 23:04:05",
+        "endTime": "2017-09-24 05:57:05",
+        "endTs": 1506203825000,
+        "duration": 24780,
+        "awakeTime": 840,
+        "lightSleepTime": 20940,
+        "soundSleepTime": 3000
+      },
+      {
+        "startTs": 1506272020000,
+        "startTime": "2017-09-25 00:53:40",
+        "endTime": "2017-09-25 08:11:40",
+        "endTs": 1506298300000,
+        "duration": 26280,
+        "awakeTime": 1080,
+        "lightSleepTime": 20280,
+        "soundSleepTime": 4920
+      },
+      {
+        "startTs": 1506450729000,
+        "startTime": "2017-09-27 02:32:09",
+        "endTime": "2017-09-27 08:19:09",
+        "endTs": 1506471549000,
+        "duration": 20820,
+        "awakeTime": 0,
+        "lightSleepTime": 18420,
+        "soundSleepTime": 2400
+      },
+      {
+        "startTs": 1506538869000,
+        "startTime": "2017-09-28 03:01:09",
+        "endTime": "2017-09-28 08:27:09",
+        "endTs": 1506558429000,
+        "duration": 19560,
+        "awakeTime": 300,
+        "lightSleepTime": 14760,
+        "soundSleepTime": 4500
+      },
+      {
+        "startTs": 1506617642000,
+        "startTime": "2017-09-29 00:54:02",
+        "endTime": "2017-09-29 04:24:02",
+        "endTs": 1506630242000,
+        "duration": 12600,
+        "awakeTime": 0,
+        "lightSleepTime": 9900,
+        "soundSleepTime": 2700
+      },
+      {
+        "startTs": 1506631742000,
+        "startTime": "2017-09-29 04:49:02",
+        "endTime": "2017-09-29 08:50:02",
+        "endTs": 1506646202000,
+        "duration": 14460,
+        "awakeTime": 480,
+        "lightSleepTime": 10140,
+        "soundSleepTime": 3840
+      },
+      {
+        "startTs": 1506712506000,
+        "startTime": "2017-09-30 03:15:06",
+        "endTime": "2017-09-30 08:36:06",
+        "endTs": 1506731766000,
+        "duration": 19260,
+        "awakeTime": 1080,
+        "lightSleepTime": 12120,
+        "soundSleepTime": 6060
+      }
+    ]
+  },
+  {
+    "month": "2017-10",
+    "data": [
+      {
+        "startTs": 1506791046000,
+        "startTime": "2017-10-01 01:04:06",
+        "endTime": "2017-10-01 08:49:06",
+        "endTs": 1506818946000,
+        "duration": 27900,
+        "awakeTime": 480,
+        "lightSleepTime": 19380,
+        "soundSleepTime": 8040
+      },
+      {
+        "startTs": 1506883499000,
+        "startTime": "2017-10-02 02:44:59",
+        "endTime": "2017-10-02 10:11:59",
+        "endTs": 1506910319000,
+        "duration": 26820,
+        "awakeTime": 300,
+        "lightSleepTime": 17580,
+        "soundSleepTime": 8940
+      },
+      {
+        "startTs": 1506965404000,
+        "startTime": "2017-10-03 01:30:04",
+        "endTime": "2017-10-03 08:23:04",
+        "endTs": 1506990184000,
+        "duration": 24780,
+        "awakeTime": 300,
+        "lightSleepTime": 18480,
+        "soundSleepTime": 6000
+      },
+      {
+        "startTs": 1507053425000,
+        "startTime": "2017-10-04 01:57:05",
+        "endTime": "2017-10-04 05:24:05",
+        "endTs": 1507065845000,
+        "duration": 12420,
+        "awakeTime": 300,
+        "lightSleepTime": 10320,
+        "soundSleepTime": 1800
+      },
+      {
+        "startTs": 1507134483000,
+        "startTime": "2017-10-05 00:28:03",
+        "endTime": "2017-10-05 06:35:03",
+        "endTs": 1507156503000,
+        "duration": 22020,
+        "awakeTime": 780,
+        "lightSleepTime": 14820,
+        "soundSleepTime": 6420
+      },
+      {
+        "startTs": 1507223705000,
+        "startTime": "2017-10-06 01:15:05",
+        "endTime": "2017-10-06 06:39:05",
+        "endTs": 1507243145000,
+        "duration": 19440,
+        "awakeTime": 660,
+        "lightSleepTime": 12540,
+        "soundSleepTime": 6240
+      },
+      {
+        "startTs": 1507313165000,
+        "startTime": "2017-10-07 02:06:05",
+        "endTime": "2017-10-07 08:47:05",
+        "endTs": 1507337225000,
+        "duration": 24060,
+        "awakeTime": 840,
+        "lightSleepTime": 15420,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1507397465000,
+        "startTime": "2017-10-08 01:31:05",
+        "endTime": "2017-10-08 06:01:05",
+        "endTs": 1507413665000,
+        "duration": 16200,
+        "awakeTime": 0,
+        "lightSleepTime": 10980,
+        "soundSleepTime": 5220
+      },
+      {
+        "startTs": 1507482785000,
+        "startTime": "2017-10-09 01:13:05",
+        "endTime": "2017-10-09 05:46:05",
+        "endTs": 1507499165000,
+        "duration": 16380,
+        "awakeTime": 0,
+        "lightSleepTime": 8640,
+        "soundSleepTime": 7740
+      },
+      {
+        "startTs": 1507564865000,
+        "startTime": "2017-10-10 00:01:05",
+        "endTime": "2017-10-10 09:01:05",
+        "endTs": 1507597265000,
+        "duration": 32400,
+        "awakeTime": 0,
+        "lightSleepTime": 17820,
+        "soundSleepTime": 14580
+      },
+      {
+        "startTs": 1507663385000,
+        "startTime": "2017-10-11 03:23:05",
+        "endTime": "2017-10-11 08:36:05",
+        "endTs": 1507682165000,
+        "duration": 18780,
+        "awakeTime": 0,
+        "lightSleepTime": 14220,
+        "soundSleepTime": 4560
+      },
+      {
+        "startTs": 1507742285000,
+        "startTime": "2017-10-12 01:18:05",
+        "endTime": "2017-10-12 08:29:05",
+        "endTs": 1507768145000,
+        "duration": 25860,
+        "awakeTime": 1200,
+        "lightSleepTime": 15960,
+        "soundSleepTime": 8700
+      },
+      {
+        "startTs": 1507826585000,
+        "startTime": "2017-10-13 00:43:05",
+        "endTime": "2017-10-13 08:20:05",
+        "endTs": 1507854005000,
+        "duration": 27420,
+        "awakeTime": 660,
+        "lightSleepTime": 19320,
+        "soundSleepTime": 7440
+      },
+      {
+        "startTs": 1507915985000,
+        "startTime": "2017-10-14 01:33:05",
+        "endTime": "2017-10-14 08:17:05",
+        "endTs": 1507940225000,
+        "duration": 24240,
+        "awakeTime": 0,
+        "lightSleepTime": 16140,
+        "soundSleepTime": 8100
+      },
+      {
+        "startTs": 1508002205000,
+        "startTime": "2017-10-15 01:30:05",
+        "endTime": "2017-10-15 09:27:05",
+        "endTs": 1508030825000,
+        "duration": 28620,
+        "awakeTime": 0,
+        "lightSleepTime": 23400,
+        "soundSleepTime": 5220
+      },
+      {
+        "startTs": 1508085785000,
+        "startTime": "2017-10-16 00:43:05",
+        "endTime": "2017-10-16 08:02:05",
+        "endTs": 1508112125000,
+        "duration": 26340,
+        "awakeTime": 1920,
+        "lightSleepTime": 18900,
+        "soundSleepTime": 5520
+      },
+      {
+        "startTs": 1508173443000,
+        "startTime": "2017-10-17 01:04:03",
+        "endTime": "2017-10-17 08:31:03",
+        "endTs": 1508200263000,
+        "duration": 26820,
+        "awakeTime": 0,
+        "lightSleepTime": 18780,
+        "soundSleepTime": 8040
+      },
+      {
+        "startTs": 1508261226000,
+        "startTime": "2017-10-18 01:27:06",
+        "endTime": "2017-10-18 08:04:06",
+        "endTs": 1508285046000,
+        "duration": 23820,
+        "awakeTime": 840,
+        "lightSleepTime": 13440,
+        "soundSleepTime": 9540
+      },
+      {
+        "startTs": 1508348886000,
+        "startTime": "2017-10-19 01:48:06",
+        "endTime": "2017-10-19 08:43:06",
+        "endTs": 1508373786000,
+        "duration": 24900,
+        "awakeTime": 1200,
+        "lightSleepTime": 18180,
+        "soundSleepTime": 5520
+      },
+      {
+        "startTs": 1508437506000,
+        "startTime": "2017-10-20 02:25:06",
+        "endTime": "2017-10-20 08:48:06",
+        "endTs": 1508460486000,
+        "duration": 22980,
+        "awakeTime": 0,
+        "lightSleepTime": 15840,
+        "soundSleepTime": 7140
+      },
+      {
+        "startTs": 1508522166000,
+        "startTime": "2017-10-21 01:56:06",
+        "endTime": "2017-10-21 10:33:06",
+        "endTs": 1508553186000,
+        "duration": 31020,
+        "awakeTime": 2160,
+        "lightSleepTime": 20340,
+        "soundSleepTime": 8520
+      },
+      {
+        "startTs": 1508615534000,
+        "startTime": "2017-10-22 03:52:14",
+        "endTime": "2017-10-22 09:25:14",
+        "endTs": 1508635514000,
+        "duration": 19980,
+        "awakeTime": 360,
+        "lightSleepTime": 12660,
+        "soundSleepTime": 6960
+      },
+      {
+        "startTs": 1508697687000,
+        "startTime": "2017-10-23 02:41:27",
+        "endTime": "2017-10-23 08:36:27",
+        "endTs": 1508718987000,
+        "duration": 21300,
+        "awakeTime": 360,
+        "lightSleepTime": 15780,
+        "soundSleepTime": 5160
+      },
+      {
+        "startTs": 1508776047000,
+        "startTime": "2017-10-24 00:27:27",
+        "endTime": "2017-10-24 07:35:27",
+        "endTs": 1508801727000,
+        "duration": 25680,
+        "awakeTime": 1560,
+        "lightSleepTime": 19920,
+        "soundSleepTime": 4200
+      },
+      {
+        "startTs": 1508864734000,
+        "startTime": "2017-10-25 01:05:34",
+        "endTime": "2017-10-25 07:14:34",
+        "endTs": 1508886874000,
+        "duration": 22140,
+        "awakeTime": 840,
+        "lightSleepTime": 12660,
+        "soundSleepTime": 8640
+      },
+      {
+        "startTs": 1508952665000,
+        "startTime": "2017-10-26 01:31:05",
+        "endTime": "2017-10-26 07:43:05",
+        "endTs": 1508974985000,
+        "duration": 22320,
+        "awakeTime": 960,
+        "lightSleepTime": 15480,
+        "soundSleepTime": 5880
+      },
+      {
+        "startTs": 1509037115000,
+        "startTime": "2017-10-27 00:58:35",
+        "endTime": "2017-10-27 08:12:35",
+        "endTs": 1509063155000,
+        "duration": 26040,
+        "awakeTime": 1140,
+        "lightSleepTime": 18960,
+        "soundSleepTime": 5940
+      },
+      {
+        "startTs": 1509123755000,
+        "startTime": "2017-10-28 01:02:35",
+        "endTime": "2017-10-28 07:12:35",
+        "endTs": 1509145955000,
+        "duration": 22200,
+        "awakeTime": 1020,
+        "lightSleepTime": 15720,
+        "soundSleepTime": 5460
+      },
+      {
+        "startTs": 1509215166000,
+        "startTime": "2017-10-29 02:26:06",
+        "endTime": "2017-10-29 08:39:06",
+        "endTs": 1509237546000,
+        "duration": 22380,
+        "awakeTime": 0,
+        "lightSleepTime": 16500,
+        "soundSleepTime": 5880
+      },
+      {
+        "startTs": 1509297666000,
+        "startTime": "2017-10-30 01:21:06",
+        "endTime": "2017-10-30 07:58:06",
+        "endTs": 1509321486000,
+        "duration": 23820,
+        "awakeTime": 660,
+        "lightSleepTime": 15720,
+        "soundSleepTime": 7440
+      },
+      {
+        "startTs": 1509390486000,
+        "startTime": "2017-10-31 03:08:06",
+        "endTime": "2017-10-31 08:56:06",
+        "endTs": 1509411366000,
+        "duration": 20880,
+        "awakeTime": 360,
+        "lightSleepTime": 17640,
+        "soundSleepTime": 2880
+      }
+    ]
+  },
+  {
+    "month": "2017-11",
+    "data": [
+      {
+        "startTs": 1509476773000,
+        "startTime": "2017-11-01 03:06:13",
+        "endTime": "2017-11-01 07:09:13",
+        "endTs": 1509491353000,
+        "duration": 14580,
+        "awakeTime": 420,
+        "lightSleepTime": 11640,
+        "soundSleepTime": 2520
+      },
+      {
+        "startTs": 1509555009000,
+        "startTime": "2017-11-02 00:50:09",
+        "endTime": "2017-11-02 08:21:09",
+        "endTs": 1509582069000,
+        "duration": 27060,
+        "awakeTime": 420,
+        "lightSleepTime": 19740,
+        "soundSleepTime": 6900
+      },
+      {
+        "startTs": 1509641177000,
+        "startTime": "2017-11-03 00:46:17",
+        "endTime": "2017-11-03 07:27:17",
+        "endTs": 1509665237000,
+        "duration": 24060,
+        "awakeTime": 0,
+        "lightSleepTime": 15360,
+        "soundSleepTime": 8700
+      },
+      {
+        "startTs": 1509727865000,
+        "startTime": "2017-11-04 00:51:05",
+        "endTime": "2017-11-04 07:36:05",
+        "endTs": 1509752165000,
+        "duration": 24300,
+        "awakeTime": 480,
+        "lightSleepTime": 21720,
+        "soundSleepTime": 2100
+      },
+      {
+        "startTs": 1509812632000,
+        "startTime": "2017-11-05 00:23:52",
+        "endTime": "2017-11-05 07:34:52",
+        "endTs": 1509838492000,
+        "duration": 25860,
+        "awakeTime": 0,
+        "lightSleepTime": 16920,
+        "soundSleepTime": 8940
+      },
+      {
+        "startTs": 1509901732000,
+        "startTime": "2017-11-06 01:08:52",
+        "endTime": "2017-11-06 07:25:52",
+        "endTs": 1509924352000,
+        "duration": 22620,
+        "awakeTime": 0,
+        "lightSleepTime": 14640,
+        "soundSleepTime": 7980
+      },
+      {
+        "startTs": 1509987675000,
+        "startTime": "2017-11-07 01:01:15",
+        "endTime": "2017-11-07 07:36:15",
+        "endTs": 1510011375000,
+        "duration": 23700,
+        "awakeTime": 480,
+        "lightSleepTime": 17040,
+        "soundSleepTime": 6180
+      },
+      {
+        "startTs": 1510076955000,
+        "startTime": "2017-11-08 01:49:15",
+        "endTime": "2017-11-08 08:51:15",
+        "endTs": 1510102275000,
+        "duration": 25320,
+        "awakeTime": 0,
+        "lightSleepTime": 17520,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1510156515000,
+        "startTime": "2017-11-08 23:55:15",
+        "endTime": "2017-11-09 08:22:15",
+        "endTs": 1510186935000,
+        "duration": 30420,
+        "awakeTime": 0,
+        "lightSleepTime": 23580,
+        "soundSleepTime": 6840
+      },
+      {
+        "startTs": 1510249542000,
+        "startTime": "2017-11-10 01:45:42",
+        "endTime": "2017-11-10 08:12:42",
+        "endTs": 1510272762000,
+        "duration": 23220,
+        "awakeTime": 1260,
+        "lightSleepTime": 14220,
+        "soundSleepTime": 7740
+      },
+      {
+        "startTs": 1510339104000,
+        "startTime": "2017-11-11 02:38:24",
+        "endTime": "2017-11-11 09:16:24",
+        "endTs": 1510362984000,
+        "duration": 23880,
+        "awakeTime": 0,
+        "lightSleepTime": 14040,
+        "soundSleepTime": 9840
+      },
+      {
+        "startTs": 1510422324000,
+        "startTime": "2017-11-12 01:45:24",
+        "endTime": "2017-11-12 08:17:24",
+        "endTs": 1510445844000,
+        "duration": 23520,
+        "awakeTime": 0,
+        "lightSleepTime": 10320,
+        "soundSleepTime": 13200
+      },
+      {
+        "startTs": 1510501471000,
+        "startTime": "2017-11-12 23:44:31",
+        "endTime": "2017-11-13 08:17:31",
+        "endTs": 1510532251000,
+        "duration": 30780,
+        "awakeTime": 1380,
+        "lightSleepTime": 20400,
+        "soundSleepTime": 9000
+      },
+      {
+        "startTs": 1510596405000,
+        "startTime": "2017-11-14 02:06:45",
+        "endTime": "2017-11-14 08:09:45",
+        "endTs": 1510618185000,
+        "duration": 21780,
+        "awakeTime": 1980,
+        "lightSleepTime": 14460,
+        "soundSleepTime": 5340
+      },
+      {
+        "startTs": 1510680705000,
+        "startTime": "2017-11-15 01:31:45",
+        "endTime": "2017-11-15 07:09:45",
+        "endTs": 1510700985000,
+        "duration": 20280,
+        "awakeTime": 1620,
+        "lightSleepTime": 13920,
+        "soundSleepTime": 4740
+      },
+      {
+        "startTs": 1510768386000,
+        "startTime": "2017-11-16 01:53:06",
+        "endTime": "2017-11-16 08:31:06",
+        "endTs": 1510792266000,
+        "duration": 23880,
+        "awakeTime": 660,
+        "lightSleepTime": 18900,
+        "soundSleepTime": 4320
+      },
+      {
+        "startTs": 1510853838000,
+        "startTime": "2017-11-17 01:37:18",
+        "endTime": "2017-11-17 08:44:18",
+        "endTs": 1510879458000,
+        "duration": 25620,
+        "awakeTime": 360,
+        "lightSleepTime": 19020,
+        "soundSleepTime": 6240
+      },
+      {
+        "startTs": 1510940418000,
+        "startTime": "2017-11-18 01:40:18",
+        "endTime": "2017-11-18 07:58:18",
+        "endTs": 1510963098000,
+        "duration": 22680,
+        "awakeTime": 360,
+        "lightSleepTime": 12120,
+        "soundSleepTime": 10200
+      },
+      {
+        "startTs": 1511019018000,
+        "startTime": "2017-11-18 23:30:18",
+        "endTime": "2017-11-19 07:08:18",
+        "endTs": 1511046498000,
+        "duration": 27480,
+        "awakeTime": 2040,
+        "lightSleepTime": 20700,
+        "soundSleepTime": 4740
+      },
+      {
+        "startTs": 1511107878000,
+        "startTime": "2017-11-20 00:11:18",
+        "endTime": "2017-11-20 07:30:18",
+        "endTs": 1511134218000,
+        "duration": 26340,
+        "awakeTime": 0,
+        "lightSleepTime": 12960,
+        "soundSleepTime": 13380
+      },
+      {
+        "startTs": 1511194998000,
+        "startTime": "2017-11-21 00:23:18",
+        "endTime": "2017-11-21 08:21:18",
+        "endTs": 1511223678000,
+        "duration": 28680,
+        "awakeTime": 0,
+        "lightSleepTime": 18180,
+        "soundSleepTime": 10500
+      },
+      {
+        "startTs": 1511287938000,
+        "startTime": "2017-11-22 02:12:18",
+        "endTime": "2017-11-22 08:30:18",
+        "endTs": 1511310618000,
+        "duration": 22680,
+        "awakeTime": 0,
+        "lightSleepTime": 14040,
+        "soundSleepTime": 8640
+      },
+      {
+        "startTs": 1511618934000,
+        "startTime": "2017-11-25 22:08:54",
+        "endTime": "2017-11-26 05:44:54",
+        "endTs": 1511646294000,
+        "duration": 27360,
+        "awakeTime": 780,
+        "lightSleepTime": 19200,
+        "soundSleepTime": 7380
+      },
+      {
+        "startTs": 1511721365000,
+        "startTime": "2017-11-27 02:36:05",
+        "endTime": "2017-11-27 08:55:05",
+        "endTs": 1511744105000,
+        "duration": 22740,
+        "awakeTime": 0,
+        "lightSleepTime": 18180,
+        "soundSleepTime": 4560
+      },
+      {
+        "startTs": 1511801223000,
+        "startTime": "2017-11-28 00:47:03",
+        "endTime": "2017-11-28 08:23:03",
+        "endTs": 1511828583000,
+        "duration": 27360,
+        "awakeTime": 1380,
+        "lightSleepTime": 20460,
+        "soundSleepTime": 5520
+      },
+      {
+        "startTs": 1511888465000,
+        "startTime": "2017-11-29 01:01:05",
+        "endTime": "2017-11-29 07:04:05",
+        "endTs": 1511910245000,
+        "duration": 21780,
+        "awakeTime": 0,
+        "lightSleepTime": 15720,
+        "soundSleepTime": 6060
+      },
+      {
+        "startTs": 1511974985000,
+        "startTime": "2017-11-30 01:03:05",
+        "endTime": "2017-11-30 08:51:05",
+        "endTs": 1512003065000,
+        "duration": 28080,
+        "awakeTime": 300,
+        "lightSleepTime": 19860,
+        "soundSleepTime": 7920
+      }
+    ]
+  },
+  {
+    "month": "2017-12",
+    "data": [
+      {
+        "startTs": 1512063845000,
+        "startTime": "2017-12-01 01:44:05",
+        "endTime": "2017-12-01 08:46:05",
+        "endTs": 1512089165000,
+        "duration": 25320,
+        "awakeTime": 0,
+        "lightSleepTime": 16260,
+        "soundSleepTime": 9060
+      },
+      {
+        "startTs": 1512149585000,
+        "startTime": "2017-12-02 01:33:05",
+        "endTime": "2017-12-02 07:53:05",
+        "endTs": 1512172385000,
+        "duration": 22800,
+        "awakeTime": 0,
+        "lightSleepTime": 12240,
+        "soundSleepTime": 10560
+      },
+      {
+        "startTs": 1512233945000,
+        "startTime": "2017-12-03 00:59:05",
+        "endTime": "2017-12-03 07:56:05",
+        "endTs": 1512258965000,
+        "duration": 25020,
+        "awakeTime": 0,
+        "lightSleepTime": 12780,
+        "soundSleepTime": 12240
+      },
+      {
+        "startTs": 1512319146000,
+        "startTime": "2017-12-04 00:39:06",
+        "endTime": "2017-12-04 08:34:06",
+        "endTs": 1512347646000,
+        "duration": 28500,
+        "awakeTime": 1260,
+        "lightSleepTime": 16680,
+        "soundSleepTime": 10560
+      },
+      {
+        "startTs": 1512405125000,
+        "startTime": "2017-12-05 00:32:05",
+        "endTime": "2017-12-05 08:51:05",
+        "endTs": 1512435065000,
+        "duration": 29940,
+        "awakeTime": 0,
+        "lightSleepTime": 22320,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1512488525000,
+        "startTime": "2017-12-05 23:42:05",
+        "endTime": "2017-12-06 06:33:05",
+        "endTs": 1512513185000,
+        "duration": 24660,
+        "awakeTime": 1620,
+        "lightSleepTime": 19080,
+        "soundSleepTime": 3960
+      },
+      {
+        "startTs": 1512588609000,
+        "startTime": "2017-12-07 03:30:09",
+        "endTime": "2017-12-07 09:32:09",
+        "endTs": 1512610329000,
+        "duration": 21720,
+        "awakeTime": 480,
+        "lightSleepTime": 10500,
+        "soundSleepTime": 10740
+      },
+      {
+        "startTs": 1512667869000,
+        "startTime": "2017-12-08 01:31:09",
+        "endTime": "2017-12-08 07:39:09",
+        "endTs": 1512689949000,
+        "duration": 22080,
+        "awakeTime": 0,
+        "lightSleepTime": 16620,
+        "soundSleepTime": 5460
+      },
+      {
+        "startTs": 1512753532000,
+        "startTime": "2017-12-09 01:18:52",
+        "endTime": "2017-12-09 09:23:52",
+        "endTs": 1512782632000,
+        "duration": 29100,
+        "awakeTime": 3360,
+        "lightSleepTime": 17040,
+        "soundSleepTime": 8700
+      },
+      {
+        "startTs": 1512837748000,
+        "startTime": "2017-12-10 00:42:28",
+        "endTime": "2017-12-10 09:17:28",
+        "endTs": 1512868648000,
+        "duration": 30900,
+        "awakeTime": 0,
+        "lightSleepTime": 19440,
+        "soundSleepTime": 11460
+      },
+      {
+        "startTs": 1512936578000,
+        "startTime": "2017-12-11 04:09:38",
+        "endTime": "2017-12-11 08:44:38",
+        "endTs": 1512953078000,
+        "duration": 16500,
+        "awakeTime": 0,
+        "lightSleepTime": 10200,
+        "soundSleepTime": 6300
+      },
+      {
+        "startTs": 1513010225000,
+        "startTime": "2017-12-12 00:37:05",
+        "endTime": "2017-12-12 08:21:05",
+        "endTs": 1513038065000,
+        "duration": 27840,
+        "awakeTime": 0,
+        "lightSleepTime": 17460,
+        "soundSleepTime": 10380
+      },
+      {
+        "startTs": 1513096748000,
+        "startTime": "2017-12-13 00:39:08",
+        "endTime": "2017-12-13 07:14:08",
+        "endTs": 1513120448000,
+        "duration": 23700,
+        "awakeTime": 0,
+        "lightSleepTime": 13620,
+        "soundSleepTime": 10080
+      },
+      {
+        "startTs": 1513190164000,
+        "startTime": "2017-12-14 02:36:04",
+        "endTime": "2017-12-14 07:46:04",
+        "endTs": 1513208764000,
+        "duration": 18600,
+        "awakeTime": 300,
+        "lightSleepTime": 14160,
+        "soundSleepTime": 4140
+      },
+      {
+        "startTs": 1513264836000,
+        "startTime": "2017-12-14 23:20:36",
+        "endTime": "2017-12-15 07:01:36",
+        "endTs": 1513292496000,
+        "duration": 27660,
+        "awakeTime": 0,
+        "lightSleepTime": 19620,
+        "soundSleepTime": 8040
+      },
+      {
+        "startTs": 1513351974000,
+        "startTime": "2017-12-15 23:32:54",
+        "endTime": "2017-12-16 09:55:54",
+        "endTs": 1513389354000,
+        "duration": 37380,
+        "awakeTime": 3240,
+        "lightSleepTime": 27720,
+        "soundSleepTime": 6420
+      },
+      {
+        "startTs": 1513444729000,
+        "startTime": "2017-12-17 01:18:49",
+        "endTime": "2017-12-17 08:32:49",
+        "endTs": 1513470769000,
+        "duration": 26040,
+        "awakeTime": 300,
+        "lightSleepTime": 18060,
+        "soundSleepTime": 7680
+      },
+      {
+        "startTs": 1513542455000,
+        "startTime": "2017-12-18 04:27:35",
+        "endTime": "2017-12-18 08:40:35",
+        "endTs": 1513557635000,
+        "duration": 15180,
+        "awakeTime": 0,
+        "lightSleepTime": 13560,
+        "soundSleepTime": 1620
+      },
+      {
+        "startTs": 1513614823000,
+        "startTime": "2017-12-19 00:33:43",
+        "endTime": "2017-12-19 08:57:43",
+        "endTs": 1513645063000,
+        "duration": 30240,
+        "awakeTime": 300,
+        "lightSleepTime": 13560,
+        "soundSleepTime": 16380
+      },
+      {
+        "startTs": 1513705446000,
+        "startTime": "2017-12-20 01:44:06",
+        "endTime": "2017-12-20 08:09:06",
+        "endTs": 1513728546000,
+        "duration": 23100,
+        "awakeTime": 360,
+        "lightSleepTime": 17580,
+        "soundSleepTime": 5160
+      },
+      {
+        "startTs": 1513788803000,
+        "startTime": "2017-12-21 00:53:23",
+        "endTime": "2017-12-21 09:00:23",
+        "endTs": 1513818023000,
+        "duration": 29220,
+        "awakeTime": 0,
+        "lightSleepTime": 21120,
+        "soundSleepTime": 8100
+      },
+      {
+        "startTs": 1513873626000,
+        "startTime": "2017-12-22 00:27:06",
+        "endTime": "2017-12-22 07:20:06",
+        "endTs": 1513898406000,
+        "duration": 24780,
+        "awakeTime": 0,
+        "lightSleepTime": 15660,
+        "soundSleepTime": 9120
+      },
+      {
+        "startTs": 1513960758000,
+        "startTime": "2017-12-23 00:39:18",
+        "endTime": "2017-12-23 09:38:18",
+        "endTs": 1513993098000,
+        "duration": 32340,
+        "awakeTime": 2760,
+        "lightSleepTime": 21660,
+        "soundSleepTime": 7920
+      },
+      {
+        "startTs": 1514046124000,
+        "startTime": "2017-12-24 00:22:04",
+        "endTime": "2017-12-24 09:41:04",
+        "endTs": 1514079664000,
+        "duration": 33540,
+        "awakeTime": 2880,
+        "lightSleepTime": 21240,
+        "soundSleepTime": 9420
+      },
+      {
+        "startTs": 1514133244000,
+        "startTime": "2017-12-25 00:34:04",
+        "endTime": "2017-12-25 07:32:04",
+        "endTs": 1514158324000,
+        "duration": 25080,
+        "awakeTime": 0,
+        "lightSleepTime": 14040,
+        "soundSleepTime": 11040
+      },
+      {
+        "startTs": 1514223101000,
+        "startTime": "2017-12-26 01:31:41",
+        "endTime": "2017-12-26 08:19:41",
+        "endTs": 1514247581000,
+        "duration": 24480,
+        "awakeTime": 0,
+        "lightSleepTime": 13380,
+        "soundSleepTime": 11100
+      },
+      {
+        "startTs": 1514308613000,
+        "startTime": "2017-12-27 01:16:53",
+        "endTime": "2017-12-27 07:40:53",
+        "endTs": 1514331653000,
+        "duration": 23040,
+        "awakeTime": 1920,
+        "lightSleepTime": 10560,
+        "soundSleepTime": 10560
+      },
+      {
+        "startTs": 1514394113000,
+        "startTime": "2017-12-28 01:01:53",
+        "endTime": "2017-12-28 08:45:53",
+        "endTs": 1514421953000,
+        "duration": 27840,
+        "awakeTime": 480,
+        "lightSleepTime": 11040,
+        "soundSleepTime": 16320
+      },
+      {
+        "startTs": 1514483998000,
+        "startTime": "2017-12-29 01:59:58",
+        "endTime": "2017-12-29 08:21:58",
+        "endTs": 1514506918000,
+        "duration": 22920,
+        "awakeTime": 1500,
+        "lightSleepTime": 16140,
+        "soundSleepTime": 5280
+      },
+      {
+        "startTs": 1514570343000,
+        "startTime": "2017-12-30 01:59:03",
+        "endTime": "2017-12-30 06:13:03",
+        "endTs": 1514585583000,
+        "duration": 15240,
+        "awakeTime": 0,
+        "lightSleepTime": 11700,
+        "soundSleepTime": 3540
+      },
+      {
+        "startTs": 1514649063000,
+        "startTime": "2017-12-30 23:51:03",
+        "endTime": "2017-12-31 08:27:03",
+        "endTs": 1514680023000,
+        "duration": 30960,
+        "awakeTime": 540,
+        "lightSleepTime": 18840,
+        "soundSleepTime": 11580
+      }
+    ]
+  },
+  {
+    "month": "2017-12",
+    "data": [
+      {
+        "startTs": 1512063845000,
+        "startTime": "2017-12-01 01:44:05",
+        "endTime": "2017-12-01 08:46:05",
+        "endTs": 1512089165000,
+        "duration": 25320,
+        "awakeTime": 0,
+        "lightSleepTime": 16260,
+        "soundSleepTime": 9060
+      },
+      {
+        "startTs": 1512149585000,
+        "startTime": "2017-12-02 01:33:05",
+        "endTime": "2017-12-02 07:53:05",
+        "endTs": 1512172385000,
+        "duration": 22800,
+        "awakeTime": 0,
+        "lightSleepTime": 12240,
+        "soundSleepTime": 10560
+      },
+      {
+        "startTs": 1512233945000,
+        "startTime": "2017-12-03 00:59:05",
+        "endTime": "2017-12-03 07:56:05",
+        "endTs": 1512258965000,
+        "duration": 25020,
+        "awakeTime": 0,
+        "lightSleepTime": 12780,
+        "soundSleepTime": 12240
+      },
+      {
+        "startTs": 1512319146000,
+        "startTime": "2017-12-04 00:39:06",
+        "endTime": "2017-12-04 08:34:06",
+        "endTs": 1512347646000,
+        "duration": 28500,
+        "awakeTime": 1260,
+        "lightSleepTime": 16680,
+        "soundSleepTime": 10560
+      },
+      {
+        "startTs": 1512405125000,
+        "startTime": "2017-12-05 00:32:05",
+        "endTime": "2017-12-05 08:51:05",
+        "endTs": 1512435065000,
+        "duration": 29940,
+        "awakeTime": 0,
+        "lightSleepTime": 22320,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1512488525000,
+        "startTime": "2017-12-05 23:42:05",
+        "endTime": "2017-12-06 06:33:05",
+        "endTs": 1512513185000,
+        "duration": 24660,
+        "awakeTime": 1620,
+        "lightSleepTime": 19080,
+        "soundSleepTime": 3960
+      },
+      {
+        "startTs": 1512588609000,
+        "startTime": "2017-12-07 03:30:09",
+        "endTime": "2017-12-07 09:32:09",
+        "endTs": 1512610329000,
+        "duration": 21720,
+        "awakeTime": 480,
+        "lightSleepTime": 10500,
+        "soundSleepTime": 10740
+      },
+      {
+        "startTs": 1512667869000,
+        "startTime": "2017-12-08 01:31:09",
+        "endTime": "2017-12-08 07:39:09",
+        "endTs": 1512689949000,
+        "duration": 22080,
+        "awakeTime": 0,
+        "lightSleepTime": 16620,
+        "soundSleepTime": 5460
+      },
+      {
+        "startTs": 1512753532000,
+        "startTime": "2017-12-09 01:18:52",
+        "endTime": "2017-12-09 09:23:52",
+        "endTs": 1512782632000,
+        "duration": 29100,
+        "awakeTime": 3360,
+        "lightSleepTime": 17040,
+        "soundSleepTime": 8700
+      },
+      {
+        "startTs": 1512837748000,
+        "startTime": "2017-12-10 00:42:28",
+        "endTime": "2017-12-10 09:17:28",
+        "endTs": 1512868648000,
+        "duration": 30900,
+        "awakeTime": 0,
+        "lightSleepTime": 19440,
+        "soundSleepTime": 11460
+      },
+      {
+        "startTs": 1512936578000,
+        "startTime": "2017-12-11 04:09:38",
+        "endTime": "2017-12-11 08:44:38",
+        "endTs": 1512953078000,
+        "duration": 16500,
+        "awakeTime": 0,
+        "lightSleepTime": 10200,
+        "soundSleepTime": 6300
+      },
+      {
+        "startTs": 1513010225000,
+        "startTime": "2017-12-12 00:37:05",
+        "endTime": "2017-12-12 08:21:05",
+        "endTs": 1513038065000,
+        "duration": 27840,
+        "awakeTime": 0,
+        "lightSleepTime": 17460,
+        "soundSleepTime": 10380
+      },
+      {
+        "startTs": 1513096748000,
+        "startTime": "2017-12-13 00:39:08",
+        "endTime": "2017-12-13 07:14:08",
+        "endTs": 1513120448000,
+        "duration": 23700,
+        "awakeTime": 0,
+        "lightSleepTime": 13620,
+        "soundSleepTime": 10080
+      },
+      {
+        "startTs": 1513190164000,
+        "startTime": "2017-12-14 02:36:04",
+        "endTime": "2017-12-14 07:46:04",
+        "endTs": 1513208764000,
+        "duration": 18600,
+        "awakeTime": 300,
+        "lightSleepTime": 14160,
+        "soundSleepTime": 4140
+      },
+      {
+        "startTs": 1513264836000,
+        "startTime": "2017-12-14 23:20:36",
+        "endTime": "2017-12-15 07:01:36",
+        "endTs": 1513292496000,
+        "duration": 27660,
+        "awakeTime": 0,
+        "lightSleepTime": 19620,
+        "soundSleepTime": 8040
+      },
+      {
+        "startTs": 1513351974000,
+        "startTime": "2017-12-15 23:32:54",
+        "endTime": "2017-12-16 09:55:54",
+        "endTs": 1513389354000,
+        "duration": 37380,
+        "awakeTime": 3240,
+        "lightSleepTime": 27720,
+        "soundSleepTime": 6420
+      },
+      {
+        "startTs": 1513444729000,
+        "startTime": "2017-12-17 01:18:49",
+        "endTime": "2017-12-17 08:32:49",
+        "endTs": 1513470769000,
+        "duration": 26040,
+        "awakeTime": 300,
+        "lightSleepTime": 18060,
+        "soundSleepTime": 7680
+      },
+      {
+        "startTs": 1513542455000,
+        "startTime": "2017-12-18 04:27:35",
+        "endTime": "2017-12-18 08:40:35",
+        "endTs": 1513557635000,
+        "duration": 15180,
+        "awakeTime": 0,
+        "lightSleepTime": 13560,
+        "soundSleepTime": 1620
+      },
+      {
+        "startTs": 1513614823000,
+        "startTime": "2017-12-19 00:33:43",
+        "endTime": "2017-12-19 08:57:43",
+        "endTs": 1513645063000,
+        "duration": 30240,
+        "awakeTime": 300,
+        "lightSleepTime": 13560,
+        "soundSleepTime": 16380
+      },
+      {
+        "startTs": 1513705446000,
+        "startTime": "2017-12-20 01:44:06",
+        "endTime": "2017-12-20 08:09:06",
+        "endTs": 1513728546000,
+        "duration": 23100,
+        "awakeTime": 360,
+        "lightSleepTime": 17580,
+        "soundSleepTime": 5160
+      },
+      {
+        "startTs": 1513788803000,
+        "startTime": "2017-12-21 00:53:23",
+        "endTime": "2017-12-21 09:00:23",
+        "endTs": 1513818023000,
+        "duration": 29220,
+        "awakeTime": 0,
+        "lightSleepTime": 21120,
+        "soundSleepTime": 8100
+      },
+      {
+        "startTs": 1513873626000,
+        "startTime": "2017-12-22 00:27:06",
+        "endTime": "2017-12-22 07:20:06",
+        "endTs": 1513898406000,
+        "duration": 24780,
+        "awakeTime": 0,
+        "lightSleepTime": 15660,
+        "soundSleepTime": 9120
+      },
+      {
+        "startTs": 1513960758000,
+        "startTime": "2017-12-23 00:39:18",
+        "endTime": "2017-12-23 09:38:18",
+        "endTs": 1513993098000,
+        "duration": 32340,
+        "awakeTime": 2760,
+        "lightSleepTime": 21660,
+        "soundSleepTime": 7920
+      },
+      {
+        "startTs": 1514046124000,
+        "startTime": "2017-12-24 00:22:04",
+        "endTime": "2017-12-24 09:41:04",
+        "endTs": 1514079664000,
+        "duration": 33540,
+        "awakeTime": 2880,
+        "lightSleepTime": 21240,
+        "soundSleepTime": 9420
+      },
+      {
+        "startTs": 1514133244000,
+        "startTime": "2017-12-25 00:34:04",
+        "endTime": "2017-12-25 07:32:04",
+        "endTs": 1514158324000,
+        "duration": 25080,
+        "awakeTime": 0,
+        "lightSleepTime": 14040,
+        "soundSleepTime": 11040
+      },
+      {
+        "startTs": 1514223101000,
+        "startTime": "2017-12-26 01:31:41",
+        "endTime": "2017-12-26 08:19:41",
+        "endTs": 1514247581000,
+        "duration": 24480,
+        "awakeTime": 0,
+        "lightSleepTime": 13380,
+        "soundSleepTime": 11100
+      },
+      {
+        "startTs": 1514308613000,
+        "startTime": "2017-12-27 01:16:53",
+        "endTime": "2017-12-27 07:40:53",
+        "endTs": 1514331653000,
+        "duration": 23040,
+        "awakeTime": 1920,
+        "lightSleepTime": 10560,
+        "soundSleepTime": 10560
+      },
+      {
+        "startTs": 1514394113000,
+        "startTime": "2017-12-28 01:01:53",
+        "endTime": "2017-12-28 08:45:53",
+        "endTs": 1514421953000,
+        "duration": 27840,
+        "awakeTime": 480,
+        "lightSleepTime": 11040,
+        "soundSleepTime": 16320
+      },
+      {
+        "startTs": 1514483998000,
+        "startTime": "2017-12-29 01:59:58",
+        "endTime": "2017-12-29 08:21:58",
+        "endTs": 1514506918000,
+        "duration": 22920,
+        "awakeTime": 1500,
+        "lightSleepTime": 16140,
+        "soundSleepTime": 5280
+      },
+      {
+        "startTs": 1514570343000,
+        "startTime": "2017-12-30 01:59:03",
+        "endTime": "2017-12-30 06:13:03",
+        "endTs": 1514585583000,
+        "duration": 15240,
+        "awakeTime": 0,
+        "lightSleepTime": 11700,
+        "soundSleepTime": 3540
+      },
+      {
+        "startTs": 1514649063000,
+        "startTime": "2017-12-30 23:51:03",
+        "endTime": "2017-12-31 08:27:03",
+        "endTs": 1514680023000,
+        "duration": 30960,
+        "awakeTime": 540,
+        "lightSleepTime": 18840,
+        "soundSleepTime": 11580
+      }
+    ]
+  },
+  {
+    "month": "2018-1",
+    "data": [
+      {
+        "startTs": 1514739403000,
+        "startTime": "2018-01-01 00:56:43",
+        "endTime": "2018-01-01 06:47:43",
+        "endTs": 1514760463000,
+        "duration": 21060,
+        "awakeTime": 840,
+        "lightSleepTime": 12300,
+        "soundSleepTime": 7920
+      },
+      {
+        "startTs": 1514823253000,
+        "startTime": "2018-01-02 00:14:13",
+        "endTime": "2018-01-02 08:44:13",
+        "endTs": 1514853853000,
+        "duration": 30600,
+        "awakeTime": 0,
+        "lightSleepTime": 23640,
+        "soundSleepTime": 6960
+      },
+      {
+        "startTs": 1514914025000,
+        "startTime": "2018-01-03 01:27:05",
+        "endTime": "2018-01-03 08:13:05",
+        "endTs": 1514938385000,
+        "duration": 24360,
+        "awakeTime": 1920,
+        "lightSleepTime": 19140,
+        "soundSleepTime": 3300
+      },
+      {
+        "startTs": 1514999190000,
+        "startTime": "2018-01-04 01:06:30",
+        "endTime": "2018-01-04 08:38:30",
+        "endTs": 1515026310000,
+        "duration": 27120,
+        "awakeTime": 1380,
+        "lightSleepTime": 20760,
+        "soundSleepTime": 4980
+      },
+      {
+        "startTs": 1515086765000,
+        "startTime": "2018-01-05 01:26:05",
+        "endTime": "2018-01-05 08:22:05",
+        "endTs": 1515111725000,
+        "duration": 24960,
+        "awakeTime": 0,
+        "lightSleepTime": 17460,
+        "soundSleepTime": 7500
+      },
+      {
+        "startTs": 1515176165000,
+        "startTime": "2018-01-06 02:16:05",
+        "endTime": "2018-01-06 08:08:05",
+        "endTs": 1515197285000,
+        "duration": 21120,
+        "awakeTime": 1440,
+        "lightSleepTime": 15180,
+        "soundSleepTime": 4500
+      },
+      {
+        "startTs": 1515251824000,
+        "startTime": "2018-01-06 23:17:04",
+        "endTime": "2018-01-07 07:49:04",
+        "endTs": 1515282544000,
+        "duration": 30720,
+        "awakeTime": 720,
+        "lightSleepTime": 17520,
+        "soundSleepTime": 12480
+      },
+      {
+        "startTs": 1515346384000,
+        "startTime": "2018-01-08 01:33:04",
+        "endTime": "2018-01-08 08:47:04",
+        "endTs": 1515372424000,
+        "duration": 26040,
+        "awakeTime": 540,
+        "lightSleepTime": 21060,
+        "soundSleepTime": 4440
+      },
+      {
+        "startTs": 1515431572000,
+        "startTime": "2018-01-09 01:12:52",
+        "endTime": "2018-01-09 08:38:52",
+        "endTs": 1515458332000,
+        "duration": 26760,
+        "awakeTime": 1140,
+        "lightSleepTime": 12960,
+        "soundSleepTime": 12660
+      },
+      {
+        "startTs": 1515517865000,
+        "startTime": "2018-01-10 01:11:05",
+        "endTime": "2018-01-10 08:57:05",
+        "endTs": 1515545825000,
+        "duration": 27960,
+        "awakeTime": 0,
+        "lightSleepTime": 16260,
+        "soundSleepTime": 11700
+      },
+      {
+        "startTs": 1515604085000,
+        "startTime": "2018-01-11 01:08:05",
+        "endTime": "2018-01-11 08:46:05",
+        "endTs": 1515631565000,
+        "duration": 27480,
+        "awakeTime": 1140,
+        "lightSleepTime": 15900,
+        "soundSleepTime": 10440
+      },
+      {
+        "startTs": 1515692273000,
+        "startTime": "2018-01-12 01:37:53",
+        "endTime": "2018-01-12 08:25:53",
+        "endTs": 1515716753000,
+        "duration": 24480,
+        "awakeTime": 300,
+        "lightSleepTime": 15240,
+        "soundSleepTime": 8940
+      },
+      {
+        "startTs": 1515785213000,
+        "startTime": "2018-01-13 03:26:53",
+        "endTime": "2018-01-13 09:38:53",
+        "endTs": 1515807533000,
+        "duration": 22320,
+        "awakeTime": 840,
+        "lightSleepTime": 12180,
+        "soundSleepTime": 9300
+      },
+      {
+        "startTs": 1515863813000,
+        "startTime": "2018-01-14 01:16:53",
+        "endTime": "2018-01-14 09:01:53",
+        "endTs": 1515891713000,
+        "duration": 27900,
+        "awakeTime": 0,
+        "lightSleepTime": 19380,
+        "soundSleepTime": 8520
+      },
+      {
+        "startTs": 1515949493000,
+        "startTime": "2018-01-15 01:04:53",
+        "endTime": "2018-01-15 07:22:53",
+        "endTs": 1515972173000,
+        "duration": 22680,
+        "awakeTime": 480,
+        "lightSleepTime": 15240,
+        "soundSleepTime": 6960
+      },
+      {
+        "startTs": 1516041119000,
+        "startTime": "2018-01-16 02:31:59",
+        "endTime": "2018-01-16 08:13:59",
+        "endTs": 1516061639000,
+        "duration": 20520,
+        "awakeTime": 900,
+        "lightSleepTime": 12240,
+        "soundSleepTime": 7380
+      },
+      {
+        "startTs": 1516125605000,
+        "startTime": "2018-01-17 02:00:05",
+        "endTime": "2018-01-17 07:32:05",
+        "endTs": 1516145525000,
+        "duration": 19920,
+        "awakeTime": 1140,
+        "lightSleepTime": 13560,
+        "soundSleepTime": 5220
+      },
+      {
+        "startTs": 1516211311000,
+        "startTime": "2018-01-18 01:48:31",
+        "endTime": "2018-01-18 07:49:31",
+        "endTs": 1516232971000,
+        "duration": 21660,
+        "awakeTime": 660,
+        "lightSleepTime": 13380,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1516300085000,
+        "startTime": "2018-01-19 02:28:05",
+        "endTime": "2018-01-19 08:24:05",
+        "endTs": 1516321445000,
+        "duration": 21360,
+        "awakeTime": 480,
+        "lightSleepTime": 12420,
+        "soundSleepTime": 8460
+      },
+      {
+        "startTs": 1516384025000,
+        "startTime": "2018-01-20 01:47:05",
+        "endTime": "2018-01-20 08:34:05",
+        "endTs": 1516408445000,
+        "duration": 24420,
+        "awakeTime": 0,
+        "lightSleepTime": 14040,
+        "soundSleepTime": 10380
+      },
+      {
+        "startTs": 1516477805000,
+        "startTime": "2018-01-21 03:50:05",
+        "endTime": "2018-01-21 08:04:05",
+        "endTs": 1516493045000,
+        "duration": 15240,
+        "awakeTime": 1560,
+        "lightSleepTime": 10800,
+        "soundSleepTime": 2880
+      },
+      {
+        "startTs": 1516556945000,
+        "startTime": "2018-01-22 01:49:05",
+        "endTime": "2018-01-22 08:33:05",
+        "endTs": 1516581185000,
+        "duration": 24240,
+        "awakeTime": 0,
+        "lightSleepTime": 12840,
+        "soundSleepTime": 11400
+      },
+      {
+        "startTs": 1516639925000,
+        "startTime": "2018-01-23 00:52:05",
+        "endTime": "2018-01-23 08:29:05",
+        "endTs": 1516667345000,
+        "duration": 27420,
+        "awakeTime": 360,
+        "lightSleepTime": 18780,
+        "soundSleepTime": 8280
+      },
+      {
+        "startTs": 1516728786000,
+        "startTime": "2018-01-24 01:33:06",
+        "endTime": "2018-01-24 08:12:06",
+        "endTs": 1516752726000,
+        "duration": 23940,
+        "awakeTime": 1140,
+        "lightSleepTime": 16260,
+        "soundSleepTime": 6540
+      },
+      {
+        "startTs": 1516818005000,
+        "startTime": "2018-01-25 02:20:05",
+        "endTime": "2018-01-25 08:34:05",
+        "endTs": 1516840445000,
+        "duration": 22440,
+        "awakeTime": 0,
+        "lightSleepTime": 13020,
+        "soundSleepTime": 9420
+      },
+      {
+        "startTs": 1516899485000,
+        "startTime": "2018-01-26 00:58:05",
+        "endTime": "2018-01-26 08:13:05",
+        "endTs": 1516925585000,
+        "duration": 26100,
+        "awakeTime": 1020,
+        "lightSleepTime": 16800,
+        "soundSleepTime": 8280
+      },
+      {
+        "startTs": 1516986365000,
+        "startTime": "2018-01-27 01:06:05",
+        "endTime": "2018-01-27 09:03:05",
+        "endTs": 1517014985000,
+        "duration": 28620,
+        "awakeTime": 1320,
+        "lightSleepTime": 20100,
+        "soundSleepTime": 7200
+      },
+      {
+        "startTs": 1517075691000,
+        "startTime": "2018-01-28 01:54:51",
+        "endTime": "2018-01-28 10:17:51",
+        "endTs": 1517105871000,
+        "duration": 30180,
+        "awakeTime": 480,
+        "lightSleepTime": 16800,
+        "soundSleepTime": 12900
+      },
+      {
+        "startTs": 1517162825000,
+        "startTime": "2018-01-29 02:07:05",
+        "endTime": "2018-01-29 08:30:05",
+        "endTs": 1517185805000,
+        "duration": 22980,
+        "awakeTime": 0,
+        "lightSleepTime": 15300,
+        "soundSleepTime": 7680
+      },
+      {
+        "startTs": 1517246525000,
+        "startTime": "2018-01-30 01:22:05",
+        "endTime": "2018-01-30 08:04:05",
+        "endTs": 1517270645000,
+        "duration": 24120,
+        "awakeTime": 360,
+        "lightSleepTime": 14940,
+        "soundSleepTime": 8820
+      },
+      {
+        "startTs": 1517339014000,
+        "startTime": "2018-01-31 03:03:34",
+        "endTime": "2018-01-31 08:57:34",
+        "endTs": 1517360254000,
+        "duration": 21240,
+        "awakeTime": 0,
+        "lightSleepTime": 13200,
+        "soundSleepTime": 8040
+      }
+    ]
+  },
+  {
+    "month": "2018-2",
+    "data": [
+      {
+        "startTs": 1517421665000,
+        "startTime": "2018-02-01 02:01:05",
+        "endTime": "2018-02-01 08:26:05",
+        "endTs": 1517444765000,
+        "duration": 23100,
+        "awakeTime": 900,
+        "lightSleepTime": 13920,
+        "soundSleepTime": 8280
+      },
+      {
+        "startTs": 1517506025000,
+        "startTime": "2018-02-02 01:27:05",
+        "endTime": "2018-02-02 08:01:05",
+        "endTs": 1517529665000,
+        "duration": 23640,
+        "awakeTime": 1740,
+        "lightSleepTime": 15000,
+        "soundSleepTime": 6900
+      },
+      {
+        "startTs": 1517590385000,
+        "startTime": "2018-02-03 00:53:05",
+        "endTime": "2018-02-03 10:36:05",
+        "endTs": 1517625365000,
+        "duration": 34980,
+        "awakeTime": 4080,
+        "lightSleepTime": 18300,
+        "soundSleepTime": 12600
+      },
+      {
+        "startTs": 1517687165000,
+        "startTime": "2018-02-04 03:46:05",
+        "endTime": "2018-02-04 08:44:05",
+        "endTs": 1517705045000,
+        "duration": 17880,
+        "awakeTime": 480,
+        "lightSleepTime": 10500,
+        "soundSleepTime": 6900
+      },
+      {
+        "startTs": 1517763002000,
+        "startTime": "2018-02-05 00:50:02",
+        "endTime": "2018-02-05 08:25:02",
+        "endTs": 1517790302000,
+        "duration": 27300,
+        "awakeTime": 1320,
+        "lightSleepTime": 16620,
+        "soundSleepTime": 9360
+      },
+      {
+        "startTs": 1517849762000,
+        "startTime": "2018-02-06 00:56:02",
+        "endTime": "2018-02-06 08:31:02",
+        "endTs": 1517877062000,
+        "duration": 27300,
+        "awakeTime": 0,
+        "lightSleepTime": 17460,
+        "soundSleepTime": 9840
+      },
+      {
+        "startTs": 1517938865000,
+        "startTime": "2018-02-07 01:41:05",
+        "endTime": "2018-02-07 07:13:05",
+        "endTs": 1517958785000,
+        "duration": 19920,
+        "awakeTime": 660,
+        "lightSleepTime": 13860,
+        "soundSleepTime": 5400
+      },
+      {
+        "startTs": 1518028144000,
+        "startTime": "2018-02-08 02:29:04",
+        "endTime": "2018-02-08 08:17:04",
+        "endTs": 1518049024000,
+        "duration": 20880,
+        "awakeTime": 900,
+        "lightSleepTime": 12420,
+        "soundSleepTime": 7560
+      },
+      {
+        "startTs": 1518111304000,
+        "startTime": "2018-02-09 01:35:04",
+        "endTime": "2018-02-09 08:37:04",
+        "endTs": 1518136624000,
+        "duration": 25320,
+        "awakeTime": 0,
+        "lightSleepTime": 17280,
+        "soundSleepTime": 8040
+      },
+      {
+        "startTs": 1518200944000,
+        "startTime": "2018-02-10 02:29:04",
+        "endTime": "2018-02-10 09:54:04",
+        "endTs": 1518227644000,
+        "duration": 26700,
+        "awakeTime": 0,
+        "lightSleepTime": 14220,
+        "soundSleepTime": 12480
+      },
+      {
+        "startTs": 1518286143000,
+        "startTime": "2018-02-11 02:09:03",
+        "endTime": "2018-02-11 08:54:03",
+        "endTs": 1518310443000,
+        "duration": 24300,
+        "awakeTime": 660,
+        "lightSleepTime": 17820,
+        "soundSleepTime": 5820
+      },
+      {
+        "startTs": 1518377043000,
+        "startTime": "2018-02-12 03:24:03",
+        "endTime": "2018-02-12 09:08:03",
+        "endTs": 1518397683000,
+        "duration": 20640,
+        "awakeTime": 300,
+        "lightSleepTime": 8760,
+        "soundSleepTime": 11580
+      },
+      {
+        "startTs": 1518457325000,
+        "startTime": "2018-02-13 01:42:05",
+        "endTime": "2018-02-13 08:35:05",
+        "endTs": 1518482105000,
+        "duration": 24780,
+        "awakeTime": 0,
+        "lightSleepTime": 14640,
+        "soundSleepTime": 10140
+      },
+      {
+        "startTs": 1518543006000,
+        "startTime": "2018-02-14 01:30:06",
+        "endTime": "2018-02-14 08:19:06",
+        "endTs": 1518567546000,
+        "duration": 24540,
+        "awakeTime": 780,
+        "lightSleepTime": 17340,
+        "soundSleepTime": 6420
+      },
+      {
+        "startTs": 1518623286000,
+        "startTime": "2018-02-14 23:48:06",
+        "endTime": "2018-02-15 10:55:06",
+        "endTs": 1518663306000,
+        "duration": 40020,
+        "awakeTime": 1080,
+        "lightSleepTime": 25560,
+        "soundSleepTime": 13380
+      },
+      {
+        "startTs": 1518726243000,
+        "startTime": "2018-02-16 04:24:03",
+        "endTime": "2018-02-16 10:18:03",
+        "endTs": 1518747483000,
+        "duration": 21240,
+        "awakeTime": 0,
+        "lightSleepTime": 11880,
+        "soundSleepTime": 9360
+      },
+      {
+        "startTs": 1518808623000,
+        "startTime": "2018-02-17 03:17:03",
+        "endTime": "2018-02-17 08:26:03",
+        "endTs": 1518827163000,
+        "duration": 18540,
+        "awakeTime": 0,
+        "lightSleepTime": 13680,
+        "soundSleepTime": 4860
+      },
+      {
+        "startTs": 1518891003000,
+        "startTime": "2018-02-18 02:10:03",
+        "endTime": "2018-02-18 09:34:03",
+        "endTs": 1518917643000,
+        "duration": 26640,
+        "awakeTime": 0,
+        "lightSleepTime": 16140,
+        "soundSleepTime": 10500
+      },
+      {
+        "startTs": 1518962043000,
+        "startTime": "2018-02-18 21:54:03",
+        "endTime": "2018-02-19 00:33:03",
+        "endTs": 1518971583000,
+        "duration": 9540,
+        "awakeTime": 2160,
+        "lightSleepTime": 7380,
+        "soundSleepTime": 0
+      },
+      {
+        "startTs": 1518980223000,
+        "startTime": "2018-02-19 02:57:03",
+        "endTime": "2018-02-19 11:11:03",
+        "endTs": 1519009863000,
+        "duration": 29640,
+        "awakeTime": 1620,
+        "lightSleepTime": 17220,
+        "soundSleepTime": 10800
+      },
+      {
+        "startTs": 1519055643000,
+        "startTime": "2018-02-19 23:54:03",
+        "endTime": "2018-02-20 08:18:03",
+        "endTs": 1519085883000,
+        "duration": 30240,
+        "awakeTime": 3540,
+        "lightSleepTime": 18900,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1519157223000,
+        "startTime": "2018-02-21 04:07:03",
+        "endTime": "2018-02-21 09:05:03",
+        "endTs": 1519175103000,
+        "duration": 17880,
+        "awakeTime": 0,
+        "lightSleepTime": 13200,
+        "soundSleepTime": 4680
+      },
+      {
+        "startTs": 1519233603000,
+        "startTime": "2018-02-22 01:20:03",
+        "endTime": "2018-02-22 08:52:03",
+        "endTs": 1519260723000,
+        "duration": 27120,
+        "awakeTime": 0,
+        "lightSleepTime": 20640,
+        "soundSleepTime": 6480
+      },
+      {
+        "startTs": 1519318383000,
+        "startTime": "2018-02-23 00:53:03",
+        "endTime": "2018-02-23 07:47:03",
+        "endTs": 1519343223000,
+        "duration": 24840,
+        "awakeTime": 0,
+        "lightSleepTime": 14580,
+        "soundSleepTime": 10260
+      },
+      {
+        "startTs": 1519406283000,
+        "startTime": "2018-02-24 01:18:03",
+        "endTime": "2018-02-24 09:02:03",
+        "endTs": 1519434123000,
+        "duration": 27840,
+        "awakeTime": 2400,
+        "lightSleepTime": 15960,
+        "soundSleepTime": 9480
+      },
+      {
+        "startTs": 1519500183000,
+        "startTime": "2018-02-25 03:23:03",
+        "endTime": "2018-02-25 10:31:03",
+        "endTs": 1519525863000,
+        "duration": 25680,
+        "awakeTime": 960,
+        "lightSleepTime": 17160,
+        "soundSleepTime": 7560
+      },
+      {
+        "startTs": 1519583703000,
+        "startTime": "2018-02-26 02:35:03",
+        "endTime": "2018-02-26 08:38:03",
+        "endTs": 1519605483000,
+        "duration": 21780,
+        "awakeTime": 300,
+        "lightSleepTime": 12420,
+        "soundSleepTime": 9060
+      },
+      {
+        "startTs": 1519663863000,
+        "startTime": "2018-02-27 00:51:03",
+        "endTime": "2018-02-27 08:37:03",
+        "endTs": 1519691823000,
+        "duration": 27960,
+        "awakeTime": 480,
+        "lightSleepTime": 18300,
+        "soundSleepTime": 9180
+      },
+      {
+        "startTs": 1519752963000,
+        "startTime": "2018-02-28 01:36:03",
+        "endTime": "2018-02-28 09:01:03",
+        "endTs": 1519779663000,
+        "duration": 26700,
+        "awakeTime": 0,
+        "lightSleepTime": 14760,
+        "soundSleepTime": 11940
+      }
+    ]
+  },
+  {
+    "month": "2018-3",
+    "data": [
+      {
+        "startTs": 1519841345000,
+        "startTime": "2018-03-01 02:09:05",
+        "endTime": "2018-03-01 08:26:05",
+        "endTs": 1519863965000,
+        "duration": 22620,
+        "awakeTime": 900,
+        "lightSleepTime": 15960,
+        "soundSleepTime": 5760
+      },
+      {
+        "startTs": 1519922885000,
+        "startTime": "2018-03-02 00:48:05",
+        "endTime": "2018-03-02 08:39:05",
+        "endTs": 1519951145000,
+        "duration": 28260,
+        "awakeTime": 360,
+        "lightSleepTime": 21840,
+        "soundSleepTime": 6060
+      },
+      {
+        "startTs": 1520022305000,
+        "startTime": "2018-03-03 04:25:05",
+        "endTime": "2018-03-03 08:39:05",
+        "endTs": 1520037545000,
+        "duration": 15240,
+        "awakeTime": 0,
+        "lightSleepTime": 10440,
+        "soundSleepTime": 4800
+      },
+      {
+        "startTs": 1520100845000,
+        "startTime": "2018-03-04 02:14:05",
+        "endTime": "2018-03-04 07:55:05",
+        "endTs": 1520121305000,
+        "duration": 20460,
+        "awakeTime": 300,
+        "lightSleepTime": 15480,
+        "soundSleepTime": 4680
+      },
+      {
+        "startTs": 1520179985000,
+        "startTime": "2018-03-05 00:13:05",
+        "endTime": "2018-03-05 07:38:05",
+        "endTs": 1520206685000,
+        "duration": 26700,
+        "awakeTime": 600,
+        "lightSleepTime": 15720,
+        "soundSleepTime": 10380
+      },
+      {
+        "startTs": 1520269318000,
+        "startTime": "2018-03-06 01:01:58",
+        "endTime": "2018-03-06 07:53:58",
+        "endTs": 1520294038000,
+        "duration": 24720,
+        "awakeTime": 0,
+        "lightSleepTime": 15180,
+        "soundSleepTime": 9540
+      },
+      {
+        "startTs": 1520352598000,
+        "startTime": "2018-03-07 00:09:58",
+        "endTime": "2018-03-07 07:24:58",
+        "endTs": 1520378698000,
+        "duration": 26100,
+        "awakeTime": 0,
+        "lightSleepTime": 13800,
+        "soundSleepTime": 12300
+      },
+      {
+        "startTs": 1520442779000,
+        "startTime": "2018-03-08 01:12:59",
+        "endTime": "2018-03-08 08:08:59",
+        "endTs": 1520467739000,
+        "duration": 24960,
+        "awakeTime": 2100,
+        "lightSleepTime": 12720,
+        "soundSleepTime": 10140
+      },
+      {
+        "startTs": 1520527679000,
+        "startTime": "2018-03-09 00:47:59",
+        "endTime": "2018-03-09 08:42:59",
+        "endTs": 1520556179000,
+        "duration": 28500,
+        "awakeTime": 660,
+        "lightSleepTime": 16980,
+        "soundSleepTime": 10860
+      },
+      {
+        "startTs": 1520618699000,
+        "startTime": "2018-03-10 02:04:59",
+        "endTime": "2018-03-10 09:03:59",
+        "endTs": 1520643839000,
+        "duration": 25140,
+        "awakeTime": 1200,
+        "lightSleepTime": 17580,
+        "soundSleepTime": 6360
+      },
+      {
+        "startTs": 1520707919000,
+        "startTime": "2018-03-11 02:51:59",
+        "endTime": "2018-03-11 08:33:59",
+        "endTs": 1520728439000,
+        "duration": 20520,
+        "awakeTime": 0,
+        "lightSleepTime": 9060,
+        "soundSleepTime": 11460
+      },
+      {
+        "startTs": 1520785559000,
+        "startTime": "2018-03-12 00:25:59",
+        "endTime": "2018-03-12 07:12:59",
+        "endTs": 1520809979000,
+        "duration": 24420,
+        "awakeTime": 0,
+        "lightSleepTime": 13200,
+        "soundSleepTime": 11220
+      },
+      {
+        "startTs": 1520874725000,
+        "startTime": "2018-03-13 01:12:05",
+        "endTime": "2018-03-13 08:23:05",
+        "endTs": 1520900585000,
+        "duration": 25860,
+        "awakeTime": 420,
+        "lightSleepTime": 19920,
+        "soundSleepTime": 5520
+      },
+      {
+        "startTs": 1520958605000,
+        "startTime": "2018-03-14 00:30:05",
+        "endTime": "2018-03-14 07:28:05",
+        "endTs": 1520983685000,
+        "duration": 25080,
+        "awakeTime": 0,
+        "lightSleepTime": 17280,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1521052863000,
+        "startTime": "2018-03-15 02:41:03",
+        "endTime": "2018-03-15 08:30:03",
+        "endTs": 1521073803000,
+        "duration": 20940,
+        "awakeTime": 0,
+        "lightSleepTime": 14340,
+        "soundSleepTime": 6600
+      },
+      {
+        "startTs": 1521138723000,
+        "startTime": "2018-03-16 02:32:03",
+        "endTime": "2018-03-16 08:44:03",
+        "endTs": 1521161043000,
+        "duration": 22320,
+        "awakeTime": 0,
+        "lightSleepTime": 16440,
+        "soundSleepTime": 5880
+      },
+      {
+        "startTs": 1521318783000,
+        "startTime": "2018-03-18 04:33:03",
+        "endTime": "2018-03-18 10:14:03",
+        "endTs": 1521339243000,
+        "duration": 20460,
+        "awakeTime": 0,
+        "lightSleepTime": 12420,
+        "soundSleepTime": 8040
+      },
+      {
+        "startTs": 1521401979000,
+        "startTime": "2018-03-19 03:39:39",
+        "endTime": "2018-03-19 06:44:39",
+        "endTs": 1521413079000,
+        "duration": 11100,
+        "awakeTime": 0,
+        "lightSleepTime": 5520,
+        "soundSleepTime": 5580
+      },
+      {
+        "startTs": 1521485222000,
+        "startTime": "2018-03-20 02:47:02",
+        "endTime": "2018-03-20 08:47:02",
+        "endTs": 1521506822000,
+        "duration": 21600,
+        "awakeTime": 0,
+        "lightSleepTime": 13200,
+        "soundSleepTime": 8400
+      }
+    ]
+  },
+  {
+    "month": "2018-4",
+    "data": [
+      {
+        "startTs": 1522773125000,
+        "startTime": "2018-04-04 00:32:05",
+        "endTime": "2018-04-04 07:08:05",
+        "endTs": 1522796885000,
+        "duration": 23760,
+        "awakeTime": 1140,
+        "lightSleepTime": 15360,
+        "soundSleepTime": 7260
+      },
+      {
+        "startTs": 1522866665000,
+        "startTime": "2018-04-05 02:31:05",
+        "endTime": "2018-04-05 08:08:05",
+        "endTs": 1522886885000,
+        "duration": 20220,
+        "awakeTime": 1140,
+        "lightSleepTime": 12840,
+        "soundSleepTime": 6240
+      },
+      {
+        "startTs": 1522946043000,
+        "startTime": "2018-04-06 00:34:03",
+        "endTime": "2018-04-06 09:17:03",
+        "endTs": 1522977423000,
+        "duration": 31380,
+        "awakeTime": 0,
+        "lightSleepTime": 21420,
+        "soundSleepTime": 9960
+      },
+      {
+        "startTs": 1523029863000,
+        "startTime": "2018-04-06 23:51:03",
+        "endTime": "2018-04-07 08:25:03",
+        "endTs": 1523060703000,
+        "duration": 30840,
+        "awakeTime": 1860,
+        "lightSleepTime": 19260,
+        "soundSleepTime": 9720
+      },
+      {
+        "startTs": 1523123823000,
+        "startTime": "2018-04-08 01:57:03",
+        "endTime": "2018-04-08 08:38:03",
+        "endTs": 1523147883000,
+        "duration": 24060,
+        "awakeTime": 0,
+        "lightSleepTime": 14580,
+        "soundSleepTime": 9480
+      },
+      {
+        "startTs": 1523203887000,
+        "startTime": "2018-04-09 00:11:27",
+        "endTime": "2018-04-09 07:19:27",
+        "endTs": 1523229567000,
+        "duration": 25680,
+        "awakeTime": 0,
+        "lightSleepTime": 14460,
+        "soundSleepTime": 11220
+      },
+      {
+        "startTs": 1523290744000,
+        "startTime": "2018-04-10 00:19:04",
+        "endTime": "2018-04-10 08:24:04",
+        "endTs": 1523319844000,
+        "duration": 29100,
+        "awakeTime": 540,
+        "lightSleepTime": 19320,
+        "soundSleepTime": 9240
+      },
+      {
+        "startTs": 1523377924000,
+        "startTime": "2018-04-11 00:32:04",
+        "endTime": "2018-04-11 08:19:04",
+        "endTs": 1523405944000,
+        "duration": 28020,
+        "awakeTime": 780,
+        "lightSleepTime": 20400,
+        "soundSleepTime": 6840
+      },
+      {
+        "startTs": 1523466964000,
+        "startTime": "2018-04-12 01:16:04",
+        "endTime": "2018-04-12 08:02:04",
+        "endTs": 1523491324000,
+        "duration": 24360,
+        "awakeTime": 1440,
+        "lightSleepTime": 15300,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1523551445000,
+        "startTime": "2018-04-13 00:44:05",
+        "endTime": "2018-04-13 07:46:05",
+        "endTs": 1523576765000,
+        "duration": 25320,
+        "awakeTime": 0,
+        "lightSleepTime": 17640,
+        "soundSleepTime": 7680
+      },
+      {
+        "startTs": 1523641505000,
+        "startTime": "2018-04-14 01:45:05",
+        "endTime": "2018-04-14 08:57:05",
+        "endTs": 1523667425000,
+        "duration": 25920,
+        "awakeTime": 420,
+        "lightSleepTime": 16740,
+        "soundSleepTime": 8760
+      },
+      {
+        "startTs": 1523725804000,
+        "startTime": "2018-04-15 01:10:04",
+        "endTime": "2018-04-15 09:00:04",
+        "endTs": 1523754004000,
+        "duration": 28200,
+        "awakeTime": 0,
+        "lightSleepTime": 20940,
+        "soundSleepTime": 7260
+      },
+      {
+        "startTs": 1523811844000,
+        "startTime": "2018-04-16 01:04:04",
+        "endTime": "2018-04-16 08:03:04",
+        "endTs": 1523836984000,
+        "duration": 25140,
+        "awakeTime": 1620,
+        "lightSleepTime": 17880,
+        "soundSleepTime": 5640
+      },
+      {
+        "startTs": 1523899802000,
+        "startTime": "2018-04-17 01:30:02",
+        "endTime": "2018-04-17 08:17:02",
+        "endTs": 1523924222000,
+        "duration": 24420,
+        "awakeTime": 420,
+        "lightSleepTime": 18600,
+        "soundSleepTime": 5400
+      },
+      {
+        "startTs": 1523988722000,
+        "startTime": "2018-04-18 02:12:02",
+        "endTime": "2018-04-18 07:30:02",
+        "endTs": 1524007802000,
+        "duration": 19080,
+        "awakeTime": 0,
+        "lightSleepTime": 12900,
+        "soundSleepTime": 6180
+      },
+      {
+        "startTs": 1524071105000,
+        "startTime": "2018-04-19 01:05:05",
+        "endTime": "2018-04-19 08:31:05",
+        "endTs": 1524097865000,
+        "duration": 26760,
+        "awakeTime": 720,
+        "lightSleepTime": 19140,
+        "soundSleepTime": 6900
+      },
+      {
+        "startTs": 1524164945000,
+        "startTime": "2018-04-20 03:09:05",
+        "endTime": "2018-04-20 08:52:05",
+        "endTs": 1524185525000,
+        "duration": 20580,
+        "awakeTime": 1320,
+        "lightSleepTime": 11160,
+        "soundSleepTime": 8100
+      },
+      {
+        "startTs": 1524243483000,
+        "startTime": "2018-04-21 00:58:03",
+        "endTime": "2018-04-21 08:56:03",
+        "endTs": 1524272163000,
+        "duration": 28680,
+        "awakeTime": 2040,
+        "lightSleepTime": 17160,
+        "soundSleepTime": 9480
+      },
+      {
+        "startTs": 1524329043000,
+        "startTime": "2018-04-22 00:44:03",
+        "endTime": "2018-04-22 08:36:03",
+        "endTs": 1524357363000,
+        "duration": 28320,
+        "awakeTime": 1320,
+        "lightSleepTime": 18000,
+        "soundSleepTime": 9000
+      },
+      {
+        "startTs": 1524423726000,
+        "startTime": "2018-04-23 03:02:06",
+        "endTime": "2018-04-23 08:42:06",
+        "endTs": 1524444126000,
+        "duration": 20400,
+        "awakeTime": 540,
+        "lightSleepTime": 12000,
+        "soundSleepTime": 7860
+      },
+      {
+        "startTs": 1524505326000,
+        "startTime": "2018-04-24 01:42:06",
+        "endTime": "2018-04-24 08:46:06",
+        "endTs": 1524530766000,
+        "duration": 25440,
+        "awakeTime": 0,
+        "lightSleepTime": 16500,
+        "soundSleepTime": 8940
+      },
+      {
+        "startTs": 1524590405000,
+        "startTime": "2018-04-25 01:20:05",
+        "endTime": "2018-04-25 08:49:05",
+        "endTs": 1524617345000,
+        "duration": 26940,
+        "awakeTime": 0,
+        "lightSleepTime": 17820,
+        "soundSleepTime": 9120
+      },
+      {
+        "startTs": 1524677165000,
+        "startTime": "2018-04-26 01:26:05",
+        "endTime": "2018-04-26 08:35:05",
+        "endTs": 1524702905000,
+        "duration": 25740,
+        "awakeTime": 0,
+        "lightSleepTime": 12660,
+        "soundSleepTime": 13080
+      },
+      {
+        "startTs": 1524762485000,
+        "startTime": "2018-04-27 01:08:05",
+        "endTime": "2018-04-27 07:09:05",
+        "endTs": 1524784145000,
+        "duration": 21660,
+        "awakeTime": 900,
+        "lightSleepTime": 15000,
+        "soundSleepTime": 5760
+      },
+      {
+        "startTs": 1524848286000,
+        "startTime": "2018-04-28 00:58:06",
+        "endTime": "2018-04-28 08:04:06",
+        "endTs": 1524873846000,
+        "duration": 25560,
+        "awakeTime": 1260,
+        "lightSleepTime": 18900,
+        "soundSleepTime": 5400
+      },
+      {
+        "startTs": 1524933902000,
+        "startTime": "2018-04-29 00:45:02",
+        "endTime": "2018-04-29 07:56:02",
+        "endTs": 1524959762000,
+        "duration": 25860,
+        "awakeTime": 360,
+        "lightSleepTime": 18180,
+        "soundSleepTime": 7320
+      },
+      {
+        "startTs": 1525023422000,
+        "startTime": "2018-04-30 01:37:02",
+        "endTime": "2018-04-30 08:13:02",
+        "endTs": 1525047182000,
+        "duration": 23760,
+        "awakeTime": 0,
+        "lightSleepTime": 16020,
+        "soundSleepTime": 7740
+      }
+    ]
+  },
+  {
+    "month": "2018-5",
+    "data": [
+      {
+        "startTs": 1525366085000,
+        "startTime": "2018-05-04 00:48:05",
+        "endTime": "2018-05-04 07:12:05",
+        "endTs": 1525389125000,
+        "duration": 23040,
+        "awakeTime": 0,
+        "lightSleepTime": 14100,
+        "soundSleepTime": 8940
+      },
+      {
+        "startTs": 1525453085000,
+        "startTime": "2018-05-05 00:58:05",
+        "endTime": "2018-05-05 08:36:05",
+        "endTs": 1525480565000,
+        "duration": 27480,
+        "awakeTime": 2580,
+        "lightSleepTime": 14340,
+        "soundSleepTime": 10560
+      },
+      {
+        "startTs": 1525537145000,
+        "startTime": "2018-05-06 00:19:05",
+        "endTime": "2018-05-06 06:56:05",
+        "endTs": 1525560965000,
+        "duration": 23820,
+        "awakeTime": 300,
+        "lightSleepTime": 16320,
+        "soundSleepTime": 7200
+      },
+      {
+        "startTs": 1525624745000,
+        "startTime": "2018-05-07 00:39:05",
+        "endTime": "2018-05-07 08:05:05",
+        "endTs": 1525651505000,
+        "duration": 26760,
+        "awakeTime": 1320,
+        "lightSleepTime": 18480,
+        "soundSleepTime": 6960
+      },
+      {
+        "startTs": 1525718345000,
+        "startTime": "2018-05-08 02:39:05",
+        "endTime": "2018-05-08 08:43:05",
+        "endTs": 1525740185000,
+        "duration": 21840,
+        "awakeTime": 360,
+        "lightSleepTime": 14040,
+        "soundSleepTime": 7440
+      },
+      {
+        "startTs": 1525800905000,
+        "startTime": "2018-05-09 01:35:05",
+        "endTime": "2018-05-09 07:27:05",
+        "endTs": 1525822025000,
+        "duration": 21120,
+        "awakeTime": 300,
+        "lightSleepTime": 12240,
+        "soundSleepTime": 8580
+      },
+      {
+        "startTs": 1525888446000,
+        "startTime": "2018-05-10 01:54:06",
+        "endTime": "2018-05-10 08:03:06",
+        "endTs": 1525910586000,
+        "duration": 22140,
+        "awakeTime": 0,
+        "lightSleepTime": 8940,
+        "soundSleepTime": 13200
+      },
+      {
+        "startTs": 1525971245000,
+        "startTime": "2018-05-11 00:54:05",
+        "endTime": "2018-05-11 07:21:05",
+        "endTs": 1525994465000,
+        "duration": 23220,
+        "awakeTime": 300,
+        "lightSleepTime": 14040,
+        "soundSleepTime": 8880
+      },
+      {
+        "startTs": 1526051102000,
+        "startTime": "2018-05-11 23:05:02",
+        "endTime": "2018-05-12 06:47:02",
+        "endTs": 1526078822000,
+        "duration": 27720,
+        "awakeTime": 840,
+        "lightSleepTime": 19980,
+        "soundSleepTime": 6900
+      },
+      {
+        "startTs": 1526143922000,
+        "startTime": "2018-05-13 00:52:02",
+        "endTime": "2018-05-13 07:46:02",
+        "endTs": 1526168762000,
+        "duration": 24840,
+        "awakeTime": 0,
+        "lightSleepTime": 21300,
+        "soundSleepTime": 3540
+      },
+      {
+        "startTs": 1526229545000,
+        "startTime": "2018-05-14 00:39:05",
+        "endTime": "2018-05-14 07:25:05",
+        "endTs": 1526253905000,
+        "duration": 24360,
+        "awakeTime": 0,
+        "lightSleepTime": 15420,
+        "soundSleepTime": 8940
+      },
+      {
+        "startTs": 1526318103000,
+        "startTime": "2018-05-15 01:15:03",
+        "endTime": "2018-05-15 07:54:03",
+        "endTs": 1526342043000,
+        "duration": 23940,
+        "awakeTime": 540,
+        "lightSleepTime": 19020,
+        "soundSleepTime": 4380
+      },
+      {
+        "startTs": 1526404683000,
+        "startTime": "2018-05-16 01:18:03",
+        "endTime": "2018-05-16 06:41:03",
+        "endTs": 1526424063000,
+        "duration": 19380,
+        "awakeTime": 360,
+        "lightSleepTime": 13020,
+        "soundSleepTime": 6000
+      },
+      {
+        "startTs": 1526494923000,
+        "startTime": "2018-05-17 02:22:03",
+        "endTime": "2018-05-17 08:14:03",
+        "endTs": 1526516043000,
+        "duration": 21120,
+        "awakeTime": 0,
+        "lightSleepTime": 11640,
+        "soundSleepTime": 9480
+      },
+      {
+        "startTs": 1526580905000,
+        "startTime": "2018-05-18 02:15:05",
+        "endTime": "2018-05-18 08:17:05",
+        "endTs": 1526602625000,
+        "duration": 21720,
+        "awakeTime": 0,
+        "lightSleepTime": 16980,
+        "soundSleepTime": 4740
+      },
+      {
+        "startTs": 1526662623000,
+        "startTime": "2018-05-19 00:57:03",
+        "endTime": "2018-05-19 08:11:03",
+        "endTs": 1526688663000,
+        "duration": 26040,
+        "awakeTime": 300,
+        "lightSleepTime": 16800,
+        "soundSleepTime": 8940
+      },
+      {
+        "startTs": 1526731803000,
+        "startTime": "2018-05-19 20:10:03",
+        "endTime": "2018-05-20 00:01:03",
+        "endTs": 1526745663000,
+        "duration": 13860,
+        "awakeTime": 0,
+        "lightSleepTime": 9120,
+        "soundSleepTime": 4740
+      },
+      {
+        "startTs": 1526827384000,
+        "startTime": "2018-05-20 22:43:04",
+        "endTime": "2018-05-21 04:49:04",
+        "endTs": 1526849344000,
+        "duration": 21960,
+        "awakeTime": 900,
+        "lightSleepTime": 13260,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1526913961000,
+        "startTime": "2018-05-21 22:46:01",
+        "endTime": "2018-05-22 06:56:01",
+        "endTs": 1526943361000,
+        "duration": 29400,
+        "awakeTime": 1980,
+        "lightSleepTime": 20220,
+        "soundSleepTime": 7200
+      },
+      {
+        "startTs": 1527007205000,
+        "startTime": "2018-05-23 00:40:05",
+        "endTime": "2018-05-23 07:03:05",
+        "endTs": 1527030185000,
+        "duration": 22980,
+        "awakeTime": 540,
+        "lightSleepTime": 15900,
+        "soundSleepTime": 6540
+      },
+      {
+        "startTs": 1527094925000,
+        "startTime": "2018-05-24 01:02:05",
+        "endTime": "2018-05-24 05:58:05",
+        "endTs": 1527112685000,
+        "duration": 17760,
+        "awakeTime": 0,
+        "lightSleepTime": 11760,
+        "soundSleepTime": 6000
+      },
+      {
+        "startTs": 1527174305000,
+        "startTime": "2018-05-24 23:05:05",
+        "endTime": "2018-05-25 04:21:05",
+        "endTs": 1527193265000,
+        "duration": 18960,
+        "awakeTime": 2340,
+        "lightSleepTime": 11580,
+        "soundSleepTime": 5040
+      },
+      {
+        "startTs": 1527259445000,
+        "startTime": "2018-05-25 22:44:05",
+        "endTime": "2018-05-26 05:38:05",
+        "endTs": 1527284285000,
+        "duration": 24840,
+        "awakeTime": 480,
+        "lightSleepTime": 17460,
+        "soundSleepTime": 6900
+      },
+      {
+        "startTs": 1527348845000,
+        "startTime": "2018-05-26 23:34:05",
+        "endTime": "2018-05-27 07:32:05",
+        "endTs": 1527377525000,
+        "duration": 28680,
+        "awakeTime": 0,
+        "lightSleepTime": 24000,
+        "soundSleepTime": 4680
+      },
+      {
+        "startTs": 1527433802000,
+        "startTime": "2018-05-27 23:10:02",
+        "endTime": "2018-05-28 06:34:02",
+        "endTs": 1527460442000,
+        "duration": 26640,
+        "awakeTime": 1380,
+        "lightSleepTime": 18360,
+        "soundSleepTime": 6900
+      },
+      {
+        "startTs": 1527525965000,
+        "startTime": "2018-05-29 00:46:05",
+        "endTime": "2018-05-29 05:34:05",
+        "endTs": 1527543245000,
+        "duration": 17280,
+        "awakeTime": 300,
+        "lightSleepTime": 13680,
+        "soundSleepTime": 3300
+      },
+      {
+        "startTs": 1527601685000,
+        "startTime": "2018-05-29 21:48:05",
+        "endTime": "2018-05-30 06:57:05",
+        "endTs": 1527634625000,
+        "duration": 32940,
+        "awakeTime": 660,
+        "lightSleepTime": 19620,
+        "soundSleepTime": 12660
+      },
+      {
+        "startTs": 1527693665000,
+        "startTime": "2018-05-30 23:21:05",
+        "endTime": "2018-05-31 05:56:05",
+        "endTs": 1527717365000,
+        "duration": 23700,
+        "awakeTime": 600,
+        "lightSleepTime": 17940,
+        "soundSleepTime": 5160
+      }
+    ]
+  },
+  {
+    "month": "2018-6",
+    "data": [
+      {
+        "startTs": 1527781146000,
+        "startTime": "2018-05-31 23:39:06",
+        "endTime": "2018-06-01 07:23:06",
+        "endTs": 1527808986000,
+        "duration": 27840,
+        "awakeTime": 600,
+        "lightSleepTime": 22380,
+        "soundSleepTime": 4860
+      },
+      {
+        "startTs": 1527870744000,
+        "startTime": "2018-06-02 00:32:24",
+        "endTime": "2018-06-02 06:10:24",
+        "endTs": 1527891024000,
+        "duration": 20280,
+        "awakeTime": 0,
+        "lightSleepTime": 14700,
+        "soundSleepTime": 5580
+      },
+      {
+        "startTs": 1527960305000,
+        "startTime": "2018-06-03 01:25:05",
+        "endTime": "2018-06-03 07:29:05",
+        "endTs": 1527982145000,
+        "duration": 21840,
+        "awakeTime": 1860,
+        "lightSleepTime": 13980,
+        "soundSleepTime": 6000
+      },
+      {
+        "startTs": 1528128245000,
+        "startTime": "2018-06-05 00:04:05",
+        "endTime": "2018-06-05 02:43:05",
+        "endTs": 1528137785000,
+        "duration": 9540,
+        "awakeTime": 0,
+        "lightSleepTime": 6480,
+        "soundSleepTime": 3060
+      },
+      {
+        "startTs": 1528139645000,
+        "startTime": "2018-06-05 03:14:05",
+        "endTime": "2018-06-05 08:04:05",
+        "endTs": 1528157045000,
+        "duration": 17400,
+        "awakeTime": 0,
+        "lightSleepTime": 13680,
+        "soundSleepTime": 3720
+      },
+      {
+        "startTs": 1528221185000,
+        "startTime": "2018-06-06 01:53:05",
+        "endTime": "2018-06-06 08:02:05",
+        "endTs": 1528243325000,
+        "duration": 22140,
+        "awakeTime": 5040,
+        "lightSleepTime": 12180,
+        "soundSleepTime": 4920
+      },
+      {
+        "startTs": 1528306264000,
+        "startTime": "2018-06-07 01:31:04",
+        "endTime": "2018-06-07 07:18:04",
+        "endTs": 1528327084000,
+        "duration": 20820,
+        "awakeTime": 720,
+        "lightSleepTime": 10380,
+        "soundSleepTime": 9720
+      },
+      {
+        "startTs": 1528395184000,
+        "startTime": "2018-06-08 02:13:04",
+        "endTime": "2018-06-08 08:50:04",
+        "endTs": 1528419004000,
+        "duration": 23820,
+        "awakeTime": 540,
+        "lightSleepTime": 15300,
+        "soundSleepTime": 7980
+      },
+      {
+        "startTs": 1528477325000,
+        "startTime": "2018-06-09 01:02:05",
+        "endTime": "2018-06-09 07:01:05",
+        "endTs": 1528498865000,
+        "duration": 21540,
+        "awakeTime": 1680,
+        "lightSleepTime": 15540,
+        "soundSleepTime": 4320
+      },
+      {
+        "startTs": 1528567685000,
+        "startTime": "2018-06-10 02:08:05",
+        "endTime": "2018-06-10 07:40:05",
+        "endTs": 1528587605000,
+        "duration": 19920,
+        "awakeTime": 1680,
+        "lightSleepTime": 13980,
+        "soundSleepTime": 4260
+      },
+      {
+        "startTs": 1528650965000,
+        "startTime": "2018-06-11 01:16:05",
+        "endTime": "2018-06-11 07:32:05",
+        "endTs": 1528673525000,
+        "duration": 22560,
+        "awakeTime": 840,
+        "lightSleepTime": 18060,
+        "soundSleepTime": 3660
+      },
+      {
+        "startTs": 1528737842000,
+        "startTime": "2018-06-12 01:24:02",
+        "endTime": "2018-06-12 08:29:02",
+        "endTs": 1528763342000,
+        "duration": 25500,
+        "awakeTime": 0,
+        "lightSleepTime": 20820,
+        "soundSleepTime": 4680
+      },
+      {
+        "startTs": 1528821184000,
+        "startTime": "2018-06-13 00:33:04",
+        "endTime": "2018-06-13 07:09:04",
+        "endTs": 1528844944000,
+        "duration": 23760,
+        "awakeTime": 2160,
+        "lightSleepTime": 15000,
+        "soundSleepTime": 6600
+      },
+      {
+        "startTs": 1528906084000,
+        "startTime": "2018-06-14 00:08:04",
+        "endTime": "2018-06-14 06:47:04",
+        "endTs": 1528930024000,
+        "duration": 23940,
+        "awakeTime": 1800,
+        "lightSleepTime": 13800,
+        "soundSleepTime": 8340
+      },
+      {
+        "startTs": 1528998545000,
+        "startTime": "2018-06-15 01:49:05",
+        "endTime": "2018-06-15 08:21:05",
+        "endTs": 1529022065000,
+        "duration": 23520,
+        "awakeTime": 660,
+        "lightSleepTime": 15420,
+        "soundSleepTime": 7440
+      },
+      {
+        "startTs": 1529092985000,
+        "startTime": "2018-06-16 04:03:05",
+        "endTime": "2018-06-16 09:52:05",
+        "endTs": 1529113925000,
+        "duration": 20940,
+        "awakeTime": 1080,
+        "lightSleepTime": 13800,
+        "soundSleepTime": 6060
+      },
+      {
+        "startTs": 1529164199000,
+        "startTime": "2018-06-16 23:49:59",
+        "endTime": "2018-06-17 02:31:59",
+        "endTs": 1529173919000,
+        "duration": 9720,
+        "awakeTime": 1800,
+        "lightSleepTime": 6240,
+        "soundSleepTime": 1680
+      },
+      {
+        "startTs": 1529256899000,
+        "startTime": "2018-06-18 01:34:59",
+        "endTime": "2018-06-18 09:17:59",
+        "endTs": 1529284679000,
+        "duration": 27780,
+        "awakeTime": 1380,
+        "lightSleepTime": 21240,
+        "soundSleepTime": 5160
+      },
+      {
+        "startTs": 1529340828000,
+        "startTime": "2018-06-19 00:53:48",
+        "endTime": "2018-06-19 08:13:48",
+        "endTs": 1529367228000,
+        "duration": 26400,
+        "awakeTime": 1680,
+        "lightSleepTime": 19680,
+        "soundSleepTime": 5040
+      },
+      {
+        "startTs": 1529434429000,
+        "startTime": "2018-06-20 02:53:49",
+        "endTime": "2018-06-20 08:04:49",
+        "endTs": 1529453089000,
+        "duration": 18660,
+        "awakeTime": 300,
+        "lightSleepTime": 10620,
+        "soundSleepTime": 7740
+      },
+      {
+        "startTs": 1529519869000,
+        "startTime": "2018-06-21 02:37:49",
+        "endTime": "2018-06-21 07:59:49",
+        "endTs": 1529539189000,
+        "duration": 19320,
+        "awakeTime": 1560,
+        "lightSleepTime": 12960,
+        "soundSleepTime": 4800
+      },
+      {
+        "startTs": 1529613485000,
+        "startTime": "2018-06-22 04:38:05",
+        "endTime": "2018-06-22 10:05:05",
+        "endTs": 1529633105000,
+        "duration": 19620,
+        "awakeTime": 0,
+        "lightSleepTime": 15660,
+        "soundSleepTime": 3960
+      },
+      {
+        "startTs": 1529695265000,
+        "startTime": "2018-06-23 03:21:05",
+        "endTime": "2018-06-23 10:18:05",
+        "endTs": 1529720285000,
+        "duration": 25020,
+        "awakeTime": 420,
+        "lightSleepTime": 21540,
+        "soundSleepTime": 3060
+      },
+      {
+        "startTs": 1529784363000,
+        "startTime": "2018-06-24 04:06:03",
+        "endTime": "2018-06-24 10:21:03",
+        "endTs": 1529806863000,
+        "duration": 22500,
+        "awakeTime": 0,
+        "lightSleepTime": 14940,
+        "soundSleepTime": 7560
+      },
+      {
+        "startTs": 1529862483000,
+        "startTime": "2018-06-25 01:48:03",
+        "endTime": "2018-06-25 09:21:03",
+        "endTs": 1529889663000,
+        "duration": 27180,
+        "awakeTime": 1200,
+        "lightSleepTime": 18420,
+        "soundSleepTime": 7560
+      },
+      {
+        "startTs": 1529944203000,
+        "startTime": "2018-06-26 00:30:03",
+        "endTime": "2018-06-26 07:39:03",
+        "endTs": 1529969943000,
+        "duration": 25740,
+        "awakeTime": 1320,
+        "lightSleepTime": 16800,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1530044223000,
+        "startTime": "2018-06-27 04:17:03",
+        "endTime": "2018-06-27 08:33:03",
+        "endTs": 1530059583000,
+        "duration": 15360,
+        "awakeTime": 0,
+        "lightSleepTime": 12180,
+        "soundSleepTime": 3180
+      },
+      {
+        "startTs": 1530120363000,
+        "startTime": "2018-06-28 01:26:03",
+        "endTime": "2018-06-28 08:22:03",
+        "endTs": 1530145323000,
+        "duration": 24960,
+        "awakeTime": 420,
+        "lightSleepTime": 13740,
+        "soundSleepTime": 10800
+      },
+      {
+        "startTs": 1530203523000,
+        "startTime": "2018-06-29 00:32:03",
+        "endTime": "2018-06-29 06:57:03",
+        "endTs": 1530226623000,
+        "duration": 23100,
+        "awakeTime": 720,
+        "lightSleepTime": 16260,
+        "soundSleepTime": 6120
+      },
+      {
+        "startTs": 1530293763000,
+        "startTime": "2018-06-30 01:36:03",
+        "endTime": "2018-06-30 08:22:03",
+        "endTs": 1530318123000,
+        "duration": 24360,
+        "awakeTime": 0,
+        "lightSleepTime": 17460,
+        "soundSleepTime": 6900
+      }
+    ]
+  },
+  {
+    "month": "2018-7",
+    "data": [
+      {
+        "startTs": 1530388803000,
+        "startTime": "2018-07-01 04:00:03",
+        "endTime": "2018-07-01 08:52:03",
+        "endTs": 1530406323000,
+        "duration": 17520,
+        "awakeTime": 0,
+        "lightSleepTime": 14160,
+        "soundSleepTime": 3360
+      },
+      {
+        "startTs": 1530478503000,
+        "startTime": "2018-07-02 04:55:03",
+        "endTime": "2018-07-02 08:20:03",
+        "endTs": 1530490803000,
+        "duration": 12300,
+        "awakeTime": 480,
+        "lightSleepTime": 9840,
+        "soundSleepTime": 1980
+      },
+      {
+        "startTs": 1530554044000,
+        "startTime": "2018-07-03 01:54:04",
+        "endTime": "2018-07-03 08:26:04",
+        "endTs": 1530577564000,
+        "duration": 23520,
+        "awakeTime": 420,
+        "lightSleepTime": 15300,
+        "soundSleepTime": 7800
+      },
+      {
+        "startTs": 1530634264000,
+        "startTime": "2018-07-04 00:11:04",
+        "endTime": "2018-07-04 08:13:04",
+        "endTs": 1530663184000,
+        "duration": 28920,
+        "awakeTime": 840,
+        "lightSleepTime": 18420,
+        "soundSleepTime": 9660
+      },
+      {
+        "startTs": 1530725886000,
+        "startTime": "2018-07-05 01:38:06",
+        "endTime": "2018-07-05 08:11:06",
+        "endTs": 1530749466000,
+        "duration": 23580,
+        "awakeTime": 0,
+        "lightSleepTime": 13680,
+        "soundSleepTime": 9900
+      },
+      {
+        "startTs": 1530813126000,
+        "startTime": "2018-07-06 01:52:06",
+        "endTime": "2018-07-06 08:17:06",
+        "endTs": 1530836226000,
+        "duration": 23100,
+        "awakeTime": 840,
+        "lightSleepTime": 16380,
+        "soundSleepTime": 5880
+      },
+      {
+        "startTs": 1530896706000,
+        "startTime": "2018-07-07 01:05:06",
+        "endTime": "2018-07-07 08:36:06",
+        "endTs": 1530923766000,
+        "duration": 27060,
+        "awakeTime": 0,
+        "lightSleepTime": 20340,
+        "soundSleepTime": 6720
+      },
+      {
+        "startTs": 1531066415000,
+        "startTime": "2018-07-09 00:13:35",
+        "endTime": "2018-07-09 06:33:35",
+        "endTs": 1531089215000,
+        "duration": 22800,
+        "awakeTime": 0,
+        "lightSleepTime": 16020,
+        "soundSleepTime": 6780
+      },
+      {
+        "startTs": 1531155782000,
+        "startTime": "2018-07-10 01:03:02",
+        "endTime": "2018-07-10 08:03:02",
+        "endTs": 1531180982000,
+        "duration": 25200,
+        "awakeTime": 300,
+        "lightSleepTime": 17280,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1531254362000,
+        "startTime": "2018-07-11 04:26:02",
+        "endTime": "2018-07-11 08:00:02",
+        "endTs": 1531267202000,
+        "duration": 12840,
+        "awakeTime": 480,
+        "lightSleepTime": 8640,
+        "soundSleepTime": 3720
+      },
+      {
+        "startTs": 1531326482000,
+        "startTime": "2018-07-12 00:28:02",
+        "endTime": "2018-07-12 03:07:02",
+        "endTs": 1531336022000,
+        "duration": 9540,
+        "awakeTime": 3420,
+        "lightSleepTime": 4020,
+        "soundSleepTime": 2100
+      },
+      {
+        "startTs": 1531341842000,
+        "startTime": "2018-07-12 04:44:02",
+        "endTime": "2018-07-12 07:45:02",
+        "endTs": 1531352702000,
+        "duration": 10860,
+        "awakeTime": 0,
+        "lightSleepTime": 7560,
+        "soundSleepTime": 3300
+      },
+      {
+        "startTs": 1531413542000,
+        "startTime": "2018-07-13 00:39:02",
+        "endTime": "2018-07-13 07:31:02",
+        "endTs": 1531438262000,
+        "duration": 24720,
+        "awakeTime": 900,
+        "lightSleepTime": 15180,
+        "soundSleepTime": 8640
+      },
+      {
+        "startTs": 1531504322000,
+        "startTime": "2018-07-14 01:52:02",
+        "endTime": "2018-07-14 09:17:02",
+        "endTs": 1531531022000,
+        "duration": 26700,
+        "awakeTime": 960,
+        "lightSleepTime": 18240,
+        "soundSleepTime": 7500
+      },
+      {
+        "startTs": 1531590662000,
+        "startTime": "2018-07-15 01:51:02",
+        "endTime": "2018-07-15 09:19:02",
+        "endTs": 1531617542000,
+        "duration": 26880,
+        "awakeTime": 300,
+        "lightSleepTime": 19080,
+        "soundSleepTime": 7500
+      },
+      {
+        "startTs": 1531676464000,
+        "startTime": "2018-07-16 01:41:04",
+        "endTime": "2018-07-16 05:56:04",
+        "endTs": 1531691764000,
+        "duration": 15300,
+        "awakeTime": 300,
+        "lightSleepTime": 8460,
+        "soundSleepTime": 6540
+      },
+      {
+        "startTs": 1531764498000,
+        "startTime": "2018-07-17 02:08:18",
+        "endTime": "2018-07-17 06:58:18",
+        "endTs": 1531781898000,
+        "duration": 17400,
+        "awakeTime": 1860,
+        "lightSleepTime": 9720,
+        "soundSleepTime": 5820
+      },
+      {
+        "startTs": 1531851258000,
+        "startTime": "2018-07-18 02:14:18",
+        "endTime": "2018-07-18 07:04:18",
+        "endTs": 1531868658000,
+        "duration": 17400,
+        "awakeTime": 3300,
+        "lightSleepTime": 7080,
+        "soundSleepTime": 7020
+      },
+      {
+        "startTs": 1531938364000,
+        "startTime": "2018-07-19 02:26:04",
+        "endTime": "2018-07-19 06:31:04",
+        "endTs": 1531953064000,
+        "duration": 14700,
+        "awakeTime": 0,
+        "lightSleepTime": 8520,
+        "soundSleepTime": 6180
+      },
+      {
+        "startTs": 1532015104000,
+        "startTime": "2018-07-19 23:45:04",
+        "endTime": "2018-07-20 07:31:04",
+        "endTs": 1532043064000,
+        "duration": 27960,
+        "awakeTime": 0,
+        "lightSleepTime": 17940,
+        "soundSleepTime": 10020
+      },
+      {
+        "startTs": 1532109545000,
+        "startTime": "2018-07-21 01:59:05",
+        "endTime": "2018-07-21 09:27:05",
+        "endTs": 1532136425000,
+        "duration": 26880,
+        "awakeTime": 0,
+        "lightSleepTime": 20640,
+        "soundSleepTime": 6240
+      },
+      {
+        "startTs": 1532190425000,
+        "startTime": "2018-07-22 00:27:05",
+        "endTime": "2018-07-22 07:43:05",
+        "endTs": 1532216585000,
+        "duration": 26160,
+        "awakeTime": 1380,
+        "lightSleepTime": 17520,
+        "soundSleepTime": 7260
+      },
+      {
+        "startTs": 1532280425000,
+        "startTime": "2018-07-23 01:27:05",
+        "endTime": "2018-07-23 07:22:05",
+        "endTs": 1532301725000,
+        "duration": 21300,
+        "awakeTime": 0,
+        "lightSleepTime": 14340,
+        "soundSleepTime": 6960
+      },
+      {
+        "startTs": 1532363345000,
+        "startTime": "2018-07-24 00:29:05",
+        "endTime": "2018-07-24 06:56:05",
+        "endTs": 1532386565000,
+        "duration": 23220,
+        "awakeTime": 2040,
+        "lightSleepTime": 14880,
+        "soundSleepTime": 6300
+      },
+      {
+        "startTs": 1532450525000,
+        "startTime": "2018-07-25 00:42:05",
+        "endTime": "2018-07-25 07:10:05",
+        "endTs": 1532473805000,
+        "duration": 23280,
+        "awakeTime": 1020,
+        "lightSleepTime": 14640,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1532536983000,
+        "startTime": "2018-07-26 00:43:03",
+        "endTime": "2018-07-26 06:47:03",
+        "endTs": 1532558823000,
+        "duration": 21840,
+        "awakeTime": 2820,
+        "lightSleepTime": 15420,
+        "soundSleepTime": 3600
+      },
+      {
+        "startTs": 1532619063000,
+        "startTime": "2018-07-26 23:31:03",
+        "endTime": "2018-07-27 07:14:03",
+        "endTs": 1532646843000,
+        "duration": 27780,
+        "awakeTime": 660,
+        "lightSleepTime": 20460,
+        "soundSleepTime": 6660
+      },
+      {
+        "startTs": 1532721605000,
+        "startTime": "2018-07-28 04:00:05",
+        "endTime": "2018-07-28 09:33:05",
+        "endTs": 1532741585000,
+        "duration": 19980,
+        "awakeTime": 1440,
+        "lightSleepTime": 11340,
+        "soundSleepTime": 7200
+      },
+      {
+        "startTs": 1532800445000,
+        "startTime": "2018-07-29 01:54:05",
+        "endTime": "2018-07-29 08:28:05",
+        "endTs": 1532824085000,
+        "duration": 23640,
+        "awakeTime": 0,
+        "lightSleepTime": 17700,
+        "soundSleepTime": 5940
+      },
+      {
+        "startTs": 1532880485000,
+        "startTime": "2018-07-30 00:08:05",
+        "endTime": "2018-07-30 07:19:05",
+        "endTs": 1532906345000,
+        "duration": 25860,
+        "awakeTime": 360,
+        "lightSleepTime": 18060,
+        "soundSleepTime": 7440
+      },
+      {
+        "startTs": 1532970369000,
+        "startTime": "2018-07-31 01:06:09",
+        "endTime": "2018-07-31 07:53:09",
+        "endTs": 1532994789000,
+        "duration": 24420,
+        "awakeTime": 600,
+        "lightSleepTime": 13560,
+        "soundSleepTime": 10260
+      }
+    ]
+  },
+  {
+    "month": "2018-8",
+    "data": [
+      {
+        "startTs": 1533059709000,
+        "startTime": "2018-08-01 01:55:09",
+        "endTime": "2018-08-01 07:17:09",
+        "endTs": 1533079029000,
+        "duration": 19320,
+        "awakeTime": 420,
+        "lightSleepTime": 12180,
+        "soundSleepTime": 6720
+      },
+      {
+        "startTs": 1533143889000,
+        "startTime": "2018-08-02 01:18:09",
+        "endTime": "2018-08-02 07:23:09",
+        "endTs": 1533165789000,
+        "duration": 21900,
+        "awakeTime": 0,
+        "lightSleepTime": 14280,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1533222429000,
+        "startTime": "2018-08-02 23:07:09",
+        "endTime": "2018-08-03 07:21:09",
+        "endTs": 1533252069000,
+        "duration": 29640,
+        "awakeTime": 0,
+        "lightSleepTime": 22560,
+        "soundSleepTime": 7080
+      },
+      {
+        "startTs": 1533316018000,
+        "startTime": "2018-08-04 01:06:58",
+        "endTime": "2018-08-04 08:36:58",
+        "endTs": 1533343018000,
+        "duration": 27000,
+        "awakeTime": 1320,
+        "lightSleepTime": 19800,
+        "soundSleepTime": 5880
+      },
+      {
+        "startTs": 1533399664000,
+        "startTime": "2018-08-05 00:21:04",
+        "endTime": "2018-08-05 08:58:04",
+        "endTs": 1533430684000,
+        "duration": 31020,
+        "awakeTime": 0,
+        "lightSleepTime": 23040,
+        "soundSleepTime": 7980
+      },
+      {
+        "startTs": 1533485224000,
+        "startTime": "2018-08-06 00:07:04",
+        "endTime": "2018-08-06 06:25:04",
+        "endTs": 1533507904000,
+        "duration": 22680,
+        "awakeTime": 360,
+        "lightSleepTime": 17580,
+        "soundSleepTime": 4740
+      },
+      {
+        "startTs": 1533571625000,
+        "startTime": "2018-08-07 00:07:05",
+        "endTime": "2018-08-07 07:10:05",
+        "endTs": 1533597005000,
+        "duration": 25380,
+        "awakeTime": 540,
+        "lightSleepTime": 19560,
+        "soundSleepTime": 5280
+      },
+      {
+        "startTs": 1533659525000,
+        "startTime": "2018-08-08 00:32:05",
+        "endTime": "2018-08-08 07:13:05",
+        "endTs": 1533683585000,
+        "duration": 24060,
+        "awakeTime": 420,
+        "lightSleepTime": 16800,
+        "soundSleepTime": 6840
+      },
+      {
+        "startTs": 1533750546000,
+        "startTime": "2018-08-09 01:49:06",
+        "endTime": "2018-08-09 06:54:06",
+        "endTs": 1533768846000,
+        "duration": 18300,
+        "awakeTime": 1020,
+        "lightSleepTime": 11640,
+        "soundSleepTime": 5640
+      },
+      {
+        "startTs": 1533832265000,
+        "startTime": "2018-08-10 00:31:05",
+        "endTime": "2018-08-10 07:01:05",
+        "endTs": 1533855665000,
+        "duration": 23400,
+        "awakeTime": 1200,
+        "lightSleepTime": 13860,
+        "soundSleepTime": 8340
+      },
+      {
+        "startTs": 1533925085000,
+        "startTime": "2018-08-11 02:18:05",
+        "endTime": "2018-08-11 08:54:05",
+        "endTs": 1533948845000,
+        "duration": 23760,
+        "awakeTime": 1440,
+        "lightSleepTime": 16680,
+        "soundSleepTime": 5640
+      },
+      {
+        "startTs": 1534003865000,
+        "startTime": "2018-08-12 00:11:05",
+        "endTime": "2018-08-12 09:38:05",
+        "endTs": 1534037885000,
+        "duration": 34020,
+        "awakeTime": 2460,
+        "lightSleepTime": 23280,
+        "soundSleepTime": 8280
+      },
+      {
+        "startTs": 1534093025000,
+        "startTime": "2018-08-13 00:57:05",
+        "endTime": "2018-08-13 07:09:05",
+        "endTs": 1534115345000,
+        "duration": 22320,
+        "awakeTime": 360,
+        "lightSleepTime": 16680,
+        "soundSleepTime": 5280
+      },
+      {
+        "startTs": 1534174685000,
+        "startTime": "2018-08-13 23:38:05",
+        "endTime": "2018-08-14 07:15:05",
+        "endTs": 1534202105000,
+        "duration": 27420,
+        "awakeTime": 0,
+        "lightSleepTime": 17280,
+        "soundSleepTime": 10140
+      },
+      {
+        "startTs": 1534261732000,
+        "startTime": "2018-08-14 23:48:52",
+        "endTime": "2018-08-15 06:46:52",
+        "endTs": 1534286812000,
+        "duration": 25080,
+        "awakeTime": 840,
+        "lightSleepTime": 13200,
+        "soundSleepTime": 11040
+      },
+      {
+        "startTs": 1534349284000,
+        "startTime": "2018-08-16 00:08:04",
+        "endTime": "2018-08-16 06:49:04",
+        "endTs": 1534373344000,
+        "duration": 24060,
+        "awakeTime": 660,
+        "lightSleepTime": 14400,
+        "soundSleepTime": 9000
+      },
+      {
+        "startTs": 1534434364000,
+        "startTime": "2018-08-16 23:46:04",
+        "endTime": "2018-08-17 07:04:04",
+        "endTs": 1534460644000,
+        "duration": 26280,
+        "awakeTime": 660,
+        "lightSleepTime": 18000,
+        "soundSleepTime": 7620
+      },
+      {
+        "startTs": 1534530544000,
+        "startTime": "2018-08-18 02:29:04",
+        "endTime": "2018-08-18 08:48:04",
+        "endTs": 1534553284000,
+        "duration": 22740,
+        "awakeTime": 2340,
+        "lightSleepTime": 14280,
+        "soundSleepTime": 6120
+      },
+      {
+        "startTs": 1534615865000,
+        "startTime": "2018-08-19 02:11:05",
+        "endTime": "2018-08-19 08:31:05",
+        "endTs": 1534638665000,
+        "duration": 22800,
+        "awakeTime": 960,
+        "lightSleepTime": 15900,
+        "soundSleepTime": 5940
+      },
+      {
+        "startTs": 1534695590000,
+        "startTime": "2018-08-20 00:19:50",
+        "endTime": "2018-08-20 07:07:50",
+        "endTs": 1534720070000,
+        "duration": 24480,
+        "awakeTime": 300,
+        "lightSleepTime": 19260,
+        "soundSleepTime": 4920
+      },
+      {
+        "startTs": 1534781570000,
+        "startTime": "2018-08-21 00:12:50",
+        "endTime": "2018-08-21 06:38:50",
+        "endTs": 1534804730000,
+        "duration": 23160,
+        "awakeTime": 2100,
+        "lightSleepTime": 14700,
+        "soundSleepTime": 6360
+      },
+      {
+        "startTs": 1534866650000,
+        "startTime": "2018-08-21 23:50:50",
+        "endTime": "2018-08-22 06:47:50",
+        "endTs": 1534891670000,
+        "duration": 25020,
+        "awakeTime": 720,
+        "lightSleepTime": 14940,
+        "soundSleepTime": 9360
+      },
+      {
+        "startTs": 1534956770000,
+        "startTime": "2018-08-23 00:52:50",
+        "endTime": "2018-08-23 07:04:50",
+        "endTs": 1534979090000,
+        "duration": 22320,
+        "awakeTime": 660,
+        "lightSleepTime": 16140,
+        "soundSleepTime": 5520
+      },
+      {
+        "startTs": 1535043665000,
+        "startTime": "2018-08-24 01:01:05",
+        "endTime": "2018-08-24 07:04:05",
+        "endTs": 1535065445000,
+        "duration": 21780,
+        "awakeTime": 780,
+        "lightSleepTime": 15180,
+        "soundSleepTime": 5820
+      },
+      {
+        "startTs": 1535297825000,
+        "startTime": "2018-08-26 23:37:05",
+        "endTime": "2018-08-27 07:16:05",
+        "endTs": 1535325365000,
+        "duration": 27540,
+        "awakeTime": 0,
+        "lightSleepTime": 17820,
+        "soundSleepTime": 9720
+      },
+      {
+        "startTs": 1535392445000,
+        "startTime": "2018-08-28 01:54:05",
+        "endTime": "2018-08-28 06:56:05",
+        "endTs": 1535410565000,
+        "duration": 18120,
+        "awakeTime": 1140,
+        "lightSleepTime": 10500,
+        "soundSleepTime": 6480
+      },
+      {
+        "startTs": 1535481725000,
+        "startTime": "2018-08-29 02:42:05",
+        "endTime": "2018-08-29 07:20:05",
+        "endTs": 1535498405000,
+        "duration": 16680,
+        "awakeTime": 660,
+        "lightSleepTime": 9240,
+        "soundSleepTime": 6780
+      },
+      {
+        "startTs": 1535569925000,
+        "startTime": "2018-08-30 03:12:05",
+        "endTime": "2018-08-30 07:19:05",
+        "endTs": 1535584745000,
+        "duration": 14820,
+        "awakeTime": 0,
+        "lightSleepTime": 8460,
+        "soundSleepTime": 6360
+      },
+      {
+        "startTs": 1535650205000,
+        "startTime": "2018-08-31 01:30:05",
+        "endTime": "2018-08-31 07:22:05",
+        "endTs": 1535671325000,
+        "duration": 21120,
+        "awakeTime": 420,
+        "lightSleepTime": 12120,
+        "soundSleepTime": 8580
+      }
+    ]
+  }
+]

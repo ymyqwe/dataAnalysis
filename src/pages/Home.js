@@ -1,22 +1,32 @@
 import React, {Component} from "react";
 import G2 from "@antv/g2";
-import data from "../data/avgSum";
-console.log(data);
+import data from "../data/averageSum.json";
+import moment from "moment";
+
 class Home extends Component {
-  componentDidMount() {
+  setLine = () => {
     var chart = new G2.Chart({
       container: "mountNode",
       forceFit: true,
       height: window.innerHeight
     });
-    chart.source(data);
-    chart.scale("avg", {min: 0});
-    chart.scale("month", {range: [0, 1]});
-    chart.tooltip({
-      crosshairs: {
-        type: "line"
-      }
+    var newData = data.map(element => {
+      element.avg = Number((element.avg / 3600).toFixed(2));
+      var duration = moment.duration(element.avg * 1000);
+      element.timeString = `${
+        duration.get("hours") ? duration.get("hours") + "小时" : ""
+      }${
+        duration.get("minutes") ? duration.get("minutes") + "分" : ""
+      }${duration.get("seconds")}`;
+      return element;
     });
+    chart.source(newData);
+    chart.scale("avg", {
+      min: 0,
+      alias: "睡眠平均时间(小时)"
+    });
+    chart.scale("month", {range: [0, 1], alias: "月份", label: "月份"});
+    chart.tooltip();
     chart.line().position("month*avg");
     chart
       .point()
@@ -28,6 +38,9 @@ class Home extends Component {
         lineWidth: 1
       });
     chart.render();
+  };
+  componentDidMount() {
+    this.setLine();
   }
 
   render() {
