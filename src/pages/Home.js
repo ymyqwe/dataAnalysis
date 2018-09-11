@@ -44,8 +44,6 @@ class Home extends Component {
     var chart = new G2.Chart({
       container: "roseNode",
       forceFit: true
-      // height: 800,
-      // width: 500
     });
     chart.source(durationData, {
       percent: {
