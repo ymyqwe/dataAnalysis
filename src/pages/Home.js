@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import G2 from "@antv/g2";
 import data from "../data/averageSum.json";
+import durationData from "../data/duration.json";
 import moment from "moment";
 
 class Home extends Component {
@@ -39,12 +40,64 @@ class Home extends Component {
       });
     chart.render();
   };
+  setRose = () => {
+    var chart = new G2.Chart({
+      container: "roseNode",
+      forceFit: true
+      // height: 800,
+      // width: 500
+    });
+    chart.source(durationData, {
+      percent: {
+        formatter: function formatter(val) {
+          val = val * 100 + "%";
+          return val;
+        }
+      }
+    });
+    chart.coord("theta", {
+      radius: 0.75
+    });
+    chart.tooltip({
+      showTitle: false,
+      itemTpl:
+        '<li><span style="background-color:{color};" class="g2-tooltip-marker"></span>{name}: {value}次</li>'
+    });
+    chart
+      .intervalStack()
+      .position("percent")
+      .color("duration")
+      .label("percent", {
+        formatter: function formatter(val, item) {
+          return item.point.duration + ": " + val;
+        }
+      })
+      .tooltip("duration*count", function(duration, count) {
+        return {
+          name: duration,
+          value: count
+        };
+      })
+      .style({
+        lineWidth: 1,
+        stroke: "#fff"
+      });
+    chart.render();
+  };
   componentDidMount() {
     this.setLine();
+    this.setRose();
   }
 
   render() {
-    return <div id="mountNode" />;
+    return (
+      <div>
+        <div>折线图</div>
+        <div id="mountNode" />
+        <div>玫瑰图</div>
+        <div id="roseNode" />
+      </div>
+    );
   }
 }
 

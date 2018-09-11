@@ -1,0 +1,10 @@
+[
+  {"duration": "3小时", "count": 10, "percent": 0.02},
+  {"duration": "4小时", "count": 20, "percent": 0.03},
+  {"duration": "5小时", "count": 55, "percent": 0.09},
+  {"duration": "6小时", "count": 150, "percent": 0.25},
+  {"duration": "7小时", "count": 219, "percent": 0.36},
+  {"duration": "8小时", "count": 109, "percent": 0.18},
+  {"duration": "10小时", "count": 3, "percent": 0.01},
+  {"duration": "9小时", "count": 33, "percent": 0.06}
+]
