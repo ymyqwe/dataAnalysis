@@ -1,8 +1,11 @@
 import React, {Component} from "react";
 import G2 from "@antv/g2";
+import DataSet from "@antv/data-set";
 import data from "../data/averageSum.json";
 import durationData from "../data/duration.json";
+import weekdayAvgData from "../data/weekdayDurationAvg.json";
 import moment from "moment";
+const DataView = DataSet.DataView;
 
 class Home extends Component {
   setLine = () => {
@@ -82,9 +85,86 @@ class Home extends Component {
       });
     chart.render();
   };
+  setRadar = () => {
+    console.log(weekdayAvgData);
+    // var dv = ds.createView().source(weekdayAvgData);
+    var newData = weekdayAvgData.map(one => {
+      one.duration = Number((one.duration / 3600).toFixed(2));
+      one.weekday = "星期" + one.weekday;
+      return one;
+    });
+    var dv = new DataView().source(newData);
+    dv.transform({
+      type: "fold",
+      fields: ["duration"], // 展开字段集
+      key: "weekDay", // key字段
+      value: "time" // value字段
+    });
+    var chart = new G2.Chart({
+      container: "radarNode",
+      forceFit: true,
+      height: window.innerHeight,
+      padding: [20, 20, 95, 20]
+    });
+    chart.source(dv, {
+      time: {
+        min: 6,
+        max: 8
+      }
+    });
+    chart.coord("polar", {
+      radius: 0.8
+    });
+    chart.axis("weekday", {
+      line: null,
+      tickLine: null,
+      grid: {
+        lineStyle: {
+          lineDash: null
+        },
+        hideFirstLine: false
+      }
+    });
+    chart.axis("time", {
+      line: null,
+      tickLine: null,
+      grid: {
+        type: "polygon",
+        lineStyle: {
+          lineDash: null
+        }
+      }
+    });
+    chart.legend("weekDay", {
+      marker: "circle",
+      offset: 30
+    });
+    chart
+      .line()
+      .position("weekday*time")
+      .color("weekDay")
+      .size(2);
+    chart
+      .point()
+      .position("weekday*time")
+      .color("weekDay")
+      .shape("circle")
+      .size(4)
+      .style({
+        stroke: "#fff",
+        lineWidth: 1,
+        fillOpacity: 1
+      });
+    chart
+      .area()
+      .position("weekday*time")
+      .color("weekDay");
+    chart.render();
+  };
   componentDidMount() {
     this.setLine();
     this.setRose();
+    this.setRadar();
   }
 
   render() {
@@ -94,6 +174,8 @@ class Home extends Component {
         <div id="mountNode" />
         <div>玫瑰图</div>
         <div id="roseNode" />
+        <div>雷达图</div>
+        <div id="radarNode" />
       </div>
     );
   }
