@@ -3,7 +3,8 @@ import G2 from "@antv/g2";
 import DataSet from "@antv/data-set";
 import data from "../data/averageSum.json";
 import durationData from "../data/duration.json";
-import weekdayAvgData from "../data/weekdayDurationAvg.json";
+import weekdayAvgData from "../data/weekdayOverall.json";
+import startEndDistributionData from "../data/startEndDistribution.json";
 import moment from "moment";
 const DataView = DataSet.DataView;
 
@@ -90,13 +91,15 @@ class Home extends Component {
     // var dv = ds.createView().source(weekdayAvgData);
     var newData = weekdayAvgData.map(one => {
       one.duration = Number((one.duration / 3600).toFixed(2));
-      one.weekday = "星期" + one.weekday;
+      one.awakeTime = Number((one.awakeTime / 3600).toFixed(2));
+      one.lightSleepTime = Number((one.lightSleepTime / 3600).toFixed(2));
+      one.soundSleepTime = Number((one.soundSleepTime / 3600).toFixed(2));
       return one;
     });
     var dv = new DataView().source(newData);
     dv.transform({
       type: "fold",
-      fields: ["duration"], // 展开字段集
+      fields: ["duration", "lightSleepTime", "soundSleepTime"], // 展开字段集
       key: "weekDay", // key字段
       value: "time" // value字段
     });
@@ -108,7 +111,7 @@ class Home extends Component {
     });
     chart.source(dv, {
       time: {
-        min: 6,
+        min: 0,
         max: 8
       }
     });
@@ -155,16 +158,70 @@ class Home extends Component {
         lineWidth: 1,
         fillOpacity: 1
       });
+    chart.render();
+  };
+  setBox = () => {
+    var ds = new DataSet({
+      state: {
+        sizeEncoding: false
+      }
+    });
+    var dv = ds.createView("diamond").source(startEndDistributionData);
+    dv.transform({
+      type: "map",
+      callback(row) {
+        // 加工数据后返回新的一行，默认返回行数据本身
+        if (row.startTime > 12) {
+          row.startTime = row.startTime - 24;
+        }
+        return row;
+      }
+    });
+    dv.transform({
+      sizeByCount: false, // calculate bin size by binning count
+      type: "bin.rectangle",
+      fields: ["startTime", "endTime"], // 对应坐标轴上的一个点
+      bins: [20, 10]
+    });
+
+    var chart = new G2.Chart({
+      container: "boxNode",
+      forceFit: true,
+      height: window.innerHeight
+    });
+    chart.source(dv);
+    chart.legend({
+      // offset: 40
+    });
+    chart.axis("x", {
+      label: {
+        formatter: val => {
+          console.log(val, typeof val);
+          if (val < 0) {
+            return Number(val) + 24 + ":00";
+          } else {
+            return val + ":00";
+          }
+        }
+      }
+    });
+    chart.axis("y", {
+      label: {
+        formatter: val => val + ":00"
+      }
+    });
+    chart.tooltip(false);
     chart
-      .area()
-      .position("weekday*time")
-      .color("weekDay");
+      .polygon()
+      .position("x*y")
+      .color("count", "#BAE7FF-#1890FF-#0050B3");
     chart.render();
   };
   componentDidMount() {
     this.setLine();
     this.setRose();
     this.setRadar();
+    this.setBox();
   }
 
   render() {
@@ -176,6 +233,8 @@ class Home extends Component {
         <div id="roseNode" />
         <div>雷达图</div>
         <div id="radarNode" />
+        <div>分箱图</div>
+        <div id="boxNode" />
       </div>
     );
   }

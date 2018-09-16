@@ -5,6 +5,16 @@ var data = JSON.parse(fs.readFileSync("./overall.json"));
 
 var result = [];
 
+const weekdayObj = {
+  1: "星期一",
+  2: "星期二",
+  3: "星期三",
+  4: "星期四",
+  5: "星期五",
+  6: "星期六",
+  7: "星期天"
+};
+
 data.forEach(element => {
   element.data.forEach(detail => {
     var duration = detail.duration;
@@ -27,16 +37,21 @@ data.forEach(element => {
 var duration = [],
   awakeTime = [],
   lightSleepTime = [],
-  soundSleepTime = [];
+  soundSleepTime = [],
+  overallData = [];
 result.forEach((element, index) => {
+  var nowData = {
+    weekday: weekdayObj[index + 1]
+  };
   var durationAvg =
     element.duration.reduce((previous, current) => (current += previous)) /
     element.duration.length;
-  var durationObj = {
-    duration: durationAvg,
-    weekday: String(index + 1)
-  };
-  duration.push(durationObj);
+  // var durationObj = {
+  //   duration: durationAvg,
+  //   weekday: String(index + 1)
+  // };
+  nowData.duration = durationAvg;
+  // duration.push(durationObj);
   var awakeTimeAvg =
     element.awakeTime.reduce((previous, current) => (current += previous)) /
     element.awakeTime.length;
@@ -44,7 +59,8 @@ result.forEach((element, index) => {
     awakeTime: awakeTimeAvg,
     weekday: String(index + 1)
   };
-  awakeTime.push(awakeTimeObj);
+  nowData.awakeTime = awakeTimeAvg;
+  // awakeTime.push(awakeTimeObj);
   var lightSleepTimeAvg =
     element.lightSleepTime.reduce(
       (previous, current) => (current += previous)
@@ -53,7 +69,8 @@ result.forEach((element, index) => {
     lightSleepTime: lightSleepTimeAvg,
     weekday: String(index + 1)
   };
-  lightSleepTime.push(lightSleepTimeObj);
+  nowData.lightSleepTime = lightSleepTimeAvg;
+  // lightSleepTime.push(lightSleepTimeObj);
   var soundSleepTimeAvg =
     element.soundSleepTime.reduce(
       (previous, current) => (current += previous)
@@ -62,16 +79,18 @@ result.forEach((element, index) => {
     soundSleepTime: soundSleepTimeAvg,
     weekday: String(index + 1)
   };
-  soundSleepTime.push(soundSleepTimeObj);
+  nowData.soundSleepTime = soundSleepTimeAvg;
+  // soundSleepTime.push(soundSleepTimeObj);
+  overallData.push(nowData);
 });
-fs.writeFileSync("weekdayDurationAvg.json", JSON.stringify(duration));
-fs.writeFileSync("weekdayAwakeTimeAvg.json", JSON.stringify(awakeTime));
-fs.writeFileSync(
-  "weekdayLightSleepTimeAvg.json",
-  JSON.stringify(lightSleepTime)
-);
-fs.writeFileSync(
-  "weekdaySoundSleepTimeAvg.json",
-  JSON.stringify(soundSleepTime)
-);
+fs.writeFileSync("weekdayOverall.json", JSON.stringify(overallData));
+// fs.writeFileSync("weekdayAwakeTimeAvg.json", JSON.stringify(awakeTime));
+// fs.writeFileSync(
+//   "weekdayLightSleepTimeAvg.json",
+//   JSON.stringify(lightSleepTime)
+// );
+// fs.writeFileSync(
+//   "weekdaySoundSleepTimeAvg.json",
+//   JSON.stringify(soundSleepTime)
+// );
 // console.log(result);

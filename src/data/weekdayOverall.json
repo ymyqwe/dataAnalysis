@@ -1,0 +1,51 @@
+[
+  {
+    "weekday": "星期一",
+    "duration": 25189.53488372093,
+    "awakeTime": 727.6744186046511,
+    "lightSleepTime": 16702.325581395347,
+    "soundSleepTime": 7759.53488372093
+  },
+  {
+    "weekday": "星期二",
+    "duration": 23471.566265060243,
+    "awakeTime": 612.289156626506,
+    "lightSleepTime": 15579.036144578313,
+    "soundSleepTime": 7280.240963855422
+  },
+  {
+    "weekday": "星期三",
+    "duration": 24564,
+    "awakeTime": 708,
+    "lightSleepTime": 16171.764705882353,
+    "soundSleepTime": 7684.235294117647
+  },
+  {
+    "weekday": "星期四",
+    "duration": 23055,
+    "awakeTime": 747.1428571428571,
+    "lightSleepTime": 15167.857142857143,
+    "soundSleepTime": 7140
+  },
+  {
+    "weekday": "星期五",
+    "duration": 23456.55172413793,
+    "awakeTime": 711.7241379310345,
+    "lightSleepTime": 14666.896551724138,
+    "soundSleepTime": 8077.931034482759
+  },
+  {
+    "weekday": "星期六",
+    "duration": 24133.483146067414,
+    "awakeTime": 664.0449438202247,
+    "lightSleepTime": 15974.831460674157,
+    "soundSleepTime": 7494.606741573034
+  },
+  {
+    "weekday": "星期天",
+    "duration": 24564.418604651164,
+    "awakeTime": 1017.2093023255813,
+    "lightSleepTime": 16012.32558139535,
+    "soundSleepTime": 7534.883720930233
+  }
+]
