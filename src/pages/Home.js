@@ -13,7 +13,7 @@ class Home extends Component {
     var chart = new G2.Chart({
       container: "mountNode",
       forceFit: true,
-      height: window.innerHeight
+      padding: [20, 20, 40, 30]
     });
     var newData = data.map(element => {
       element.avg = Number((element.avg / 3600).toFixed(2));
@@ -27,7 +27,8 @@ class Home extends Component {
     });
     chart.source(newData);
     chart.scale("avg", {
-      min: 0,
+      min: 5,
+      max: 8,
       alias: "睡眠平均时间(小时)"
     });
     chart.scale("month", {range: [0, 1], alias: "月份", label: "月份"});
