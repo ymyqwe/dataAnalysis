@@ -1,0 +1,26 @@
+html,
+body,
+#map {
+  width: 800px;
+  height: 800px;
+  margin: 0;
+  padding: 0; }
+
+.link {
+  stroke: #ccc;
+  stroke-width: 1.5px; }
+
+.stations,
+.stations svg {
+  overflow: visible;
+  position: absolute; }
+
+.stations svg {
+  width: 60px;
+  height: 20px;
+  padding-right: 100px;
+  font: 10px sans-serif; }
+
+.stations circle {
+  fill: #935532;
+  stroke-width: 1.5px; }

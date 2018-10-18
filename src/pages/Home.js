@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 import G2 from "@antv/g2";
 import DataSet from "@antv/data-set";
-import data from "../data/averageSum.json";
-import durationData from "../data/duration.json";
-import weekdayAvgData from "../data/weekdayOverall.json";
-import startEndDistributionData from "../data/startEndDistribution.json";
+import data from "../data/sleep/averageSum.json";
+import durationData from "../data/sleep/duration.json";
+import weekdayAvgData from "../data/sleep/weekdayOverall.json";
+import startEndDistributionData from "../data/sleep/startEndDistribution.json";
 import moment from "moment";
 const DataView = DataSet.DataView;
 

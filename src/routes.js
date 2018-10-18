@@ -1,6 +1,7 @@
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Route, Link, Switch} from "react-router-dom";
 import React, {Component} from "react";
 import Home from "./pages/Home";
+import Euro from "./pages/Euro";
 
 class routes extends Component {
   render() {
@@ -9,11 +10,14 @@ class routes extends Component {
         <div>
           <ul>
             <li>
-              <Link to="/"> Home </Link>{" "}
-            </li>{" "}
+              <Link to="/"> Home </Link>
+            </li>
           </ul>
           <hr />
-          <Route exact path="/" component={Home} />{" "}
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/euro" component={Euro} />
+          </Switch>
         </div>
       </Router>
     );

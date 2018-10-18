@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "name": "Prague",
+      "long": 14.430613,
+      "lat": 50.071986
+    },
+    {
+      "name": "Cesky Krumlov",
+      "long": 14.317734,
+      "lat": 48.813403
+    },
+    {
+      "name": "Hallstatt",
+      "long": 13.641542,
+      "lat": 47.552014
+    },
+    {
+      "name": "Salzburg",
+      "long": 13.047163,
+      "lat": 47.809489
+    },
+    {
+      "name": "Vienna",
+      "long": 16.359621,
+      "lat": 48.204627
+    },
+    {
+      "name": "Zurich",
+      "long": 8.533453,
+      "lat": 47.37802
+    },
+    {
+      "name": "Luzern",
+      "long": 8.304533,
+      "lat": 47.050419
+    },
+    {
+      "name": "Interlaken",
+      "long": 7.853711,
+      "lat": 46.686559
+    },
+    {
+      "name": "Geneve",
+      "long": 6.142423,
+      "lat": 46.209841
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1
+    },
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 2,
+      "target": 3
+    },
+    {
+      "source": 3,
+      "target": 4
+    },
+    {
+      "source": 4,
+      "target": 5
+    },
+    {
+      "source": 5,
+      "target": 6
+    },
+    {
+      "source": 6,
+      "target": 7
+    },
+    {
+      "source": 7,
+      "target": 8
+    }
+  ]
+}
