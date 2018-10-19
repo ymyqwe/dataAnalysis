@@ -1,49 +1,67 @@
 {
   "nodes": [
     {
-      "name": "Prague",
+      "name": "布拉格",
       "long": 14.430613,
-      "lat": 50.071986
+      "lat": 50.071986,
+      "offsetX": 5,
+      "offsetY": -15
     },
     {
-      "name": "Cesky Krumlov",
+      "name": "克鲁姆洛夫",
       "long": 14.317734,
-      "lat": 48.813403
+      "lat": 48.813403,
+      "offsetX": 10,
+      "offsetY": -15
     },
     {
-      "name": "Hallstatt",
+      "name": "哈尔施塔特",
       "long": 13.641542,
-      "lat": 47.552014
+      "lat": 47.552014,
+      "offsetX": -20,
+      "offsetY": 20
     },
     {
-      "name": "Salzburg",
+      "name": "萨尔茨堡",
       "long": 13.047163,
-      "lat": 47.809489
+      "lat": 47.809489,
+      "offsetX": -40,
+      "offsetY": -20
     },
     {
-      "name": "Vienna",
+      "name": "维也纳",
       "long": 16.359621,
-      "lat": 48.204627
+      "lat": 48.204627,
+      "offsetX": 5,
+      "offsetY": -15
     },
     {
-      "name": "Zurich",
+      "name": "苏黎世",
       "long": 8.533453,
-      "lat": 47.37802
+      "lat": 47.37802,
+      "offsetX": -30,
+      "offsetY": -15
     },
     {
-      "name": "Luzern",
+      "name": "卢塞恩",
       "long": 8.304533,
-      "lat": 47.050419
+      "lat": 47.050419,
+      "offsetX": 10,
+      "offsetY": -5
     },
     {
-      "name": "Interlaken",
+      "name": "因特拉肯",
       "long": 7.853711,
-      "lat": 46.686559
+      "lat": 46.686559,
+      "offsetX": 5,
+      "offsetY": 10
     },
     {
-      "name": "Geneve",
+      "name": "日内瓦",
       "long": 6.142423,
-      "lat": 46.209841
+      "lat": 46.209841,
+      "offsetX": 5,
+      "offsetY": 10
     }
   ],
   "links": [

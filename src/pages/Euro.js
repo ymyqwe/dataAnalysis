@@ -1,20 +1,20 @@
-import React, {Component} from "react";
-import euroData from "../data/euro/routes.json";
-import "./euro.css";
+import React, { Component } from 'react';
+import euroData from '../data/euro/routes.json';
+import './euro.css';
 
 export default class Euro extends Component {
   componentDidMount() {
-    var map = new window.google.maps.Map(window.d3.select("#map").node(), {
+    var map = new window.google.maps.Map(window.d3.select('#map').node(), {
       zoom: 6.5,
       center: new window.google.maps.LatLng(48.17312, 11.038454),
-      mapTypeId: "roadmap",
+      mapTypeId: 'roadmap',
       styles: [
         {
-          featureType: "administrative.locality",
-          elementType: "labels",
+          featureType: 'administrative.locality',
+          elementType: 'labels',
           stylers: [
             {
-              visibility: "off"
+              visibility: 'off'
             }
           ]
         }
@@ -27,8 +27,8 @@ export default class Euro extends Component {
     overlay.onAdd = function() {
       var layer = window.d3
         .select(this.getPanes().overlayLayer)
-        .append("div")
-        .attr("class", "stations");
+        .append('div')
+        .attr('class', 'stations');
 
       // Draw each marker as a separate SVG element.
       // We could use a single SVG, but what size would it have?
@@ -36,37 +36,55 @@ export default class Euro extends Component {
         var projection = this.getProjection(),
           padding = 10;
 
-        layer.select("svg").remove();
+        layer.select('svg').remove();
         var svg = layer
-          .append("svg")
-          .attr("width", 800)
-          .attr("height", 800);
+          .append('svg')
+          .attr('width', 800)
+          .attr('height', 800);
 
         var node = svg
-          .selectAll(".stations")
+          .selectAll('.stations')
           .data(euroData.nodes)
           .enter()
-          .append("g")
+          .append('g')
           .each(transform)
-          .attr("class", "node");
+          .attr('class', 'node');
 
-        var link = svg
-          .selectAll(".link")
-          .data(euroData.links)
-          .enter()
-          .append("line")
-          .attr("class", "link")
-          .attr("fill", "white")
-          .each(drawlink);
+        // var link = svg
+        //   .selectAll('.link')
+        //   .data(euroData.links)
+        //   .enter()
+        //   .append('line')
+        //   .attr('class', 'link')
+        //   .attr('fill', 'white')
+        //   .each(drawlink);
 
-        node.append("circle").attr("r", 4.5);
+        var lineFunction = window.d3.svg
+          .line()
+          .x(function(d) {
+            console.log(latLongToPos(d));
+            return latLongToPos(d).x;
+          })
+          .y(function(d) {
+            return latLongToPos(d).y;
+          })
+          .interpolate('monotone');
+
+        svg
+          .append('path')
+          .attr('d', lineFunction(euroData.nodes))
+          .attr('stroke', 'blue')
+          .attr('stroke-width', 2)
+          .attr('fill', 'none');
+
+        node.append('circle').attr('r', 4.5);
 
         node
-          .append("text")
-          .attr("x", 7)
-          .attr("y", 0)
-          .attr("dy", ".31em")
-          .attr("fill", "white")
+          .append('text')
+          .attr('x', d => d.offsetX)
+          .attr('y', d => d.offsetY)
+          .attr('dy', '.31em')
+          .attr('fill', 'black')
           .text(function(d) {
             return d.name;
           });
@@ -74,8 +92,8 @@ export default class Euro extends Component {
         function latLongToPos(d) {
           var p = new window.google.maps.LatLng(d.lat, d.long);
           p = projection.fromLatLngToDivPixel(p);
-          p.x = p.x - padding;
-          p.y = p.y - padding;
+          p.x = p.x;
+          p.y = p.y;
           return p;
         }
 
@@ -83,20 +101,31 @@ export default class Euro extends Component {
           var p = latLongToPos(d);
           return window.d3
             .select(this)
-            .attr("transform", "translate(" + p.x + "," + p.y + ")");
+            .attr('transform', 'translate(' + p.x + ',' + p.y + ')');
         }
 
+        function line(d) {
+          return window.d3.svg
+            .line()
+            .x(function(d) {
+              return d.x;
+            })
+            .y(function(d) {
+              return d.y;
+            })
+            .interpolate('basis');
+        }
         function drawlink(d) {
           var p1 = latLongToPos(euroData.nodes[d.source]),
             p2 = latLongToPos(euroData.nodes[d.target]);
           window.d3
             .select(this)
-            .attr("x1", p1.x)
-            .attr("y1", p1.y)
-            .attr("x2", p2.x)
-            .attr("y2", p2.y)
-            .style("fill", "none")
-            .style("stroke", "steelblue");
+            .attr('x1', p1.x)
+            .attr('y1', p1.y)
+            .attr('x2', p2.x)
+            .attr('y2', p2.y)
+            .style('fill', 'none')
+            .style('stroke', 'steelblue');
         }
         // var marker = layer
         //   .selectAll("svg")
