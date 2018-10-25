@@ -1,17 +1,17 @@
-import React, {Component} from "react";
-import G2 from "@antv/g2";
-import DataSet from "@antv/data-set";
-import data from "../data/sleep/averageSum.json";
-import durationData from "../data/sleep/duration.json";
-import weekdayAvgData from "../data/sleep/weekdayOverall.json";
-import startEndDistributionData from "../data/sleep/startEndDistribution.json";
-import moment from "moment";
+import React, { Component } from 'react';
+import G2 from '@antv/g2';
+import DataSet from '@antv/data-set';
+import data from '../../data/sleep/averageSum.json';
+import durationData from '../../data/sleep/duration.json';
+import weekdayAvgData from '../../data/sleep/weekdayOverall.json';
+import startEndDistributionData from '../../data/sleep/startEndDistribution.json';
+import moment from 'moment';
 const DataView = DataSet.DataView;
 
 class Home extends Component {
   setLine = () => {
     var chart = new G2.Chart({
-      container: "mountNode",
+      container: 'mountNode',
       forceFit: true,
       padding: [20, 20, 40, 30]
     });
@@ -19,46 +19,46 @@ class Home extends Component {
       element.avg = Number((element.avg / 3600).toFixed(2));
       var duration = moment.duration(element.avg * 1000);
       element.timeString = `${
-        duration.get("hours") ? duration.get("hours") + "小时" : ""
+        duration.get('hours') ? duration.get('hours') + '小时' : ''
       }${
-        duration.get("minutes") ? duration.get("minutes") + "分" : ""
-      }${duration.get("seconds")}`;
+        duration.get('minutes') ? duration.get('minutes') + '分' : ''
+      }${duration.get('seconds')}`;
       return element;
     });
     chart.source(newData);
-    chart.scale("avg", {
+    chart.scale('avg', {
       min: 5,
       max: 8,
-      alias: "睡眠平均时间(小时)"
+      alias: '睡眠平均时间(小时)'
     });
-    chart.scale("month", {range: [0, 1], alias: "月份", label: "月份"});
+    chart.scale('month', { range: [0, 1], alias: '月份', label: '月份' });
     chart.tooltip();
-    chart.line().position("month*avg");
+    chart.line().position('month*avg');
     chart
       .point()
-      .position("month*avg")
+      .position('month*avg')
       .size(4)
-      .shape("circle")
+      .shape('circle')
       .style({
-        stroke: "#fff",
+        stroke: '#fff',
         lineWidth: 1
       });
     chart.render();
   };
   setRose = () => {
     var chart = new G2.Chart({
-      container: "roseNode",
+      container: 'roseNode',
       forceFit: true
     });
     chart.source(durationData, {
       percent: {
         formatter: function formatter(val) {
-          val = val * 100 + "%";
+          val = val * 100 + '%';
           return val;
         }
       }
     });
-    chart.coord("theta", {
+    chart.coord('theta', {
       radius: 0.75
     });
     chart.tooltip({
@@ -68,14 +68,14 @@ class Home extends Component {
     });
     chart
       .intervalStack()
-      .position("percent")
-      .color("duration")
-      .label("percent", {
+      .position('percent')
+      .color('duration')
+      .label('percent', {
         formatter: function formatter(val, item) {
-          return item.point.duration + ": " + val;
+          return item.point.duration + ': ' + val;
         }
       })
-      .tooltip("duration*count", function(duration, count) {
+      .tooltip('duration*count', function(duration, count) {
         return {
           name: duration,
           value: count
@@ -83,7 +83,7 @@ class Home extends Component {
       })
       .style({
         lineWidth: 1,
-        stroke: "#fff"
+        stroke: '#fff'
       });
     chart.render();
   };
@@ -99,13 +99,13 @@ class Home extends Component {
     });
     var dv = new DataView().source(newData);
     dv.transform({
-      type: "fold",
-      fields: ["duration", "lightSleepTime", "soundSleepTime"], // 展开字段集
-      key: "weekDay", // key字段
-      value: "time" // value字段
+      type: 'fold',
+      fields: ['duration', 'lightSleepTime', 'soundSleepTime'], // 展开字段集
+      key: 'weekDay', // key字段
+      value: 'time' // value字段
     });
     var chart = new G2.Chart({
-      container: "radarNode",
+      container: 'radarNode',
       forceFit: true,
       height: window.innerHeight,
       padding: [20, 20, 95, 20]
@@ -116,10 +116,10 @@ class Home extends Component {
         max: 8
       }
     });
-    chart.coord("polar", {
+    chart.coord('polar', {
       radius: 0.8
     });
-    chart.axis("weekday", {
+    chart.axis('weekday', {
       line: null,
       tickLine: null,
       grid: {
@@ -129,33 +129,33 @@ class Home extends Component {
         hideFirstLine: false
       }
     });
-    chart.axis("time", {
+    chart.axis('time', {
       line: null,
       tickLine: null,
       grid: {
-        type: "polygon",
+        type: 'polygon',
         lineStyle: {
           lineDash: null
         }
       }
     });
-    chart.legend("weekDay", {
-      marker: "circle",
+    chart.legend('weekDay', {
+      marker: 'circle',
       offset: 30
     });
     chart
       .line()
-      .position("weekday*time")
-      .color("weekDay")
+      .position('weekday*time')
+      .color('weekDay')
       .size(2);
     chart
       .point()
-      .position("weekday*time")
-      .color("weekDay")
-      .shape("circle")
+      .position('weekday*time')
+      .color('weekDay')
+      .shape('circle')
       .size(4)
       .style({
-        stroke: "#fff",
+        stroke: '#fff',
         lineWidth: 1,
         fillOpacity: 1
       });
@@ -167,9 +167,9 @@ class Home extends Component {
         sizeEncoding: false
       }
     });
-    var dv = ds.createView("diamond").source(startEndDistributionData);
+    var dv = ds.createView('diamond').source(startEndDistributionData);
     dv.transform({
-      type: "map",
+      type: 'map',
       callback(row) {
         // 加工数据后返回新的一行，默认返回行数据本身
         if (row.startTime > 12) {
@@ -180,13 +180,13 @@ class Home extends Component {
     });
     dv.transform({
       sizeByCount: false, // calculate bin size by binning count
-      type: "bin.rectangle",
-      fields: ["startTime", "endTime"], // 对应坐标轴上的一个点
+      type: 'bin.rectangle',
+      fields: ['startTime', 'endTime'], // 对应坐标轴上的一个点
       bins: [20, 10]
     });
 
     var chart = new G2.Chart({
-      container: "boxNode",
+      container: 'boxNode',
       forceFit: true,
       height: window.innerHeight
     });
@@ -194,28 +194,28 @@ class Home extends Component {
     chart.legend({
       // offset: 40
     });
-    chart.axis("x", {
+    chart.axis('x', {
       label: {
         formatter: val => {
           console.log(val, typeof val);
           if (val < 0) {
-            return Number(val) + 24 + ":00";
+            return Number(val) + 24 + ':00';
           } else {
-            return val + ":00";
+            return val + ':00';
           }
         }
       }
     });
-    chart.axis("y", {
+    chart.axis('y', {
       label: {
-        formatter: val => val + ":00"
+        formatter: val => val + ':00'
       }
     });
     chart.tooltip(false);
     chart
       .polygon()
-      .position("x*y")
-      .color("count", "#BAE7FF-#1890FF-#0050B3");
+      .position('x*y')
+      .color('count', '#BAE7FF-#1890FF-#0050B3');
     chart.render();
   };
   componentDidMount() {

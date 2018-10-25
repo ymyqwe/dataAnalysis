@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import euroData from '../data/euro/routes.json';
+import euroData from '../../data/euro/routes.json';
 import './euro.css';
 
 export default class Euro extends Component {
