@@ -1,8 +1,6 @@
 html,
 body,
 #map {
-  width: 800px;
-  height: 800px;
   margin: 0;
   padding: 0; }
 
@@ -23,5 +21,6 @@ body,
   font-family: Roboto, sans-serif; }
 
 .stations circle {
-  fill: #935532;
-  stroke-width: 1.5px; }
+  fill: #fff;
+  stroke-width: 1.5px;
+  stroke: #000; }

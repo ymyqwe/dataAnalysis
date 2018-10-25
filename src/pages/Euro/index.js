@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import euroData from '../../data/euro/routes.json';
 import './euro.css';
+import d3 from 'd3';
 
 export default class Euro extends Component {
   componentDidMount() {
-    var map = new window.google.maps.Map(window.d3.select('#map').node(), {
+    var map = new window.google.maps.Map(d3.select('#map').node(), {
       zoom: 6.5,
       center: new window.google.maps.LatLng(48.17312, 11.038454),
       mapTypeId: 'roadmap',
@@ -25,7 +26,7 @@ export default class Euro extends Component {
 
     // Add the container when the overlay is added to the map.
     overlay.onAdd = function() {
-      var layer = window.d3
+      var layer = d3
         .select(this.getPanes().overlayLayer)
         .append('div')
         .attr('class', 'stations');
@@ -33,15 +34,50 @@ export default class Euro extends Component {
       // Draw each marker as a separate SVG element.
       // We could use a single SVG, but what size would it have?
       overlay.draw = function() {
-        var projection = this.getProjection(),
-          padding = 10;
+        var projection = this.getProjection();
 
         layer.select('svg').remove();
         var svg = layer
           .append('svg')
-          .attr('width', 800)
-          .attr('height', 800);
+          .attr('width', window.innerWidth)
+          .attr('height', window.innerHeight);
 
+        var lineFunction = d3.svg
+          .line()
+          .x(function(d) {
+            console.log(latLongToPos(d));
+            return latLongToPos(d).x;
+          })
+          .y(function(d) {
+            return latLongToPos(d).y;
+          })
+          .interpolate('monotone');
+
+        svg
+          .append('path')
+          .attr('d', lineFunction(euroData.nodes))
+          .attr('stroke', '#00b2ff')
+          .attr('stroke-width', 4)
+          .attr('fill', 'none')
+          .call(transition);
+
+        function transition(path) {
+          path
+            .transition()
+            .duration(8000)
+            .attrTween('stroke-dasharray', tweenDash)
+            .each('end', function() {
+              d3.select(this).call(transition);
+            });
+        }
+
+        function tweenDash() {
+          var l = this.getTotalLength(),
+            i = d3.interpolateString('0,' + l, l + ',' + l);
+          return function(t) {
+            return i(t);
+          };
+        }
         var node = svg
           .selectAll('.stations')
           .data(euroData.nodes)
@@ -58,24 +94,6 @@ export default class Euro extends Component {
         //   .attr('class', 'link')
         //   .attr('fill', 'white')
         //   .each(drawlink);
-
-        var lineFunction = window.d3.svg
-          .line()
-          .x(function(d) {
-            console.log(latLongToPos(d));
-            return latLongToPos(d).x;
-          })
-          .y(function(d) {
-            return latLongToPos(d).y;
-          })
-          .interpolate('monotone');
-
-        svg
-          .append('path')
-          .attr('d', lineFunction(euroData.nodes))
-          .attr('stroke', 'blue')
-          .attr('stroke-width', 2)
-          .attr('fill', 'none');
 
         node.append('circle').attr('r', 4.5);
 
@@ -99,13 +117,13 @@ export default class Euro extends Component {
 
         function transform(d) {
           var p = latLongToPos(d);
-          return window.d3
+          return d3
             .select(this)
             .attr('transform', 'translate(' + p.x + ',' + p.y + ')');
         }
 
         function line(d) {
-          return window.d3.svg
+          return d3.svg
             .line()
             .x(function(d) {
               return d.x;
@@ -118,8 +136,7 @@ export default class Euro extends Component {
         function drawlink(d) {
           var p1 = latLongToPos(euroData.nodes[d.source]),
             p2 = latLongToPos(euroData.nodes[d.target]);
-          window.d3
-            .select(this)
+          d3.select(this)
             .attr('x1', p1.x)
             .attr('y1', p1.y)
             .attr('x2', p2.x)
@@ -129,7 +146,7 @@ export default class Euro extends Component {
         }
         // var marker = layer
         //   .selectAll("svg")
-        //   .data(window.d3.entries(euroData))
+        //   .data(d3.entries(euroData))
         //   .each(transform) // update existing markers
         //   .enter()
         //   .append("svg")
@@ -157,7 +174,7 @@ export default class Euro extends Component {
         // function transform(d) {
         //   d = new window.google.maps.LatLng(d.value[0], d.value[1]);
         //   d = projection.fromLatLngToDivPixel(d);
-        //   return window.d3
+        //   return d3
         //     .select(this)
         //     .style("left", d.x - padding + "px")
         //     .style("top", d.y - padding + "px");
@@ -169,6 +186,11 @@ export default class Euro extends Component {
     overlay.setMap(map);
   }
   render() {
-    return <div id="map" />;
+    return (
+      <div
+        id="map"
+        style={{ width: window.innerWidth, height: window.innerHeight }}
+      />
+    );
   }
 }
