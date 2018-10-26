@@ -12,7 +12,8 @@
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "serve": "10.0.2"
   },
   "scripts": {
     "test": "react-scripts test --env=jsdom",
@@ -22,7 +23,8 @@
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
-    "build": "npm-run-all build-css build-js"
+    "build": "npm-run-all build-css build-js",
+    "serve": "serve -s build"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "^2.6.2",
