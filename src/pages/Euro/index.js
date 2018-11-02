@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import euroData from '../../data/euro/routes.json';
 import './euro.css';
-import d3 from 'd3';
+// import d3 from 'd3';
+import d3 from '../../lib/d3Importer';
 
 export default class Euro extends Component {
   componentDidMount() {
@@ -99,8 +100,8 @@ export default class Euro extends Component {
 
         node
           .append('text')
-          .attr('x', d => d.offsetX)
-          .attr('y', d => d.offsetY)
+          .attr('x', (d) => d.offsetX)
+          .attr('y', (d) => d.offsetY)
           .attr('dy', '.31em')
           .attr('fill', 'black')
           .text(function(d) {
@@ -110,75 +111,13 @@ export default class Euro extends Component {
         function latLongToPos(d) {
           var p = new window.google.maps.LatLng(d.lat, d.long);
           p = projection.fromLatLngToDivPixel(p);
-          p.x = p.x;
-          p.y = p.y;
           return p;
         }
 
         function transform(d) {
           var p = latLongToPos(d);
-          return d3
-            .select(this)
-            .attr('transform', 'translate(' + p.x + ',' + p.y + ')');
+          return d3.select(this).attr('transform', 'translate(' + p.x + ',' + p.y + ')');
         }
-
-        function line(d) {
-          return d3.svg
-            .line()
-            .x(function(d) {
-              return d.x;
-            })
-            .y(function(d) {
-              return d.y;
-            })
-            .interpolate('basis');
-        }
-        function drawlink(d) {
-          var p1 = latLongToPos(euroData.nodes[d.source]),
-            p2 = latLongToPos(euroData.nodes[d.target]);
-          d3.select(this)
-            .attr('x1', p1.x)
-            .attr('y1', p1.y)
-            .attr('x2', p2.x)
-            .attr('y2', p2.y)
-            .style('fill', 'none')
-            .style('stroke', 'steelblue');
-        }
-        // var marker = layer
-        //   .selectAll("svg")
-        //   .data(d3.entries(euroData))
-        //   .each(transform) // update existing markers
-        //   .enter()
-        //   .append("svg")
-        //   .each(transform)
-        //   .attr("class", "marker");
-
-        // // Add a circle.
-        // marker
-        //   .append("circle")
-        //   .attr("r", 4.5)
-        //   .attr("cx", padding)
-        //   .attr("cy", padding);
-
-        // // Add a label.
-        // marker
-        //   .append("text")
-        //   .attr("x", padding + 7)
-        //   .attr("y", padding)
-        //   .attr("dy", ".31em")
-        //   .attr("fill", "white")
-        //   .text(function(d) {
-        //     return d.key;
-        //   });
-
-        // function transform(d) {
-        //   d = new window.google.maps.LatLng(d.value[0], d.value[1]);
-        //   d = projection.fromLatLngToDivPixel(d);
-        //   return d3
-        //     .select(this)
-        //     .style("left", d.x - padding + "px")
-        //     .style("top", d.y - padding + "px");
-        // }
       };
     };
 
@@ -186,11 +125,6 @@ export default class Euro extends Component {
     overlay.setMap(map);
   }
   render() {
-    return (
-      <div
-        id="map"
-        style={{ width: window.innerWidth, height: window.innerHeight }}
-      />
-    );
+    return <div id="map" style={{ width: window.innerWidth, height: window.innerHeight }} />;
   }
 }
