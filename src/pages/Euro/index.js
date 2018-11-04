@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import euroData from '../../data/euro/routes.json';
 import './euro.css';
-// import d3 from 'd3';
-import d3 from '../../lib/d3Importer';
+import d3 from 'd3';
 
 export default class Euro extends Component {
   componentDidMount() {
