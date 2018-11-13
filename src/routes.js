@@ -1,18 +1,18 @@
-import {BrowserRouter as Router, Route, Link, Switch} from "react-router-dom";
-import React, {Component} from "react";
-import Home from "./pages/Home";
-import Euro from "./pages/Euro";
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import React, { Component } from 'react';
+import Home from './pages/Home';
+import Euro from './pages/Euro';
 
 class routes extends Component {
   render() {
     return (
       <Router>
         <div>
-          <ul>
+          {/* <ul>
             <li>
               <Link to="/"> Home </Link>
             </li>
-          </ul>
+          </ul> */}
           <hr />
           <Switch>
             <Route exact path="/" component={Home} />
