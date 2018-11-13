@@ -4,7 +4,25 @@ import './euro.css';
 import d3 from 'd3';
 
 export default class Euro extends Component {
+  componentWillUnmount() {
+    console.log('unmount');
+  }
   componentDidMount() {
+    console.log('mount');
+
+    var scriptList = Array.from(document.querySelectorAll('script'));
+    if (scriptList.some((element) => element.src.indexOf('google') >= 0)) {
+      this.mapInit();
+    } else {
+      const script = document.createElement('script');
+      script.src = '//maps.google.cn/maps/api/js?key=AIzaSyBwwgYkry9R2qbAMSKbDUDziUnyW4wLC34&region=cn&language=zh-CN';
+      document.body.appendChild(script);
+      script.onload = script.onreadystatechange = () => {
+        this.mapInit();
+      };
+    }
+  }
+  mapInit = () => {
     var map = new window.google.maps.Map(d3.select('#map').node(), {
       zoom: 6.5,
       center: new window.google.maps.LatLng(48.17312, 11.038454),
@@ -122,7 +140,7 @@ export default class Euro extends Component {
 
     // Bind our overlay to the map…
     overlay.setMap(map);
-  }
+  };
   render() {
     return <div id="map" style={{ width: window.innerWidth, height: window.innerHeight }} />;
   }
