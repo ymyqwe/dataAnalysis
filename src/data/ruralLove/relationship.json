@@ -1,0 +1,337 @@
+{
+  "nodes": [
+    {
+      "id": "谢大脚",
+      "group": 0
+    },
+    {
+      "id": "谢广坤",
+      "group": 1
+    },
+
+    {
+      "id": "刘能",
+      "group": 1
+    },
+    {
+      "id": "刘英",
+      "group": 1
+    },
+    {
+      "id": "赵四",
+      "group": 1
+    },
+    {
+      "id": "谢兰",
+      "group": 1
+    },
+    {
+      "id": "赵玉田",
+      "group": 1
+    },
+    {
+      "id": "皮长山",
+      "group": 1
+    },
+    {
+      "id": "王大拿",
+      "group": 2
+    },
+    {
+      "id": "刘大脑袋",
+      "group": 2
+    },
+    {
+      "id": "王木生",
+      "group": 2
+    },
+    {
+      "id": "杨晓燕",
+      "group": 2
+    },
+    {
+      "id": "李秋歌",
+      "group": 2
+    },
+    {
+      "id": "小沈阳",
+      "group": 2
+    },
+    {
+      "id": "王云",
+      "group": 2
+    },
+    {
+      "id": "宋晓峰",
+      "group": 2
+    },
+    {
+      "id": "谢小梅",
+      "group": 3
+    },
+    {
+      "id": "刘一水",
+      "group": 3
+    },
+    {
+      "id": "王香秀",
+      "group": 3
+    },
+    {
+      "id": "李大国",
+      "group": 3
+    },
+    {
+      "id": "王长贵",
+      "group": 4
+    },
+    {
+      "id": "苏玉红",
+      "group": 4
+    },
+    {
+      "id": "小梁",
+      "group": 4
+    },
+    {
+      "id": "王老七",
+      "group": 1
+    },
+    {
+      "id": "谢永强",
+      "group": 1
+    },
+    {
+      "id": "王小蒙",
+      "group": 1
+    },
+    {
+      "id": "宋青莲",
+      "group": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "谢大脚",
+      "target": "王长贵",
+      "value": 10,
+      "relathionship": "两口子"
+    },
+    {
+      "source": "谢大脚",
+      "target": "谢小梅",
+      "value": 5,
+      "relathionship": "亲戚"
+    },
+    {
+      "source": "谢大脚",
+      "target": "谢广坤",
+      "value": 3,
+      "relathionship": "曾爱慕"
+    },
+    {
+      "source": "谢大脚",
+      "target": "王大拿",
+      "value": 3,
+      "relathionship": "曾爱慕"
+    },
+    {
+      "source": "谢大脚",
+      "target": "刘能",
+      "value": 3,
+      "relathionship": "曾爱慕"
+    },
+    {
+      "source": "王木生",
+      "target": "刘大脑袋",
+      "value": 2,
+      "relathionship": "对头"
+    },
+    {
+      "source": "王大拿",
+      "target": "刘大脑袋",
+      "value": 1,
+      "relathionship": "上下属"
+    },
+    {
+      "source": "王云",
+      "target": "刘大脑袋",
+      "value": 10,
+      "relathionship": "两口子"
+    },
+    {
+      "source": "王大拿",
+      "target": "王木生",
+      "value": 9,
+      "relathionship": "父子"
+    },
+    {
+      "source": "王大拿",
+      "target": "杨晓燕",
+      "value": 10,
+      "relathionship": "两口子"
+    },
+    {
+      "source": "杨晓燕",
+      "target": "李秋歌",
+      "value": 9,
+      "relathionship": "母女"
+    },
+    {
+      "source": "王天来",
+      "target": "李秋歌",
+      "value": 3,
+      "relathionship": "分手情侣"
+    },
+    {
+      "source": "王天来",
+      "target": "王云",
+      "value": 6,
+      "relathionship": "姑侄"
+    },
+    {
+      "source": "刘一水",
+      "target": "谢小梅",
+      "value": 10,
+      "relathionship": "两口子"
+    },
+    {
+      "source": "刘一水",
+      "target": "王香秀",
+      "value": 5,
+      "relathionship": "亲戚"
+    },
+    {
+      "source": "刘一水",
+      "target": "李大国",
+      "value": 1,
+      "relathionship": "上下属"
+    },
+    {
+      "source": "王香秀",
+      "target": "李大国",
+      "value": 3,
+      "relathionship": "离异夫妻"
+    },
+    {
+      "source": "王香秀",
+      "target": "李大国",
+      "value": 3,
+      "relathionship": "离异夫妻"
+    },
+    {
+      "source": "王香秀",
+      "target": "王长贵",
+      "value": 9,
+      "relathionship": "父女"
+    },
+    {
+      "source": "宋晓峰",
+      "target": "王云",
+      "value": 6,
+      "relathionship": "表姐弟"
+    },
+    {
+      "source": "宋晓峰",
+      "target": "宋青莲",
+      "value": 4,
+      "relathionship": "恋爱中"
+    },
+    {
+      "source": "王长贵",
+      "target": "苏玉红",
+      "value": 3,
+      "relathionship": "绯闻对象"
+    },
+    {
+      "source": "小梁",
+      "target": "苏玉红",
+      "value": 2,
+      "relathionship": "已分手"
+    },
+    {
+      "source": "小梁",
+      "target": "王长贵",
+      "value": 6,
+      "relathionship": "为他死！"
+    },
+    {
+      "source": "谢广坤",
+      "target": "刘能",
+      "value": 7,
+      "relathionship": "死对头"
+    },
+    {
+      "source": "刘英",
+      "target": "刘能",
+      "value": 9,
+      "relathionship": "父女"
+    },
+    {
+      "source": "赵四",
+      "target": "刘能",
+      "value": 7,
+      "relathionship": "亲家"
+    },
+    {
+      "source": "赵四",
+      "target": "赵玉田",
+      "value": 9,
+      "relathionship": "父子"
+    },
+    {
+      "source": "刘英",
+      "target": "赵玉田",
+      "value": 10,
+      "relathionship": "两口子"
+    },
+    {
+      "source": "谢广坤",
+      "target": "谢兰",
+      "value": 9,
+      "relathionship": "父女"
+    },
+    {
+      "source": "皮长山",
+      "target": "谢兰",
+      "value": 10,
+      "relathionship": "两口子"
+    },
+    {
+      "source": "谢广坤",
+      "target": "王老七",
+      "value": 7,
+      "relathionship": "亲家"
+    },
+    {
+      "source": "谢广坤",
+      "target": "谢永强",
+      "value": 9,
+      "relathionship": "父子"
+    },
+    {
+      "source": "王小蒙",
+      "target": "谢永强",
+      "value": 10,
+      "relathionship": "两口子"
+    },
+    {
+      "source": "王老七",
+      "target": "王小蒙",
+      "value": 9,
+      "relathionship": "父女"
+    },
+    {
+      "source": "谢永强",
+      "target": "谢兰",
+      "value": 8,
+      "relathionship": "姐弟"
+    },
+    {
+      "source": "谢永强",
+      "target": "宋青莲",
+      "value": 1,
+      "relathionship": "上下属"
+    }
+  ]
+}
