@@ -5,13 +5,161 @@ import * as d3 from 'd3';
 
 const data = ruralLoveData;
 class index extends Component {
-  color = () => {
-    const scale = d3.scaleOrdinal(d3.schemeCategory10);
-    return (d) => scale(d.group);
-  };
-  drag = (simulation) => {
+  componentDidMount() {
+    var width = 1200;
+    var height = 1000;
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+    var text = {
+      nodes: [],
+      links: []
+    };
+
+    data.nodes.forEach(function(d, i) {
+      text.nodes.push({ node: d });
+      text.nodes.push({ node: d });
+      text.links.push({
+        source: i * 2,
+        target: i * 2 + 1
+      });
+    });
+    var textLayout = d3
+      .forceSimulation(text.nodes)
+      .force('charge', d3.forceManyBody().strength(-50))
+      .force(
+        'link',
+        d3
+          .forceLink(text.links)
+          .distance(0)
+          .strength(2)
+      );
+
+    var nodeLayout = d3
+      .forceSimulation(data.nodes)
+      .force('charge', d3.forceManyBody().strength(-10000))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('x', d3.forceX(width / 2).strength(1))
+      .force('y', d3.forceY(height / 2).strength(1))
+      .force(
+        'link',
+        d3
+          .forceLink(data.links)
+          .id(function(d) {
+            return d.id;
+          })
+          .distance(50)
+          .strength(1)
+      )
+      .on('tick', ticked);
+
+    var svg = d3
+      .select(this.dom)
+      .attr('width', width)
+      .attr('height', height);
+    var container = svg.append('g');
+
+    var link = container
+      .append('g')
+      .attr('class', 'links')
+      .selectAll('line')
+      .data(data.links)
+      .enter()
+      .append('line')
+      .attr('stroke', '#aaa')
+      .attr('stroke-width', '1px');
+
+    var linkText = container
+      .append('g')
+      .attr('class', 'link-text')
+      .selectAll('text')
+      .data(data.links)
+      .enter()
+      .append('text')
+      .text(function(d, i) {
+        return d.relathionship;
+      })
+      .style('fill', '#555')
+      .style('font-family', 'Arial')
+      .style('font-size', 12);
+
+    var node = container
+      .append('g')
+      .attr('class', 'nodes')
+      .selectAll('g')
+      .data(data.nodes)
+      .enter()
+      .append('circle')
+      .attr('r', 5)
+      .attr('fill', function(d) {
+        return color(d.group);
+      });
+
+    var textNode = container
+      .append('g')
+      .attr('class', 'labelNodes')
+      .selectAll('text')
+      .data(text.nodes)
+      .enter()
+      .append('text')
+      .text(function(d, i) {
+        return i % 2 == 0 ? '' : d.node.id;
+      })
+      .style('fill', '#111')
+      .style('font-family', 'Arial')
+      .style('font-size', 12);
+
+    node.call(
+      d3
+        .drag()
+        .on('start', dragstarted)
+        .on('drag', dragged)
+        .on('end', dragended)
+    );
+
+    function ticked() {
+      node.call(updateNode);
+      link.call(updateLink);
+      linkText.call(updateLinkText);
+
+      textLayout.alphaTarget(0.3).restart();
+      textNode.each(function(d, i) {
+        d.x = d.node.x - 8;
+        d.y = d.node.y + 20;
+      });
+      textNode.call(updateNode);
+    }
+    function fixna(x) {
+      if (isFinite(x)) return x;
+      return 0;
+    }
+    function updateLink(link) {
+      link
+        .attr('x1', function(d) {
+          return fixna(d.source.x);
+        })
+        .attr('y1', function(d) {
+          return fixna(d.source.y);
+        })
+        .attr('x2', function(d) {
+          return fixna(d.target.x);
+        })
+        .attr('y2', function(d) {
+          return fixna(d.target.y);
+        });
+    }
+    function updateLinkText(linkText) {
+      linkText.attr('transform', function(d) {
+        return 'translate(' + fixna((d.source.x + d.target.x) / 2) + ',' + fixna((d.source.y + d.target.y) / 2) + ')';
+      });
+    }
+    function updateNode(node) {
+      node.attr('transform', function(d) {
+        return 'translate(' + fixna(d.x) + ',' + fixna(d.y) + ')';
+      });
+    }
     function dragstarted(d) {
-      if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+      d3.event.sourceEvent.stopPropagation();
+      if (!d3.event.active) nodeLayout.alphaTarget(0.3).restart();
       d.fx = d.x;
       d.fy = d.y;
     }
@@ -22,117 +170,15 @@ class index extends Component {
     }
 
     function dragended(d) {
-      if (!d3.event.active) simulation.alphaTarget(0);
+      if (!d3.event.active) nodeLayout.alphaTarget(0);
       d.fx = null;
       d.fy = null;
     }
-
-    return d3
-      .drag()
-      .on('start', dragstarted)
-      .on('drag', dragged)
-      .on('end', dragended);
-  };
-  componentDidMount() {
-    const links = data.links.map((d) => Object.create(d));
-    const nodes = data.nodes.map((d) => Object.create(d));
-    const texts = data.nodes.map((d) => Object.create(d));
-    const width = 1200,
-      height = 600;
-
-    const simulation = d3
-      .forceSimulation(nodes)
-      .force('link', d3.forceLink(links).id((d) => d.id))
-      .force('charge', d3.forceManyBody())
-      .force('center', d3.forceCenter(width / 2, height / 2));
-
-    var textSimulation = d3
-      .forceSimulation(texts)
-      .force('link', d3.forceLink(links).id((d) => d.id))
-      .force('charge', d3.forceManyBody())
-      .force('center', d3.forceCenter(width / 2, height / 2));
-
-    const svg = d3
-      .select(this.dom)
-      .attr('width', width)
-      .attr('height', height);
-
-    var container = svg.append('g');
-
-    const link = container
-      .append('g')
-      .attr('stroke', '#999')
-      .attr('stroke-opacity', 0.6)
-      .selectAll('line')
-      .data(links)
-      .join('line')
-      .attr('stroke-width', (d) => Math.sqrt(d.value));
-
-    const node = container
-      .append('g')
-      .attr('stroke', '#fff')
-      .attr('stroke-width', 1.5)
-      .selectAll('circle')
-      .data(nodes)
-      .join('circle')
-      .attr('r', 4)
-      .attr('fill', this.color())
-      .call(this.drag(simulation));
-
-    const text = container
-      .append('g')
-      .selectAll('text')
-      .data(texts)
-      .join('text')
-      .text((d) => d.id)
-      .attr('fill', 'red')
-      .call(this.drag(simulation));
-    // const texts = svg
-    //   .selectAll('text')
-    //   .data(nodes)
-    //   .enter()
-    //   .filter((d) => d.value >= 30)
-    //   .append('text')
-    //   .attr('font-family', 'sans-serif')
-    //   .attr('dx', 12)
-    //   .attr('dy', '0.35em')
-    //   .text((d) => d.id);
-    // node
-    //   // .attr('x', (d) => d.offsetX)
-    //   .append('text')
-    //   .attr('y', 60)
-    //   .attr('x', 0)
-    //   .attr('fill', 'black')
-    //   .text(function(d) {
-    //     return d.id;
-    //   });
-    // .append('title').text((d) => d.id);
-
-    simulation.on('tick', () => {
-      link
-        .attr('x1', (d) => d.source.x)
-        .attr('y1', (d) => d.source.y)
-        .attr('x2', (d) => d.target.x)
-        .attr('y2', (d) => d.target.y);
-
-      textSimulation.alphaTarget(0.3).restart();
-      node.attr('cx', (d) => d.x).attr('cy', (d) => d.y);
-      text.attr('x', (d) => d.x).attr('y', (d) => d.y);
-      // text.call(updateNode);
-    });
-
-    function updateNode(node) {
-      node.attr('transform', function(d) {
-        return 'translate(' + d.x + ',' + d.y + ')';
-      });
-    }
-    // invalidation.then(() => simulation.stop());
-
-    svg.node();
   }
+
   render() {
     return (
-      <div style={{ width: '1200px', height: '600px' }}>
+      <div style={{ width: '1200px', height: '1000px' }}>
         <svg ref={(dom) => (this.dom = dom)} />
       </div>
     );
