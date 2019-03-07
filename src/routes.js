@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import React, { Component } from 'react';
 import Home from './pages/Home';
-import Euro from './pages/Euro';
-
+// import Euro from './pages/Euro';
+import RuralLove from './pages/RuralLove';
 class routes extends Component {
   render() {
     return (
@@ -16,7 +16,8 @@ class routes extends Component {
           <hr />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/euro" component={Euro} />
+            {/* <Route exact path="/euro" component={Euro} /> */}
+            <Route exact path="/rural/love" component={RuralLove} />
           </Switch>
         </div>
       </Router>
