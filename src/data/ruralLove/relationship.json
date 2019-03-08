@@ -2,111 +2,138 @@
   "nodes": [
     {
       "id": "谢大脚",
-      "group": 0
+      "group": 0,
+      "avatar": "img/rurallove/xiedajiao.jpg"
     },
     {
       "id": "谢广坤",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/xieguangkun.jpg"
     },
     {
       "id": "刘能",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/liuneng.jpg"
     },
     {
       "id": "刘英",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/liuying.jpg"
     },
     {
       "id": "赵四",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/zhaosi.jpg"
     },
     {
       "id": "谢兰",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/xielan.jpg"
     },
     {
       "id": "赵玉田",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/zhaoyutian.jpg"
     },
     {
       "id": "皮长山",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/pichangshan.jpg"
     },
     {
       "id": "王大拿",
-      "group": 2
+      "group": 2,
+      "avatar": "img/rurallove/wangdana.jpg"
     },
     {
       "id": "刘大脑袋",
-      "group": 2
+      "group": 2,
+      "avatar": "img/rurallove/liudanaodai.jpg"
     },
     {
       "id": "王木生",
-      "group": 2
+      "group": 2,
+      "avatar": "img/rurallove/wangmusheng.jpg"
     },
     {
       "id": "杨晓燕",
-      "group": 2
+      "group": 2,
+      "avatar": "img/rurallove/yangxiaoyan.jpg"
     },
     {
       "id": "李秋歌",
-      "group": 2
+      "group": 2,
+      "avatar": "img/rurallove/liqiuge.jpg"
     },
     {
       "id": "王天来",
-      "group": 2
+      "group": 2,
+      "avatar": "img/rurallove/wangtianlai.jpg"
     },
     {
       "id": "王云",
-      "group": 2
+      "group": 2,
+      "avatar": "img/rurallove/wangyun.jpg"
     },
     {
       "id": "宋晓峰",
-      "group": 2
+      "group": 2,
+      "avatar": "img/rurallove/songxiaofeng.jpg"
     },
     {
       "id": "谢小梅",
-      "group": 3
+      "group": 3,
+      "avatar": "img/rurallove/xiexiaomei.jpg"
     },
     {
       "id": "刘一水",
-      "group": 3
+      "group": 3,
+      "avatar": "img/rurallove/liyishui.jpg"
     },
     {
       "id": "王香秀",
-      "group": 3
+      "group": 3,
+      "avatar": "img/rurallove/wangxiangxiu.jpg"
     },
     {
       "id": "李大国",
-      "group": 3
+      "group": 3,
+      "avatar": "img/rurallove/lidaguo.jpg"
     },
     {
       "id": "王长贵",
-      "group": 4
+      "group": 4,
+      "avatar": "img/rurallove/wangchanggui.jpg"
     },
     {
       "id": "苏玉红",
-      "group": 4
+      "group": 4,
+      "avatar": "img/rurallove/suyuhong.jpg"
     },
     {
       "id": "小梁",
-      "group": 4
+      "group": 4,
+      "avatar": "img/rurallove/xiaoliang.jpg"
     },
     {
       "id": "王老七",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/wanglaoqi.jpg"
     },
     {
       "id": "谢永强",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/xieyongqiang.jpg"
     },
     {
       "id": "王小蒙",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/wangxiaomeng.jpg"
     },
     {
       "id": "宋青莲",
-      "group": 1
+      "group": 1,
+      "avatar": "img/rurallove/songqinglian.jpg"
     }
   ],
   "links": [
