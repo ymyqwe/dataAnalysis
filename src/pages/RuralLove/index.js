@@ -88,11 +88,19 @@ class index extends Component {
       .selectAll('g')
       .data(data.nodes)
       .enter()
-      .append('circle')
-      .attr('r', 5)
-      .attr('fill', function(d) {
-        return color(d.group);
-      });
+      .append("image")
+      .attr("x", -15)
+      .attr("y", -45)
+      .attr("width", 50)
+      .attr("height", 50)
+      .attr("xlink:href", function (d) { return d.avatar});
+
+      // .enter()
+      // .append('circle')
+      // .attr('r', 5)
+      // .attr('fill', function(d) {
+      //   return color(d.group);
+      // });
 
     var textNode = container
       .append('g')
