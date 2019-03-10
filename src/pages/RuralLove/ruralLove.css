@@ -3,6 +3,9 @@
 
 .title {
   text-align: center; }
+  .title span {
+    font-size: 14px;
+    color: #aaaaaa; }
 
 .link-text {
   fill-opacity: 0;

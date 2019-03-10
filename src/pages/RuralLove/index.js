@@ -206,7 +206,9 @@ class index extends Component {
   render() {
     return (
       <div className="container" style={{ width: '1200px', height: '1000px' }}>
-        <div className="title">乡村爱情人物关系图</div>
+        <h2 className="title">
+          乡村爱情人物关系图 <span>(请在PC端体验)</span>
+        </h2>
         <svg ref={(dom) => (this.dom = dom)} />
       </div>
     );
