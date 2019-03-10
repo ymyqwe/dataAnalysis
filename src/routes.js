@@ -13,7 +13,7 @@ class routes extends Component {
               <Link to="/"> Home </Link>
             </li>
           </ul> */}
-          <hr />
+          {/* <hr /> */}
           <Switch>
             <Route exact path="/" component={Home} />
             {/* <Route exact path="/euro" component={Euro} /> */}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ruralLoveData from '../../data/ruralLove/relationship.json';
-// import './euro.css';
+import './ruralLove.css';
 import * as d3 from 'd3';
 
 const data = ruralLoveData;
@@ -23,6 +23,8 @@ class index extends Component {
         target: i * 2 + 1
       });
     });
+
+    console.log('text', data);
     var textLayout = d3
       .forceSimulation(text.nodes)
       .force('charge', d3.forceManyBody().strength(-50))
@@ -66,21 +68,18 @@ class index extends Component {
       .enter()
       .append('line')
       .attr('stroke', '#aaa')
-      .attr('stroke-width', '1px');
+      .attr('stroke-width', (d) => Math.sqrt(d.value));
 
     var linkText = container
       .append('g')
-      .attr('class', 'link-text')
       .selectAll('text')
       .data(data.links)
       .enter()
       .append('text')
+      .attr('class', 'link-text')
       .text(function(d, i) {
         return d.relathionship;
-      })
-      .style('fill', '#555')
-      .style('font-family', 'Arial')
-      .style('font-size', 12);
+      });
 
     var node = container
       .append('g')
@@ -88,19 +87,39 @@ class index extends Component {
       .selectAll('g')
       .data(data.nodes)
       .enter()
-      .append("image")
-      .attr("x", -15)
-      .attr("y", -45)
-      .attr("width", 50)
-      .attr("height", 50)
-      .attr("xlink:href", function (d) { return d.avatar});
+      .append('image')
+      .attr('x', -15)
+      .attr('y', -45)
+      .attr('width', 50)
+      .attr('height', 50)
+      .attr('xlink:href', function(d) {
+        return d.avatar;
+      })
+      .on('mouseover', function(d, i) {
+        //显示连接线上的文字
+        linkText.style('fill-opacity', function(edge) {
+          console.log('dddddddd', d.id, edge.source.id, edge.target.id);
+          if (edge.source.id === d.id || edge.target.id === d.id) {
+            console.log(d, edge);
+            return 1.0;
+          }
+        });
+      })
+      .on('mouseout', function(d, i) {
+        //隐去连接线上的文字
+        linkText.style('fill-opacity', function(edge) {
+          if (edge.source.id === d.id || edge.target.id === d.id) {
+            return 0.0;
+          }
+        });
+      });
 
-      // .enter()
-      // .append('circle')
-      // .attr('r', 5)
-      // .attr('fill', function(d) {
-      //   return color(d.group);
-      // });
+    // .enter()
+    // .append('circle')
+    // .attr('r', 5)
+    // .attr('fill', function(d) {
+    //   return color(d.group);
+    // });
 
     var textNode = container
       .append('g')
@@ -112,7 +131,7 @@ class index extends Component {
       .text(function(d, i) {
         return i % 2 == 0 ? '' : d.node.id;
       })
-      .style('fill', '#111')
+      .style('fill', 'rgb(31, 119, 180);')
       .style('font-family', 'Arial')
       .style('font-size', 12);
 
@@ -186,7 +205,8 @@ class index extends Component {
 
   render() {
     return (
-      <div style={{ width: '1200px', height: '1000px' }}>
+      <div className="container" style={{ width: '1200px', height: '1000px' }}>
+        <div className="title">乡村爱情人物关系图</div>
         <svg ref={(dom) => (this.dom = dom)} />
       </div>
     );

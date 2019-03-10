@@ -1,0 +1,11 @@
+.container {
+  margin: 0 auto; }
+
+.title {
+  text-align: center; }
+
+.link-text {
+  fill-opacity: 0;
+  fill: #1f77b4;
+  font-family: PingFang-SC;
+  font-size: 12px; }
