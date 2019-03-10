@@ -105,6 +105,24 @@ class index extends Component {
           }
         });
       })
+      .on('touchstart', function(d, i) {
+        //显示连接线上的文字
+        linkText.style('fill-opacity', function(edge) {
+          console.log('dddddddd', d.id, edge.source.id, edge.target.id);
+          if (edge.source.id === d.id || edge.target.id === d.id) {
+            console.log(d, edge);
+            return 1.0;
+          }
+        });
+      })
+      .on('touchend', function(d, i) {
+        //隐去连接线上的文字
+        linkText.style('fill-opacity', function(edge) {
+          if (edge.source.id === d.id || edge.target.id === d.id) {
+            return 0.0;
+          }
+        });
+      })
       .on('mouseout', function(d, i) {
         //隐去连接线上的文字
         linkText.style('fill-opacity', function(edge) {
