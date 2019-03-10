@@ -133,7 +133,7 @@ class index extends Component {
       })
       .style('fill', 'rgb(31, 119, 180);')
       .style('font-family', 'Arial')
-      .style('font-size', 12);
+      .style('font-size', 13);
 
     node.call(
       d3
