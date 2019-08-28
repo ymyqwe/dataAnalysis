@@ -1,0 +1,32 @@
+[
+  {
+    "value": 12,
+    "type": "economy(30%)",
+    "city": "Shanghai"
+  },
+  {
+    "value": 24,
+    "type": "economy(30%)",
+    "city": "Kunshan"
+  },
+  {
+    "value": 27,
+    "type": "time(30%)",
+    "city": "Shanghai"
+  },
+  {
+    "value": 6,
+    "type": "time(30%)",
+    "city": "Kunshan"
+  },
+  {
+    "value": 16,
+    "type": "happiness(40%)",
+    "city": "Shanghai"
+  },
+  {
+    "value": 36,
+    "type": "happiness(40%)",
+    "city": "Kunshan"
+  }
+]
