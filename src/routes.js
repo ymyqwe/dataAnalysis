@@ -4,6 +4,7 @@ import Home from './pages/Home';
 // import Euro from './pages/Euro';
 import RuralLove from './pages/RuralLove';
 import Commuting from './pages/Commuting';
+import CommutingStatistics from './pages/Commuting/statistics';
 
 class routes extends Component {
   render() {
@@ -21,6 +22,7 @@ class routes extends Component {
             {/* <Route exact path="/euro" component={Euro} /> */}
             <Route exact path="/rural/love" component={RuralLove} />
             <Route exact path="/commuting" component={Commuting} />
+            <Route exact path="/commuting/statistics" component={CommutingStatistics} />
           </Switch>
         </div>
       </Router>
