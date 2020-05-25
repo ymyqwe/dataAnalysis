@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import G2 from '@antv/g2';
+import { Chart } from '@antv/g2';
 import DataSet from '@antv/data-set';
 import data from '../../data/commuting/rate.json';
-import moment from 'moment';
-const ds = new DataSet();
-const dv = ds.createView().source(data);
+
+console.log('data', data);
 
 class Home extends Component {
   componentDidMount() {
@@ -15,45 +14,41 @@ class Home extends Component {
     //   groupBy: ['type'],
     //   as: 'value'
     // });
-    var chart = new G2.Chart({
+    var chart = new Chart({
       container: 'mountNode',
       forceFit: true,
       height: window.innerHeight,
-      padding: [20, 170, 50, 50]
+      padding: [20, 170, 50, 50],
     });
-    chart.source(data);
+    chart.data(data);
     chart.scale('value', {
-      alias: '权重分'
+      alias: '权重分',
     });
     chart.axis('city', {
       label: {
         textStyle: {
-          fill: '#aaaaaa'
-        }
+          fill: '#aaaaaa',
+        },
       },
       tickLine: {
         alignWithLabel: false,
-        length: 0
-      }
+        length: 0,
+      },
     });
     chart.axis('value', {
       label: {
         textStyle: {
-          fill: '#aaaaaa'
-        }
+          fill: '#aaaaaa',
+        },
       },
       title: {
-        offset: 80
-      }
+        offset: 80,
+      },
     });
     chart.legend({
-      position: 'right-center'
+      position: 'right-center',
     });
-    chart
-      .intervalStack()
-      .position('city*value')
-      .color('type')
-      .opacity(1);
+    chart.interval().position('city*value');
     chart.render();
   }
 
