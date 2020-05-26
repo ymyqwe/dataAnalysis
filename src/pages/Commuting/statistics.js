@@ -38,9 +38,14 @@ class Home extends Component {
 
     chart
       .line()
-      .position('start_date*start_time')
+      .position('start_date*minutes')
       .color('status_name');
 
+    chart
+      .point()
+      .position('start_date*minutes')
+      .color('status_name')
+      .shape('circle');
     // chart
     //   .line()
     //   .position('date*time')
