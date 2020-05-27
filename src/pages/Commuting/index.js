@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Chart } from '@antv/g2';
-import DataSet from '@antv/data-set';
+// import DataSet from '@antv/data-set';
 import data from '../../data/commuting/rate.json';
-
+//
 console.log('data', data);
-
+//
 class Home extends Component {
   componentDidMount() {
     // dv.transform({

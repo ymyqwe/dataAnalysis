@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Chart } from '@antv/g2';
 import data from '../../data/commuting/handledTrainData.json';
-import { min } from 'moment';
 
 class Home extends Component {
   componentDidMount() {

@@ -8,11 +8,10 @@ class index extends Component {
   componentDidMount() {
     var width = 1200;
     var height = 1000;
-    var color = d3.scaleOrdinal(d3.schemeCategory10);
 
     var text = {
       nodes: [],
-      links: []
+      links: [],
     };
 
     data.nodes.forEach(function(d, i) {
@@ -20,7 +19,7 @@ class index extends Component {
       text.nodes.push({ node: d });
       text.links.push({
         source: i * 2,
-        target: i * 2 + 1
+        target: i * 2 + 1,
       });
     });
 
@@ -68,7 +67,7 @@ class index extends Component {
       .enter()
       .append('line')
       .attr('stroke', '#aaa')
-      .attr('stroke-width', (d) => Math.sqrt(d.value));
+      .attr('stroke-width', d => Math.sqrt(d.value));
 
     var linkText = container
       .append('g')
@@ -147,7 +146,7 @@ class index extends Component {
       .enter()
       .append('text')
       .text(function(d, i) {
-        return i % 2 == 0 ? '' : d.node.id;
+        return i % 2 === 0 ? '' : d.node.id;
       })
       .style('fill', 'rgb(31, 119, 180);')
       .style('font-family', 'Arial')
@@ -227,7 +226,7 @@ class index extends Component {
         <h2 className="title">
           乡村爱情人物关系图 <span>(请在PC端体验)</span>
         </h2>
-        <svg ref={(dom) => (this.dom = dom)} />
+        <svg ref={dom => (this.dom = dom)} />
       </div>
     );
   }
